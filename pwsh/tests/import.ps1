@@ -1,0 +1,1 @@
+$engine.Evaluate( $descriptors.es6, "import '$( $paths.root.ToString() -replace "\\","\\" )\\..\\file.js'" )
