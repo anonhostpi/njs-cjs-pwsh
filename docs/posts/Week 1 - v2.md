@@ -6,6 +6,19 @@ Prior posts from this mini-series:
 * Working On Turning PowerShell Into A Node.JS Engine: [https://www.reddit.com/r/PowerShell/comments/1djdql5/working_on_turning_powershell_into_a_nodejs_engine/](https://www.reddit.com/r/PowerShell/comments/1djdql5/working_on_turning_powershell_into_a_nodejs_engine/)
   * **TL;DR: [_Github gist_](https://gist.github.com/anonhostpi/7ebc4007f3f51e0f255c2408d33b1781)**
 
+# TL;DR:
+
+```powershell
+git clone https://github.com/anonhostpi/njs-cjs-pwsh
+cd njs-cjs-pwsh
+cd pwsh
+. .\main.ps1
+
+# $runtime
+# $engine
+# $tests
+```
+
 # Week 1: More Source Code Analysis
 
 So last week I decided I wanted to setup on replicating the Node.JS `vm` module. However, I've discovered I need to dig a little deeper into API replication, because the `vm` module references a lot of internal objects and methods.
