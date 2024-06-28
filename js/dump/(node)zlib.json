@@ -1,0 +1,31 @@
+{
+  "scriptId": "228",
+  "url": "node:zlib",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 986,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "76efc7ef1ef209f5b981897a629c394e9bf2b7d7577bb29f149ffdb115cf73fa",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 31508,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:zlib"
+}

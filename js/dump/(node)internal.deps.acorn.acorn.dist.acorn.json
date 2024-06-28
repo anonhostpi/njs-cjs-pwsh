@@ -1,0 +1,31 @@
+{
+  "scriptId": "201",
+  "url": "node:internal/deps/acorn/acorn/dist/acorn",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 6002,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "5b2359f5169dc6b880fd653f19eae3fe2250abf7531fb9d223a2d590dd11879e",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 237203,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/deps/acorn/acorn/dist/acorn"
+}

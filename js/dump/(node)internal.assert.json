@@ -1,0 +1,28 @@
+{
+  "scriptId": "8",
+  "url": "node:internal/assert",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 25,
+  "endColumn": 0,
+  "executionContextId": 0,
+  "hash": "18d756c23d35317895b40556f266bcd162b8d17b7701f9ab2dc3bd1307d3b71c",
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 499,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "Module._extensions..js",
+        "scriptId": "62",
+        "url": "node:internal/modules/cjs/loader",
+        "lineNumber": 1497,
+        "columnNumber": 6
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/assert"
+}

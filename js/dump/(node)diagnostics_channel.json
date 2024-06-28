@@ -1,0 +1,31 @@
+{
+  "scriptId": "101",
+  "url": "node:diagnostics_channel",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 428,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "0df00b9a02f8394a4fdd3d17df5e9a4590b72e738a848233922d89e5b79a1048",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 10199,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:diagnostics_channel"
+}

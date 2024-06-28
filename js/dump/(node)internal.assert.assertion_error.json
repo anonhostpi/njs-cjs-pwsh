@@ -1,0 +1,31 @@
+{
+  "scriptId": "140",
+  "url": "node:internal/assert/assertion_error",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 492,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "f1e99fffabd04e230392f5db51b3068694b779a5b4fe46b62842afd0c9e896a8",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 17596,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/assert/assertion_error"
+}

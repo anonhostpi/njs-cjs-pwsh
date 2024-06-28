@@ -1,0 +1,31 @@
+{
+  "scriptId": "219",
+  "url": "node:timers/promises",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 230,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "df92785efc034b4f17fa350aee2666eadfaba55db6e6c292bc12fcb65ecb278a",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 6610,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:timers/promises"
+}

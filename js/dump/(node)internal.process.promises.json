@@ -1,0 +1,28 @@
+{
+  "scriptId": "33",
+  "url": "node:internal/process/promises",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 491,
+  "endColumn": 0,
+  "executionContextId": 0,
+  "hash": "32d3eb8ccd8b91b3780b90ca6b4fa043d8b0705073e0ef525deb8d578bd8f18b",
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 14085,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "Module._extensions..js",
+        "scriptId": "62",
+        "url": "node:internal/modules/cjs/loader",
+        "lineNumber": 1497,
+        "columnNumber": 6
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/process/promises"
+}

@@ -1,0 +1,28 @@
+{
+  "scriptId": "39",
+  "url": "node:internal/process/warning",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 217,
+  "endColumn": 0,
+  "executionContextId": 0,
+  "hash": "8da6d076045f4b160c3195e13076206b865cb13aa14a10828eaeb7f85d450a54",
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 6270,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "Module._extensions..js",
+        "scriptId": "62",
+        "url": "node:internal/modules/cjs/loader",
+        "lineNumber": 1497,
+        "columnNumber": 6
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/process/warning"
+}

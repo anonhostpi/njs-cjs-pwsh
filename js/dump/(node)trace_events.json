@@ -1,0 +1,31 @@
+{
+  "scriptId": "220",
+  "url": "node:trace_events",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 96,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "5a1993883c3dca755d14e0e2def38976c9960b622298fd04c84e7b685a8f9314",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 2256,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:trace_events"
+}

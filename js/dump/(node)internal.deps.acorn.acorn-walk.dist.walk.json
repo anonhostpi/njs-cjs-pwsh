@@ -1,0 +1,31 @@
+{
+  "scriptId": "202",
+  "url": "node:internal/deps/acorn/acorn-walk/dist/walk",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 461,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "c4cac8f91158d5055e70021abed042a7c1e6a88d14afa3fec8625ed0777b9706",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 16418,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/deps/acorn/acorn-walk/dist/walk"
+}

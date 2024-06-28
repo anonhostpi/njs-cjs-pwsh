@@ -1,0 +1,31 @@
+{
+  "scriptId": "129",
+  "url": "node:internal/crypto/keygen",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 409,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "8e31c10bbdd5e787a785b3b19915dcbce9c53d251c1aaaa70ba5cca83d4f0626",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 11121,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/crypto/keygen"
+}

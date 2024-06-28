@@ -1,0 +1,31 @@
+{
+  "scriptId": "189",
+  "url": "node:internal/perf/nodetiming",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 160,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "6ea59684a8a0118c4b9fe25dcd65ed6de29e8cbd19b325398e453ca83ec91f68",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 3676,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/perf/nodetiming"
+}

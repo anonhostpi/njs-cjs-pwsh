@@ -1,0 +1,31 @@
+{
+  "scriptId": "89",
+  "url": "node:internal/streams/duplex",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 206,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "0d543591f3cc1fb5905e66f3688baf2e612af55964152982ceaca7ca6a9b3958",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 6794,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/streams/duplex"
+}

@@ -1,0 +1,31 @@
+{
+  "scriptId": "92",
+  "url": "node:internal/streams/add-abort-signal",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 60,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "5e8372a65797e6bab8d6fd6dfff6436e7f08c95cf658d23c638839f71913835e",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 1781,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/streams/add-abort-signal"
+}

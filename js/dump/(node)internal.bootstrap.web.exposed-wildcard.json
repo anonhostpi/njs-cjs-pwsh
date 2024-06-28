@@ -1,0 +1,28 @@
+{
+  "scriptId": "49",
+  "url": "node:internal/bootstrap/web/exposed-wildcard",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 114,
+  "endColumn": 0,
+  "executionContextId": 0,
+  "hash": "f636496d97c0cd12ce4da846a18df235b855cc42f6ee3d4205bd86b59f7aeb6a",
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 3553,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "Module._extensions..js",
+        "scriptId": "62",
+        "url": "node:internal/modules/cjs/loader",
+        "lineNumber": 1497,
+        "columnNumber": 6
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/bootstrap/web/exposed-wildcard"
+}

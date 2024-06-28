@@ -1,0 +1,28 @@
+{
+  "scriptId": "63",
+  "url": "node:internal/modules/package_json_reader",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 163,
+  "endColumn": 0,
+  "executionContextId": 0,
+  "hash": "25fac6744b229006c670c098770767b1eafd3d5187ec490d06e840a12c591a3d",
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 4998,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "Module._extensions..js",
+        "scriptId": "62",
+        "url": "node:internal/modules/cjs/loader",
+        "lineNumber": 1497,
+        "columnNumber": 6
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/modules/package_json_reader"
+}

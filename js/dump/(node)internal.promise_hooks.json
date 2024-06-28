@@ -1,0 +1,31 @@
+{
+  "scriptId": "226",
+  "url": "node:internal/promise_hooks",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 126,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "30a555b933f6ef49f0c93001fce25eca042f301a74e785dd95af94521c265a1e",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 3200,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/promise_hooks"
+}

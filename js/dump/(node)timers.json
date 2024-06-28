@@ -1,0 +1,28 @@
+{
+  "scriptId": "36",
+  "url": "node:timers",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 388,
+  "endColumn": 0,
+  "executionContextId": 0,
+  "hash": "7debfdff12bc120ea60b6e8f4e77b43d45e8d06c5a917ff6cc9bdd43cef832e0",
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 10300,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "Module._extensions..js",
+        "scriptId": "62",
+        "url": "node:internal/modules/cjs/loader",
+        "lineNumber": 1497,
+        "columnNumber": 6
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:timers"
+}

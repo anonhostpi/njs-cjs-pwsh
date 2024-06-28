@@ -1,0 +1,31 @@
+{
+  "scriptId": "193",
+  "url": "node:internal/perf/event_loop_delay",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 91,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "ad11d7bb91517a530af7b4bc90f7893115dae5a417bfa6c806a345143152e541",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 1840,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/perf/event_loop_delay"
+}

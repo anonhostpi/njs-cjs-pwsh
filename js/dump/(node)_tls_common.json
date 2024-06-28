@@ -1,0 +1,31 @@
+{
+  "scriptId": "118",
+  "url": "node:_tls_common",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 159,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "7f3df2f57b7c02f5bdefc8fa832fcb394a178036484149056d5e19950a051083",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 5289,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:_tls_common"
+}

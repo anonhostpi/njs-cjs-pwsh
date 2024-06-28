@@ -1,0 +1,31 @@
+{
+  "scriptId": "204",
+  "url": "node:internal/repl/history",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 182,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "d9a809748ab6ae3828078bc44647c2d18305a8a6a0a7c14245ab55f7ff92ac94",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 4673,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/repl/history"
+}

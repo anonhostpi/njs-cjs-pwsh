@@ -1,0 +1,31 @@
+{
+  "scriptId": "131",
+  "url": "node:internal/crypto/cipher",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 320,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "82c88de8eca2c76cb98a81033f679578d8f47c76dbd3f90ac02178a31cdab350",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 10115,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/crypto/cipher"
+}

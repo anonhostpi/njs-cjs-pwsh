@@ -1,0 +1,28 @@
+{
+  "scriptId": "34",
+  "url": "node:internal/fixed_queue",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 118,
+  "endColumn": 0,
+  "executionContextId": 0,
+  "hash": "c5a69bb9ab52fc28f80521fd1414890a5f3a7a8a51bfc335695506e1b3de4707",
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 4326,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "Module._extensions..js",
+        "scriptId": "62",
+        "url": "node:internal/modules/cjs/loader",
+        "lineNumber": 1497,
+        "columnNumber": 6
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/fixed_queue"
+}

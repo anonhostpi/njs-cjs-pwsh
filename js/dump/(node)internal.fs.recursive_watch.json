@@ -1,0 +1,31 @@
+{
+  "scriptId": "166",
+  "url": "node:internal/fs/recursive_watch",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 268,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "b818058b20af3a0444c9c7eb20056b6745c5c005fb8ac10e93beb53021635921",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 7311,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/fs/recursive_watch"
+}

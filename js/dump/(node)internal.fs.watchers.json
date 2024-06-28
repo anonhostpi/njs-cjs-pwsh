@@ -1,0 +1,31 @@
+{
+  "scriptId": "165",
+  "url": "node:internal/fs/watchers",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 387,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "26357bfdda0b4b6b329df7629957d99563799bed958c4e41a1a454db2cc31140",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 11649,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/fs/watchers"
+}

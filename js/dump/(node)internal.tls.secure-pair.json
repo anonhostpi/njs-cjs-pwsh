@@ -1,0 +1,31 @@
+{
+  "scriptId": "137",
+  "url": "node:internal/tls/secure-pair",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 87,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "49bd30ef349f23abd7d7380b3444d089635abb0cfc15eb48e65b7f621369130b",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 2078,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/tls/secure-pair"
+}

@@ -1,0 +1,28 @@
+{
+  "scriptId": "17",
+  "url": "node:internal/priority_queue",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 113,
+  "endColumn": 0,
+  "executionContextId": 0,
+  "hash": "da7f11d14fccbaa1863685cae72f4388784ab23eb0549e112c3e7510407c78b3",
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 2743,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "Module._extensions..js",
+        "scriptId": "62",
+        "url": "node:internal/modules/cjs/loader",
+        "lineNumber": 1497,
+        "columnNumber": 6
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/priority_queue"
+}

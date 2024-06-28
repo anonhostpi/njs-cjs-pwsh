@@ -1,0 +1,31 @@
+{
+  "scriptId": "154",
+  "url": "node:internal/cluster/worker",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 57,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "3c388cf54aac3f3dd31c5aa4dc312409aca556d055b27e1d2c78fb0dd57981d1",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 1436,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/cluster/worker"
+}

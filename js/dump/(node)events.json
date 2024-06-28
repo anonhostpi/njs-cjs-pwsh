@@ -1,0 +1,28 @@
+{
+  "scriptId": "21",
+  "url": "node:events",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 1227,
+  "endColumn": 0,
+  "executionContextId": 0,
+  "hash": "ec2ff7b3f79864c490cab2c9c994f6b70cc8faf07255bf9dec030d1eafc0fc7f",
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 37250,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "Module._extensions..js",
+        "scriptId": "62",
+        "url": "node:internal/modules/cjs/loader",
+        "lineNumber": 1497,
+        "columnNumber": 6
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:events"
+}

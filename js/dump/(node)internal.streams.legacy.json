@@ -1,0 +1,31 @@
+{
+  "scriptId": "90",
+  "url": "node:internal/streams/legacy",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 125,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "8ec1feac0dd0c94b24f2c4f73f28d0d44ec9113d2dd50e1dac5955dddfdd4d9d",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 3376,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/streams/legacy"
+}

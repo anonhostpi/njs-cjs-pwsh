@@ -1,0 +1,31 @@
+{
+  "scriptId": "106",
+  "url": "node:internal/freelist",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 30,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "8a9e1d8cc2d6f7839a298b33c30a91a82fb6b49d5f5938240ba37e6f0202d41a",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 506,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/freelist"
+}

@@ -1,0 +1,31 @@
+{
+  "scriptId": "206",
+  "url": "evalmachine.<anonymous>",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 0,
+  "endColumn": 38,
+  "executionContextId": 3,
+  "hash": "21f490174dd06ee6ed0c729ae45b963c3d87b8d15ada605bd741ffc2c51ed58b",
+  "executionContextAuxData": {
+    "isDefault": false
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 38,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "runInContext",
+        "scriptId": "72",
+        "url": "node:vm",
+        "lineNumber": 147,
+        "columnNumber": 11
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "evalmachine.<anonymous>"
+}

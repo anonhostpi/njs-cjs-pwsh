@@ -1,0 +1,28 @@
+{
+  "scriptId": "4",
+  "url": "node:internal/per_context/domexception",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 153,
+  "endColumn": 0,
+  "executionContextId": 0,
+  "hash": "43ce514c107fd4251093b31c959426ec177810f76cf1964d403dbed864dcd2e8",
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 4636,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "Module._extensions..js",
+        "scriptId": "62",
+        "url": "node:internal/modules/cjs/loader",
+        "lineNumber": 1497,
+        "columnNumber": 6
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/per_context/domexception"
+}

@@ -1,0 +1,7 @@
+{
+  "functionName": "compileForInternalLoader",
+  "scriptId": "6",
+  "url": "node:internal/bootstrap/realm",
+  "lineNumber": 394,
+  "columnNumber": 17
+}

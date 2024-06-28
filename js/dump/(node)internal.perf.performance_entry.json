@@ -1,0 +1,31 @@
+{
+  "scriptId": "103",
+  "url": "node:internal/perf/performance_entry",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 140,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "e6ff663f44a8ab4cefc9766c60c8b2a6e93b7afc268a124eda177f71c248a96a",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 3412,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/perf/performance_entry"
+}

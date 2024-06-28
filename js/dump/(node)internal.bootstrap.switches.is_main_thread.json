@@ -1,0 +1,28 @@
+{
+  "scriptId": "57",
+  "url": "node:internal/bootstrap/switches/is_main_thread",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 318,
+  "endColumn": 0,
+  "executionContextId": 0,
+  "hash": "e1f7e76944b2b842cc0a880145e207d6e7b47e70b752d0e335abf16cf3ef6177",
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 9028,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "Module._extensions..js",
+        "scriptId": "62",
+        "url": "node:internal/modules/cjs/loader",
+        "lineNumber": 1497,
+        "columnNumber": 6
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/bootstrap/switches/is_main_thread"
+}

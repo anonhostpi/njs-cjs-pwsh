@@ -1,0 +1,31 @@
+{
+  "scriptId": "186",
+  "url": "node:perf_hooks",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 50,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "71e71634b5f26ed1cdcb8ba0e57fc43e11faa8575a24b90dda90452258da96f8",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 1115,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:perf_hooks"
+}

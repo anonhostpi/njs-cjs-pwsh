@@ -1,0 +1,31 @@
+{
+  "scriptId": "146",
+  "url": "node:dgram",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 1084,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "335ed0d64a24f0f47d6d551e9e953180a20aacea8c6eebdc24cfb803505c4899",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 29500,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:dgram"
+}

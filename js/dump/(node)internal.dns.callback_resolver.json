@@ -1,0 +1,31 @@
+{
+  "scriptId": "158",
+  "url": "node:internal/dns/callback_resolver",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 114,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "643f60cb20237f8029f646bd0f83597b881bc55bac8164e1726f608e41dfa9ba",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 2899,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/dns/callback_resolver"
+}

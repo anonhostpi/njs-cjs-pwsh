@@ -1,0 +1,31 @@
+{
+  "scriptId": "72",
+  "url": "node:vm",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 416,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "ced70660ed734a1cc3464f215d411039ebbe65c4ed7605d7600b3984a4c952e3",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 13228,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "Module._extensions..js",
+        "scriptId": "62",
+        "url": "node:internal/modules/cjs/loader",
+        "lineNumber": 1497,
+        "columnNumber": 6
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:vm"
+}

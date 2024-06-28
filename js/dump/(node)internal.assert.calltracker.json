@@ -1,0 +1,31 @@
+{
+  "scriptId": "142",
+  "url": "node:internal/assert/calltracker",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 153,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "a1d68e8da7198b6da5ff55b2f7945132505b1c01adf145355c12e18f3654d96b",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 3605,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/assert/calltracker"
+}

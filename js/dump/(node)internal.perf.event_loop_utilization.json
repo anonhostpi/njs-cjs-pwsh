@@ -1,0 +1,31 @@
+{
+  "scriptId": "179",
+  "url": "node:internal/perf/event_loop_utilization",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 60,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "9e38e014b41650123fbe9c1995fab90c45e2de1322d1ccedf25cde361ea2f16e",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 1587,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/perf/event_loop_utilization"
+}

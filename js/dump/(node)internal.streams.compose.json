@@ -1,0 +1,31 @@
+{
+  "scriptId": "86",
+  "url": "node:internal/streams/compose",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 252,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "3b7dc95a7c058e7a623286490a0bb8f3897f0a7abe3a35520830c6b758760dda",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 5703,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/streams/compose"
+}

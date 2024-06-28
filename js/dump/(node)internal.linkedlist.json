@@ -1,0 +1,28 @@
+{
+  "scriptId": "16",
+  "url": "node:internal/linkedlist",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 55,
+  "endColumn": 0,
+  "executionContextId": 0,
+  "hash": "7723d7ccf96478c3d83f80fb31c85220ee88cd133574dd9f7e89119e506a3968",
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 1183,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "Module._extensions..js",
+        "scriptId": "62",
+        "url": "node:internal/modules/cjs/loader",
+        "lineNumber": 1497,
+        "columnNumber": 6
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/linkedlist"
+}

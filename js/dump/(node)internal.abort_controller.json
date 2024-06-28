@@ -1,0 +1,31 @@
+{
+  "scriptId": "83",
+  "url": "node:internal/abort_controller",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 470,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "92dbd3aa5e348f5212958f0d3168f42c0ca37d2d356b325fc0d1dc68ec341173",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 13066,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/abort_controller"
+}

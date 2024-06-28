@@ -1,0 +1,31 @@
+{
+  "scriptId": "127",
+  "url": "node:internal/crypto/hkdf",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 168,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "3763050d66eb3d21fa3a17674e796664feca1d6ac0dd218850f2f137e54eacfe",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 3569,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/crypto/hkdf"
+}

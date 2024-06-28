@@ -1,0 +1,31 @@
+{
+  "scriptId": "134",
+  "url": "node:internal/crypto/hash",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 225,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "d4128b6a3bd059d619b9fd2360c1223bb8795503427fdc08da68857685cb0e4e",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 6172,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/crypto/hash"
+}

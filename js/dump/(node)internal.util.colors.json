@@ -1,0 +1,31 @@
+{
+  "scriptId": "141",
+  "url": "node:internal/util/colors",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 40,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "88e2541ee5482f4bf913b77a3cbcdd67582903f02ebbfed889657299c979fab0",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 1162,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/util/colors"
+}

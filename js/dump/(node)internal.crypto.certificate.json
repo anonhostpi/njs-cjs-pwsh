@@ -1,0 +1,31 @@
+{
+  "scriptId": "136",
+  "url": "node:internal/crypto/certificate",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 53,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "e832d348ebf7414bc96110d730a610a8db3b47de58fb719c8c1e8685424dfc27",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 1599,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/crypto/certificate"
+}

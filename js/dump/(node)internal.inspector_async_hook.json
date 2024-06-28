@@ -1,0 +1,28 @@
+{
+  "scriptId": "66",
+  "url": "node:internal/inspector_async_hook",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 76,
+  "endColumn": 0,
+  "executionContextId": 0,
+  "hash": "e24ff7ea9dbcadf65234672fb72ed17b1a10c3bd840c571774a2f3714c9a3981",
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 2049,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "Module._extensions..js",
+        "scriptId": "62",
+        "url": "node:internal/modules/cjs/loader",
+        "lineNumber": 1497,
+        "columnNumber": 6
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/inspector_async_hook"
+}

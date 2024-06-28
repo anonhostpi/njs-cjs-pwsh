@@ -1,0 +1,28 @@
+{
+  "scriptId": "58",
+  "url": "node:internal/v8/startup_snapshot",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 120,
+  "endColumn": 0,
+  "executionContextId": 0,
+  "hash": "842ae8e7b851d97e32b7261b07e7625f68d9dfddd0ec5b6c1551dda3f9e821c1",
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 3502,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "Module._extensions..js",
+        "scriptId": "62",
+        "url": "node:internal/modules/cjs/loader",
+        "lineNumber": 1497,
+        "columnNumber": 6
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/v8/startup_snapshot"
+}

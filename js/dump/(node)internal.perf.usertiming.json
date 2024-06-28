@@ -1,0 +1,31 @@
+{
+  "scriptId": "188",
+  "url": "node:internal/perf/usertiming",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 246,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "923b8290d10efc15db3eb8d78d4538857043fefb018f910ad14db16dded43160",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 6505,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/perf/usertiming"
+}

@@ -1,0 +1,31 @@
+{
+  "scriptId": "217",
+  "url": "node:internal/test_runner/mock/mock",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 787,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "309e45f657da7347fc50d41d54897f37056df5208e99607d42399a948c41e6c9",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 22431,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/test_runner/mock/mock"
+}

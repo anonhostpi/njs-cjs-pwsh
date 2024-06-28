@@ -1,0 +1,31 @@
+{
+  "scriptId": "177",
+  "url": "node:worker_threads",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 43,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "f4c71864fe4c25e4e46526a8654eb60f4c453395371dc9bade93e98c49966f8e",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 786,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:worker_threads"
+}

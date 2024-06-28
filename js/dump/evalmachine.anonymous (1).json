@@ -1,0 +1,31 @@
+{
+  "scriptId": "73",
+  "url": "evalmachine.<anonymous>",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 0,
+  "endColumn": 4,
+  "executionContextId": 2,
+  "hash": "1eb79602411ef02cf6fe117897015fff89f80face4eccd50425c45149b148408",
+  "executionContextAuxData": {
+    "isDefault": false
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 4,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "Module._extensions..js",
+        "scriptId": "62",
+        "url": "node:internal/modules/cjs/loader",
+        "lineNumber": 1497,
+        "columnNumber": 6
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "evalmachine.<anonymous>"
+}

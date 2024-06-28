@@ -1,0 +1,31 @@
+{
+  "scriptId": "195",
+  "url": "node:punycode",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 450,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "fdcf4bf52562de286684fb332cbeb5c3ef9646d6d72b83a0bf50fab30eb2fbf2",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 13315,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:punycode"
+}

@@ -1,0 +1,31 @@
+{
+  "scriptId": "139",
+  "url": "node:assert",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 1079,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "5ec67d989d64c4a07a045b36e8b31205dfbb6eb29973a5914bf021a5a0ccac89",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 33297,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:assert"
+}

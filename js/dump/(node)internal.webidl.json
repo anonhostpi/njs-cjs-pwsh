@@ -1,0 +1,28 @@
+{
+  "scriptId": "54",
+  "url": "node:internal/webidl",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 218,
+  "endColumn": 0,
+  "executionContextId": 0,
+  "hash": "3f94e44cc1730b9cc5f58fd7a9145349f7fa75d52f1d5e8809560e8b2c4b8cfe",
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 5829,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "Module._extensions..js",
+        "scriptId": "62",
+        "url": "node:internal/modules/cjs/loader",
+        "lineNumber": 1497,
+        "columnNumber": 6
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/webidl"
+}

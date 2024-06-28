@@ -1,0 +1,31 @@
+{
+  "scriptId": "187",
+  "url": "node:internal/perf/resource_timing",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 267,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "610b23d69d6a4a0af12ef1acb8dbde7ae486101d222f1c31763bba473090cd84",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 8490,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/perf/resource_timing"
+}

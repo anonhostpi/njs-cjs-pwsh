@@ -1,0 +1,31 @@
+{
+  "scriptId": "213",
+  "url": "node:internal/webstreams/compression",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 161,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "3321b5a008432adc745415a74ad9fb599a61581b9515f33cd497fc8f7af39a4e",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 3583,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/webstreams/compression"
+}

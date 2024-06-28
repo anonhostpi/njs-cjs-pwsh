@@ -1,0 +1,31 @@
+{
+  "scriptId": "169",
+  "url": "node:internal/readline/callbacks",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 132,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "8ef3d16b9e166ef8db1bf05e570d6a9ff70f3b558155a8479cd78613d0d35cb1",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 2886,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/readline/callbacks"
+}

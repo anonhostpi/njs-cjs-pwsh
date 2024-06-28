@@ -1,0 +1,31 @@
+{
+  "scriptId": "98",
+  "url": "node:internal/streams/transform",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 204,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "9b2d7e14f0ce0c558dc9b09d2df51ebbcb85c2e7732227e0794f8da96e8699f5",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 7325,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/streams/transform"
+}

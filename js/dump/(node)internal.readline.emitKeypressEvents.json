@@ -1,0 +1,31 @@
+{
+  "scriptId": "197",
+  "url": "node:internal/readline/emitKeypressEvents",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 99,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "58aff4cddcbc33a8c6c52f472b0e66ea5a96375d043307636c2ea17a4d43ac8b",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 2762,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/readline/emitKeypressEvents"
+}

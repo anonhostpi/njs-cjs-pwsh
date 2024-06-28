@@ -1,0 +1,31 @@
+{
+  "scriptId": "192",
+  "url": "node:internal/histogram",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 395,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "1c2babd72898dfa8531681ea7578c2438d5f349a5a0e9431bbb9143c5ecf9bb6",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 8862,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/histogram"
+}

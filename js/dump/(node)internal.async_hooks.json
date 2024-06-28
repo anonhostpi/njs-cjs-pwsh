@@ -1,0 +1,28 @@
+{
+  "scriptId": "11",
+  "url": "node:internal/async_hooks",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 627,
+  "endColumn": 0,
+  "executionContextId": 0,
+  "hash": "ebf0f39bbafb218cf9a70d235d020a12891c3c4ef43866f98714a2b80eaf0c95",
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 20709,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "Module._extensions..js",
+        "scriptId": "62",
+        "url": "node:internal/modules/cjs/loader",
+        "lineNumber": 1497,
+        "columnNumber": 6
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/async_hooks"
+}

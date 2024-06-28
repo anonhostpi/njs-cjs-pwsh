@@ -1,0 +1,31 @@
+{
+  "scriptId": "76",
+  "url": "node:internal/modules/esm/loader",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 786,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "aefd3090c785d0ee0696b53d3097a67d145b4f8ec5fd6ec1d584494fca31626a",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 29673,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/modules/esm/loader"
+}

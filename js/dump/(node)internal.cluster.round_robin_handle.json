@@ -1,0 +1,31 @@
+{
+  "scriptId": "151",
+  "url": "node:internal/cluster/round_robin_handle",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 139,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "4f9bcbdd908432dfce870aa621153db0faf16147879677c3719a24390624e38c",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 3592,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/cluster/round_robin_handle"
+}

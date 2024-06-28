@@ -1,0 +1,31 @@
+{
+  "scriptId": "126",
+  "url": "node:internal/crypto/scrypt",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 135,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "e8090b8f7757f63df6dec7f0c4ac385b098a779d855371e987b7ab9e332f407b",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 3466,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/crypto/scrypt"
+}

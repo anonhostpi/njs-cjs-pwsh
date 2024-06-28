@@ -1,0 +1,31 @@
+{
+  "scriptId": "196",
+  "url": "node:readline",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 524,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "2ab9b4ac77a5c973c34f54feba4e46e7978163698ff39019bff126f17564199c",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 13348,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:readline"
+}

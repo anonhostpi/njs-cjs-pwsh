@@ -1,0 +1,31 @@
+{
+  "scriptId": "184",
+  "url": "node:path/posix",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 3,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "2664c97c0df8634dc4e4f424b8356050d9074f10081241e78185babcc085769d",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 58,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:path/posix"
+}

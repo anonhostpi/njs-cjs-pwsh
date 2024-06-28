@@ -1,0 +1,28 @@
+{
+  "scriptId": "56",
+  "url": "node:internal/bootstrap/web/exposed-window-or-worker",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 92,
+  "endColumn": 0,
+  "executionContextId": 0,
+  "hash": "3dac1db713ef173cf784aaa9c5c93627a0ec3ef51963b9bfae61a535b4431f89",
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 3686,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "Module._extensions..js",
+        "scriptId": "62",
+        "url": "node:internal/modules/cjs/loader",
+        "lineNumber": 1497,
+        "columnNumber": 6
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/bootstrap/web/exposed-window-or-worker"
+}

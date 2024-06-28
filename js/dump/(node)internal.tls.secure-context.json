@@ -1,0 +1,31 @@
+{
+  "scriptId": "138",
+  "url": "node:internal/tls/secure-context",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 321,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "d96b9fb9af88a2b7aaa7abe6517e4792327ce0f7f14b36eaca5c26f8fb6cf184",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 9815,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/tls/secure-context"
+}

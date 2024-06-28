@@ -1,0 +1,28 @@
+{
+  "scriptId": "19",
+  "url": "node:internal/util/debuglog",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 496,
+  "endColumn": 0,
+  "executionContextId": 0,
+  "hash": "bb1f645eec5ee80d64d8d0e5b3839a4404fd596fab489b4b6fd98c889d2266a8",
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 12325,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "Module._extensions..js",
+        "scriptId": "62",
+        "url": "node:internal/modules/cjs/loader",
+        "lineNumber": 1497,
+        "columnNumber": 6
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/util/debuglog"
+}

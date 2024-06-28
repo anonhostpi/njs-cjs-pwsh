@@ -1,0 +1,31 @@
+{
+  "scriptId": "227",
+  "url": "node:wasi",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 179,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "e2b91bd0ce3a2825d77190d8edce2a12fe71c123fa862c3a59f3b2e36bf79d18",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 5076,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:wasi"
+}

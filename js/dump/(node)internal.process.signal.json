@@ -1,0 +1,28 @@
+{
+  "scriptId": "59",
+  "url": "node:internal/process/signal",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 54,
+  "endColumn": 0,
+  "executionContextId": 0,
+  "hash": "d5ecbf2a21047842402a4ff884381e9d4c2f0fc87c9c08d8d7ab6915241a5cb3",
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 1234,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "Module._extensions..js",
+        "scriptId": "62",
+        "url": "node:internal/modules/cjs/loader",
+        "lineNumber": 1497,
+        "columnNumber": 6
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/process/signal"
+}

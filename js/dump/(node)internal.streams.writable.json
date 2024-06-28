@@ -1,0 +1,31 @@
+{
+  "scriptId": "96",
+  "url": "node:internal/streams/writable",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 1144,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "4287bbb4b3668c7dcbba80f93a29fed934ed70cc1fb940763f7783ab881a8603",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 34258,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/streams/writable"
+}

@@ -1,0 +1,31 @@
+{
+  "scriptId": "132",
+  "url": "node:internal/streams/lazy_transform",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 57,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "0943c5b7392002852c8e95b89bc77bd9abcfb7a74db62625638153ffa569f47f",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 1443,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/streams/lazy_transform"
+}

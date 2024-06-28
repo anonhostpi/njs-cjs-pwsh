@@ -1,0 +1,31 @@
+{
+  "scriptId": "222",
+  "url": "node:internal/tty",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 237,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "9a9ea26c8bb57720b23adfc7b4a7ac716ceaf211f0f9463a0c2ca1cec0d0b0c5",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 6722,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/tty"
+}

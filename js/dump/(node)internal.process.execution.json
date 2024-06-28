@@ -1,0 +1,28 @@
+{
+  "scriptId": "37",
+  "url": "node:internal/process/execution",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 249,
+  "endColumn": 0,
+  "executionContextId": 0,
+  "hash": "633b2e2ae32441723d8e82cd1ab0bf963908634d0a6a67d15449c985d0bb2fa1",
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 8380,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "Module._extensions..js",
+        "scriptId": "62",
+        "url": "node:internal/modules/cjs/loader",
+        "lineNumber": 1497,
+        "columnNumber": 6
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/process/execution"
+}

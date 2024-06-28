@@ -1,0 +1,31 @@
+{
+  "scriptId": "130",
+  "url": "node:internal/crypto/diffiehellman",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 365,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "cc98ee597e508295ffd4be30e71d7c5072432ff4e393c9a72eb494d99f1b84e6",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 10275,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/crypto/diffiehellman"
+}
