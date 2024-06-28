@@ -6,6 +6,7 @@ Write-Host "  - Declaring API: " -NoNewline
 $dump = [PSCustomObject]@{
     Log = $result
     Source = Get-Content .\dump.json -Raw | ConvertFrom-Json -AsHashtable
+    Traces = @{}
 }
 
 $dump | Add-Member `
@@ -97,17 +98,57 @@ $result = @{
     "calls" = @{}
 }
 
-Write-Host "Done" -ForegroundColor Green
+$paths.dump = Join-Path $paths.js "dump"
+
+$dump.Log | Out-File (Join-Path $paths.dump "dump.log")
+
+$i = 0
+
+Write-Host "Done" -ForegroundColor Green -NoNewline; Write-Host
+Write-Host "  - Writing to disk: " -NoNewline
+
+$dump.Source.GetEnumerator() | ForEach-Object {
+    $id = $_.Key
+    $metadata = $_.Value.metadata
+    $script = $_.Value.source
+
+    if( $metadata.url -like "file:*"){
+        return;
+    }
+
+    $name = $metadata.url -replace "node:","(node)"
+    $name = $name -replace "/","."
+    If( $name -like "*<anonymous>*" ){
+        $i++
+        $name = $name -replace ([regex]::Escape("<anonymous>"), "anonymous")
+        $name = "$name ($i)"
+    }
+
+    If( $metadata.stackTrace.callFrames.Count ){
+        $traces = $metadata.stackTrace.callFrames | ForEach-Object {
+            [PSCustomObject] $_
+        }
+        $dump.Traces[$id] = $traces
+
+        $traces = $traces | ConvertTo-Json
+        $traces | Out-File (Join-Path $paths.dump "$name.trace.json")
+    }
+
+    $metadata = $metadata | ConvertTo-Json -Depth 3
+    $script | Out-File (Join-Path $paths.dump "$name.js")
+    $metadata | Out-File (Join-Path $paths.dump "$name.json")
+}
+
+Write-Host "Done" -ForegroundColor Green -NoNewline; Write-Host
 
 Write-Host "  - Searches: "
 Write-Host "    - internalBinding: " -NoNewline
 $result.calls.internalBinding = $dump.Search( "internalBinding" )
-Write-Host "Done" -ForegroundColor Green
+Write-Host "Done" -ForegroundColor Green -NoNewline; Write-Host;
 Write-Host "    - require: " -NoNewline
 $result.calls.require = $dump.Search( "require" )
-Write-Host "Done" -ForegroundColor Green
+Write-Host "Done" -ForegroundColor Green -NoNewline; Write-Host;
 Write-Host "    - neither: " -NoNewline
 $result.calls.neither = $dump.Exclude( @("internalBinding", "require") )
-Write-Host "Done" -ForegroundColor Green
-
+Write-Host "Done" -ForegroundColor Green -NoNewline; Write-Host;
 $result

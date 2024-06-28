@@ -26,7 +26,7 @@ class NodeDumper {
 
         const self = this
 
-        this.#args = [ '--expose-internals', inspect ]
+        this.#args = [ '--expose-internals', '-r', '"internal/test/binding"', inspect ]
         if( path != null && path.toString().trim() != '' )
             this.#args.push( path );
     }
