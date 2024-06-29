@@ -1,6 +1,5 @@
-Write-Host "  - Dumping: " -NoNewline
+Write-Host "  - Dumping: "
 $result = node (Join-Path $paths.js "dumper.js")
-Write-Host "Done" -ForegroundColor Green
 Write-Host "  - Declaring API: " -NoNewline
 
 $dump = [PSCustomObject]@{
@@ -13,10 +12,12 @@ $dump | Add-Member `
     -Name Search `
     -MemberType ScriptMethod `
     -Value {
-        param( $search )
+        param( $search, $escape = $true )
 
-        $search = [regex]::Escape($search)
-        $search = "(?<!\/\/.*)$search" 
+        If( $escape ){
+            $search = [regex]::Escape($search)
+        }
+        $search = "(?<!\/\/.*)$search"
 
         $this.Source.GetEnumerator() | ForEach-Object {
             $scriptId = $_.Key
@@ -34,6 +35,7 @@ $dump | Add-Member `
                     $lineObj = [PSCustomObject]@{
                         Line = $line
                         Text = $_
+                        Matches = $matches
                     }
 
                     $lineObj | Add-Member -MemberType ScriptMethod -Name ToString -Value {
@@ -63,7 +65,7 @@ $dump | Add-Member `
     -Name Exclude `
     -MemberType ScriptMethod `
     -Value {
-        param( $searches )
+        param( $searches, $escape = $true )
 
         $this.Source.GetEnumerator() | ForEach-Object {
             $scriptId = $_.Key
@@ -76,7 +78,10 @@ $dump | Add-Member `
                 $line = $_
 
                 $searches | ForEach-Object {
-                    $search = [regex]::Escape($_)
+                    $search = $_
+                    If( $escape ){
+                        $search = [regex]::Escape($search)
+                    }
                     $search = "(?<!\/\/.*)$search"
 
                     $line -match $search
@@ -84,11 +89,13 @@ $dump | Add-Member `
             } | Where-Object { $_ }
             
             If( $matches.Count -eq 0 ){
-                [PSCustomObject]@{
+                $out = @{
                     Id = $scriptId
                     Name = $metadata.url
                     Metadata = $metadata
                 }
+
+                [PSCustomObject]$out
             }
         }
     }

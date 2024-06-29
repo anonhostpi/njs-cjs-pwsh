@@ -1,17 +1,20 @@
 {
-  "scriptId": "44",
-  "url": "node:internal/encoding",
+  "scriptId": "72",
+  "url": "node:internal/test/binding",
   "startLine": 0,
   "startColumn": 0,
-  "endLine": 612,
+  "endLine": 33,
   "endColumn": 0,
-  "executionContextId": 0,
-  "hash": "8f17a0c97288e7c82118d73cc45536df032c92ef215fea96cda066b95f8442dd",
+  "executionContextId": 1,
+  "hash": "40818c904ae92a3072111f76e0fce03cb2c8257745aebaedc8a443fba2785da3",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
   "isLiveEdit": false,
   "sourceMapURL": "",
   "hasSourceURL": false,
   "isModule": false,
-  "length": 17774,
+  "length": 1020,
   "stackTrace": {
     "callFrames": [
       {
@@ -24,5 +27,5 @@
     ]
   },
   "scriptLanguage": "JavaScript",
-  "embedderName": "node:internal/encoding"
+  "embedderName": "node:internal/test/binding"
 }

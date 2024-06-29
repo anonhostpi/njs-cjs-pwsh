@@ -1,5 +1,5 @@
 {
-  "scriptId": "73",
+  "scriptId": "74",
   "url": "evalmachine.<anonymous>",
   "startLine": 0,
   "startColumn": 0,
@@ -18,11 +18,11 @@
   "stackTrace": {
     "callFrames": [
       {
-        "functionName": "Module._extensions..js",
-        "scriptId": "62",
-        "url": "node:internal/modules/cjs/loader",
-        "lineNumber": 1497,
-        "columnNumber": 6
+        "functionName": "realpathSync",
+        "scriptId": "42",
+        "url": "node:fs",
+        "lineNumber": 2669,
+        "columnNumber": 14
       }
     ]
   },
