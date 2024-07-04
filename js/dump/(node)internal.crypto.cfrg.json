@@ -1,0 +1,31 @@
+{
+  "scriptId": "245",
+  "url": "node:internal/crypto/cfrg",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 354,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "8e24f3b0e8c73d7ab31a3bb1fd09fd66a78c7d3c9aac2dc93e5c10cdf40c337d",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 9042,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/crypto/cfrg"
+}

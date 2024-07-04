@@ -1,0 +1,31 @@
+{
+  "scriptId": "290",
+  "url": "node:internal/watch_mode/files_watcher",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 204,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "397923fbca5ecfe728856304a1be0b5b3529576eba82c5ad5d0b3576eeff3ef2",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 6177,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/watch_mode/files_watcher"
+}

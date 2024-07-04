@@ -1,0 +1,2949 @@
+{
+  "node:internal/crypto/ec": [
+    {
+      "Line": 18,
+      "Text": "} = internalBinding('crypto');",
+      "Matches": {
+        "1": "'crypto'",
+        "0": "internalBinding('crypto')"
+      }
+    }
+  ],
+  "node:internal/crypto/webcrypto": [
+    {
+      "Line": 22,
+      "Text": "} = internalBinding('crypto');",
+      "Matches": {
+        "1": "'crypto'",
+        "0": "internalBinding('crypto')"
+      }
+    }
+  ],
+  "node:internal/modules/package_json_reader": [
+    {
+      "Line": 10,
+      "Text": "const modulesBinding = internalBinding('modules');",
+      "Matches": {
+        "1": "'modules'",
+        "0": "internalBinding('modules')"
+      }
+    }
+  ],
+  "node:os": [
+    {
+      "Line": 34,
+      "Text": "const { safeGetenv } = internalBinding('credentials');",
+      "Matches": {
+        "1": "'credentials'",
+        "0": "internalBinding('credentials')"
+      }
+    },
+    {
+      "Line": 35,
+      "Text": "const constants = internalBinding('constants').os;",
+      "Matches": {
+        "1": "'constants'",
+        "0": "internalBinding('constants')"
+      }
+    },
+    {
+      "Line": 61,
+      "Text": "} = internalBinding('os');",
+      "Matches": {
+        "1": "'os'",
+        "0": "internalBinding('os')"
+      }
+    }
+  ],
+  "node:internal/crypto/util": [
+    {
+      "Line": 33,
+      "Text": "} = internalBinding('crypto');",
+      "Matches": {
+        "1": "'crypto'",
+        "0": "internalBinding('crypto')"
+      }
+    },
+    {
+      "Line": 41,
+      "Text": "} = internalBinding('constants');",
+      "Matches": {
+        "1": "'constants'",
+        "0": "internalBinding('constants')"
+      }
+    }
+  ],
+  "node:internal/bootstrap/web/exposed-wildcard": [
+    {
+      "Line": 20,
+      "Text": "const config = internalBinding('config');",
+      "Matches": {
+        "1": "'config'",
+        "0": "internalBinding('config')"
+      }
+    },
+    {
+      "Line": 68,
+      "Text": "    const { setConsoleExtensionInstaller } = internalBinding('inspector');",
+      "Matches": {
+        "1": "'inspector'",
+        "0": "internalBinding('inspector')"
+      }
+    }
+  ],
+  "node:internal/options": [
+    {
+      "Line": 7,
+      "Text": "} = internalBinding('options');",
+      "Matches": {
+        "1": "'options'",
+        "0": "internalBinding('options')"
+      }
+    }
+  ],
+  "node:_http_server": [
+    {
+      "Line": 52,
+      "Text": "const { ConnectionsList } = internalBinding('http_parser');",
+      "Matches": {
+        "1": "'http_parser'",
+        "0": "internalBinding('http_parser')"
+      }
+    }
+  ],
+  "node:internal/promise_hooks": [
+    {
+      "Line": 11,
+      "Text": "const { setPromiseHooks } = internalBinding('async_wrap');",
+      "Matches": {
+        "1": "'async_wrap'",
+        "0": "internalBinding('async_wrap')"
+      }
+    },
+    {
+      "Line": 12,
+      "Text": "const { triggerUncaughtException } = internalBinding('errors');",
+      "Matches": {
+        "1": "'errors'",
+        "0": "internalBinding('errors')"
+      }
+    }
+  ],
+  "node:internal/v8/startup_snapshot": [
+    {
+      "Line": 19,
+      "Text": "} = internalBinding('mksnapshot');",
+      "Matches": {
+        "1": "'mksnapshot'",
+        "0": "internalBinding('mksnapshot')"
+      }
+    }
+  ],
+  "node:internal/blob": [
+    {
+      "Line": 27,
+      "Text": "} = internalBinding('blob');",
+      "Matches": {
+        "1": "'blob'",
+        "0": "internalBinding('blob')"
+      }
+    },
+    {
+      "Line": 30,
+      "Text": "} = internalBinding('buffer');",
+      "Matches": {
+        "1": "'buffer'",
+        "0": "internalBinding('buffer')"
+      }
+    }
+  ],
+  "node:dgram": [
+    {
+      "Line": 74,
+      "Text": "const { UV_UDP_REUSEADDR } = internalBinding('constants').os;",
+      "Matches": {
+        "1": "'constants'",
+        "0": "internalBinding('constants')"
+      }
+    },
+    {
+      "Line": 80,
+      "Text": "} = internalBinding('udp_wrap');",
+      "Matches": {
+        "1": "'udp_wrap'",
+        "0": "internalBinding('udp_wrap')"
+      }
+    }
+  ],
+  "node:internal/worker/js_transferable": [
+    {
+      "Line": 11,
+      "Text": "} = internalBinding('symbols');",
+      "Matches": {
+        "1": "'symbols'",
+        "0": "internalBinding('symbols')"
+      }
+    },
+    {
+      "Line": 14,
+      "Text": "} = internalBinding('messaging');",
+      "Matches": {
+        "1": "'messaging'",
+        "0": "internalBinding('messaging')"
+      }
+    },
+    {
+      "Line": 24,
+      "Text": "} = internalBinding('util');",
+      "Matches": {
+        "1": "'util'",
+        "0": "internalBinding('util')"
+      }
+    }
+  ],
+  "node:internal/blocklist": [
+    {
+      "Line": 11,
+      "Text": "} = internalBinding('block_list');",
+      "Matches": {
+        "1": "'block_list'",
+        "0": "internalBinding('block_list')"
+      }
+    },
+    {
+      "Line": 31,
+      "Text": "const { owner_symbol } = internalBinding('symbols');",
+      "Matches": {
+        "1": "'symbols'",
+        "0": "internalBinding('symbols')"
+      }
+    }
+  ],
+  "node:internal/perf/utils": [
+    {
+      "Line": 10,
+      "Text": "} = internalBinding('performance');",
+      "Matches": {
+        "1": "'performance'",
+        "0": "internalBinding('performance')"
+      }
+    }
+  ],
+  "node:internal/crypto/keys": [
+    {
+      "Line": 27,
+      "Text": "} = internalBinding('crypto');",
+      "Matches": {
+        "1": "'crypto'",
+        "0": "internalBinding('crypto')"
+      }
+    }
+  ],
+  "node:internal/main/check_syntax": [
+    {
+      "Line": 73,
+      "Text": "    const { ModuleWrap } = internalBinding('module_wrap');",
+      "Matches": {
+        "1": "'module_wrap'",
+        "0": "internalBinding('module_wrap')"
+      }
+    }
+  ],
+  "node:internal/source_map/source_map_cache_map": [
+    {
+      "Line": 15,
+      "Text": "} = internalBinding('util');",
+      "Matches": {
+        "1": "'util'",
+        "0": "internalBinding('util')"
+      }
+    }
+  ],
+  "node:internal/socketaddress": [
+    {
+      "Line": 12,
+      "Text": "} = internalBinding('block_list');",
+      "Matches": {
+        "1": "'block_list'",
+        "0": "internalBinding('block_list')"
+      }
+    }
+  ],
+  "node:internal/modules/cjs/loader": [
+    {
+      "Line": 72,
+      "Text": "} = internalBinding('util');",
+      "Matches": {
+        "1": "'util'",
+        "0": "internalBinding('util')"
+      }
+    },
+    {
+      "Line": 74,
+      "Text": "const { kEvaluated } = internalBinding('module_wrap');",
+      "Matches": {
+        "1": "'module_wrap'",
+        "0": "internalBinding('module_wrap')"
+      }
+    },
+    {
+      "Line": 137,
+      "Text": "} = internalBinding('contextify');",
+      "Matches": {
+        "1": "'contextify'",
+        "0": "internalBinding('contextify')"
+      }
+    },
+    {
+      "Line": 142,
+      "Text": "const { internalModuleStat } = internalBinding('fs');",
+      "Matches": {
+        "1": "'fs'",
+        "0": "internalBinding('fs')"
+      }
+    },
+    {
+      "Line": 143,
+      "Text": "const { safeGetenv } = internalBinding('credentials');",
+      "Matches": {
+        "1": "'credentials'",
+        "0": "internalBinding('credentials')"
+      }
+    },
+    {
+      "Line": 160,
+      "Text": "} = internalBinding('symbols');",
+      "Matches": {
+        "1": "'symbols'",
+        "0": "internalBinding('symbols')"
+      }
+    },
+    {
+      "Line": 1381,
+      "Text": "      internalBinding('sea').isSea()) {",
+      "Matches": {
+        "1": "'sea'",
+        "0": "internalBinding('sea')"
+      }
+    },
+    {
+      "Line": 1444,
+      "Text": "      inspectorWrapper = internalBinding('inspector').callAndPauseOnStart;",
+      "Matches": {
+        "1": "'inspector'",
+        "0": "internalBinding('inspector')"
+      }
+    }
+  ],
+  "node:internal/fs/cp/cp-sync": [
+    {
+      "Line": 27,
+      "Text": "} = internalBinding('constants');",
+      "Matches": {
+        "1": "'constants'",
+        "0": "internalBinding('constants')"
+      }
+    }
+  ],
+  "node:internal/bootstrap/realm": [
+    {
+      "Line": 155,
+      "Text": "      return internalBinding(module);",
+      "Matches": {
+        "1": "module",
+        "0": "internalBinding(module)"
+      }
+    },
+    {
+      "Line": 161,
+      "Text": "      return internalBinding(module);",
+      "Matches": {
+        "1": "module",
+        "0": "internalBinding(module)"
+      }
+    },
+    {
+      "Line": 177,
+      "Text": " * Set up internalBinding() in the closure.",
+      "Matches": {
+        "1": "",
+        "0": "internalBinding()"
+      }
+    },
+    {
+      "Line": 184,
+      "Text": "  internalBinding = function internalBinding(module) {",
+      "Matches": {
+        "1": "module",
+        "0": "internalBinding(module)"
+      }
+    },
+    {
+      "Line": 187,
+      "Text": "      mod = bindingObj[module] = getInternalBinding(module);",
+      "Matches": {
+        "1": "module",
+        "0": "InternalBinding(module)"
+      }
+    },
+    {
+      "Line": 199,
+      "Text": "} = internalBinding('builtins');",
+      "Matches": {
+        "1": "'builtins'",
+        "0": "internalBinding('builtins')"
+      }
+    },
+    {
+      "Line": 201,
+      "Text": "const { ModuleWrap } = internalBinding('module_wrap');",
+      "Matches": {
+        "1": "'module_wrap'",
+        "0": "internalBinding('module_wrap')"
+      }
+    },
+    {
+      "Line": 447,
+      "Text": "  } = internalBinding('errors');",
+      "Matches": {
+        "1": "'errors'",
+        "0": "internalBinding('errors')"
+      }
+    }
+  ],
+  "node:internal/process/pre_execution": [
+    {
+      "Line": 79,
+      "Text": "  } = internalBinding('util');",
+      "Matches": {
+        "1": "'util'",
+        "0": "internalBinding('util')"
+      }
+    },
+    {
+      "Line": 82,
+      "Text": "  } = internalBinding('symbols');",
+      "Matches": {
+        "1": "'symbols'",
+        "0": "internalBinding('symbols')"
+      }
+    },
+    {
+      "Line": 127,
+      "Text": "    assert(internalBinding('worker').isMainThread);",
+      "Matches": {
+        "1": "'worker'",
+        "0": "internalBinding('worker')"
+      }
+    },
+    {
+      "Line": 148,
+      "Text": "    assert(!internalBinding('worker').isMainThread);",
+      "Matches": {
+        "1": "'worker'",
+        "0": "internalBinding('worker')"
+      }
+    },
+    {
+      "Line": 219,
+      "Text": "  const binding = internalBinding('process_methods');",
+      "Matches": {
+        "1": "'process_methods'",
+        "0": "internalBinding('process_methods')"
+      }
+    },
+    {
+      "Line": 353,
+      "Text": "  if (internalBinding('config').hasOpenSSL) {",
+      "Matches": {
+        "1": "'config'",
+        "0": "internalBinding('config')"
+      }
+    },
+    {
+      "Line": 467,
+      "Text": "  const { isTraceCategoryEnabled } = internalBinding('trace_events');",
+      "Matches": {
+        "1": "'trace_events'",
+        "0": "internalBinding('trace_events')"
+      }
+    },
+    {
+      "Line": 478,
+      "Text": "  if (internalBinding('config').hasInspector) {",
+      "Matches": {
+        "1": "'config'",
+        "0": "internalBinding('config')"
+      }
+    },
+    {
+      "Line": 483,
+      "Text": "    internalBinding('inspector').registerAsyncHook(enable, disable);",
+      "Matches": {
+        "1": "'inspector'",
+        "0": "internalBinding('inspector')"
+      }
+    },
+    {
+      "Line": 496,
+      "Text": "  const utilBinding = internalBinding('util');",
+      "Matches": {
+        "1": "'util'",
+        "0": "internalBinding('util')"
+      }
+    },
+    {
+      "Line": 529,
+      "Text": "  const { noBrowserGlobals } = internalBinding('config');",
+      "Matches": {
+        "1": "'config'",
+        "0": "internalBinding('config')"
+      }
+    },
+    {
+      "Line": 685,
+      "Text": "  internalBinding('mksnapshot').runEmbedderPreload(process, require);",
+      "Matches": {
+        "1": "'mksnapshot'",
+        "0": "internalBinding('mksnapshot')"
+      }
+    },
+    {
+      "Line": 702,
+      "Text": "  internalBinding('performance').markBootstrapComplete();",
+      "Matches": {
+        "1": "'performance'",
+        "0": "internalBinding('performance')"
+      }
+    },
+    {
+      "Line": 724,
+      "Text": "  const threadId = internalBinding('worker').threadId;",
+      "Matches": {
+        "1": "'worker'",
+        "0": "internalBinding('worker')"
+      }
+    }
+  ],
+  "node:internal/util/debuglog": [
+    {
+      "Line": 23,
+      "Text": "const { isTraceCategoryEnabled, trace } = internalBinding('trace_events');",
+      "Matches": {
+        "1": "'trace_events'",
+        "0": "internalBinding('trace_events')"
+      }
+    }
+  ],
+  "node:internal/test_runner/harness": [
+    {
+      "Line": 8,
+      "Text": "const { getCallerLocation } = internalBinding('util');",
+      "Matches": {
+        "1": "'util'",
+        "0": "internalBinding('util')"
+      }
+    },
+    {
+      "Line": 19,
+      "Text": "const { exitCodes: { kGenericUserError } } = internalBinding('errors');",
+      "Matches": {
+        "1": "'errors'",
+        "0": "internalBinding('errors')"
+      }
+    }
+  ],
+  "node:internal/crypto/random": [
+    {
+      "Line": 31,
+      "Text": "} = internalBinding('crypto');",
+      "Matches": {
+        "1": "'crypto'",
+        "0": "internalBinding('crypto')"
+      }
+    }
+  ],
+  "node:internal/process/permission": [
+    {
+      "Line": 8,
+      "Text": "const permission = internalBinding('permission');",
+      "Matches": {
+        "1": "'permission'",
+        "0": "internalBinding('permission')"
+      }
+    }
+  ],
+  "node:internal/modules/esm/hooks": [
+    {
+      "Line": 35,
+      "Text": "const { exitCodes: { kUnsettledTopLevelAwait } } = internalBinding('errors');",
+      "Matches": {
+        "1": "'errors'",
+        "0": "internalBinding('errors')"
+      }
+    },
+    {
+      "Line": 37,
+      "Text": "const { canParse: URLCanParse } = internalBinding('url');",
+      "Matches": {
+        "1": "'url'",
+        "0": "internalBinding('url')"
+      }
+    }
+  ],
+  "node:internal/bootstrap/node": [
+    {
+      "Line": 68,
+      "Text": "const config = internalBinding('config');",
+      "Matches": {
+        "1": "'config'",
+        "0": "internalBinding('config')"
+      }
+    },
+    {
+      "Line": 86,
+      "Text": "} = internalBinding('util');",
+      "Matches": {
+        "1": "'util'",
+        "0": "internalBinding('util')"
+      }
+    },
+    {
+      "Line": 138,
+      "Text": "const binding = internalBinding('builtins');",
+      "Matches": {
+        "1": "'builtins'",
+        "0": "internalBinding('builtins')"
+      }
+    },
+    {
+      "Line": 158,
+      "Text": "const rawMethods = internalBinding('process_methods');",
+      "Matches": {
+        "1": "'process_methods'",
+        "0": "internalBinding('process_methods')"
+      }
+    },
+    {
+      "Line": 194,
+      "Text": "const credentials = internalBinding('credentials');",
+      "Matches": {
+        "1": "'credentials'",
+        "0": "internalBinding('credentials')"
+      }
+    },
+    {
+      "Line": 208,
+      "Text": "internalBinding('async_wrap').setupHooks(nativeHooks);",
+      "Matches": {
+        "1": "'async_wrap'",
+        "0": "internalBinding('async_wrap')"
+      }
+    },
+    {
+      "Line": 222,
+      "Text": "const { setTraceCategoryStateUpdateHandler } = internalBinding('trace_events');",
+      "Matches": {
+        "1": "'trace_events'",
+        "0": "internalBinding('trace_events')"
+      }
+    },
+    {
+      "Line": 303,
+      "Text": "internalBinding('process_methods').setEmitWarningSync(emitWarningSync);",
+      "Matches": {
+        "1": "'process_methods'",
+        "0": "internalBinding('process_methods')"
+      }
+    },
+    {
+      "Line": 317,
+      "Text": "  const { setupTimers } = internalBinding('timers');",
+      "Matches": {
+        "1": "'timers'",
+        "0": "internalBinding('timers')"
+      }
+    },
+    {
+      "Line": 338,
+      "Text": "  } = internalBinding('errors');",
+      "Matches": {
+        "1": "'errors'",
+        "0": "internalBinding('errors')"
+      }
+    },
+    {
+      "Line": 405,
+      "Text": "  const bufferBinding = internalBinding('buffer');",
+      "Matches": {
+        "1": "'buffer'",
+        "0": "internalBinding('buffer')"
+      }
+    }
+  ],
+  "node:tls": [
+    {
+      "Line": 63,
+      "Text": "const { getRootCertificates, getSSLCiphers } = internalBinding('crypto');",
+      "Matches": {
+        "1": "'crypto'",
+        "0": "internalBinding('crypto')"
+      }
+    },
+    {
+      "Line": 65,
+      "Text": "const { canonicalizeIP } = internalBinding('cares_wrap');",
+      "Matches": {
+        "1": "'cares_wrap'",
+        "0": "internalBinding('cares_wrap')"
+      }
+    }
+  ],
+  "node:internal/http": [
+    {
+      "Line": 11,
+      "Text": "const { trace, isTraceCategoryEnabled } = internalBinding('trace_events');",
+      "Matches": {
+        "1": "'trace_events'",
+        "0": "internalBinding('trace_events')"
+      }
+    }
+  ],
+  "node:v8": [
+    {
+      "Line": 41,
+      "Text": "} = internalBinding('serdes');",
+      "Matches": {
+        "1": "'serdes'",
+        "0": "internalBinding('serdes')"
+      }
+    },
+    {
+      "Line": 47,
+      "Text": "if (internalBinding('config').hasInspector) {",
+      "Matches": {
+        "1": "'config'",
+        "0": "internalBinding('config')"
+      }
+    },
+    {
+      "Line": 48,
+      "Text": "  profiler = internalBinding('profiler');",
+      "Matches": {
+        "1": "'profiler'",
+        "0": "internalBinding('profiler')"
+      }
+    },
+    {
+      "Line": 52,
+      "Text": "const { copy } = internalBinding('buffer');",
+      "Matches": {
+        "1": "'buffer'",
+        "0": "internalBinding('buffer')"
+      }
+    },
+    {
+      "Line": 60,
+      "Text": "} = internalBinding('heap_utils');",
+      "Matches": {
+        "1": "'heap_utils'",
+        "0": "internalBinding('heap_utils')"
+      }
+    },
+    {
+      "Line": 105,
+      "Text": "const binding = internalBinding('v8');",
+      "Matches": {
+        "1": "'v8'",
+        "0": "internalBinding('v8')"
+      }
+    }
+  ],
+  "node:wasi": [
+    {
+      "Line": 54,
+      "Text": "        ({ WASI: _WASI } = internalBinding('wasi'));",
+      "Matches": {
+        "1": "'wasi'",
+        "0": "internalBinding('wasi')"
+      }
+    },
+    {
+      "Line": 58,
+      "Text": "        ({ WASI: _WASI } = internalBinding('wasi'));",
+      "Matches": {
+        "1": "'wasi'",
+        "0": "internalBinding('wasi')"
+      }
+    }
+  ],
+  "node:internal/fs/promises": [
+    {
+      "Line": 23,
+      "Text": "const { fs: constants } = internalBinding('constants');",
+      "Matches": {
+        "1": "'constants'",
+        "0": "internalBinding('constants')"
+      }
+    },
+    {
+      "Line": 32,
+      "Text": "const binding = internalBinding('fs');",
+      "Matches": {
+        "1": "'fs'",
+        "0": "internalBinding('fs')"
+      }
+    }
+  ],
+  "node:internal/net": [
+    {
+      "Line": 10,
+      "Text": "const { writeBuffer } = internalBinding('fs');",
+      "Matches": {
+        "1": "'fs'",
+        "0": "internalBinding('fs')"
+      }
+    }
+  ],
+  "node:internal/errors": [
+    {
+      "Line": 617,
+      "Text": "  uvBinding ??= internalBinding('uv');",
+      "Matches": {
+        "1": "'uv'",
+        "0": "internalBinding('uv')"
+      }
+    },
+    {
+      "Line": 909,
+      "Text": "      const info = internalBinding('os').getOSInformation();",
+      "Matches": {
+        "1": "'os'",
+        "0": "internalBinding('os')"
+      }
+    },
+    {
+      "Line": 939,
+      "Text": "} = internalBinding('util');",
+      "Matches": {
+        "1": "'util'",
+        "0": "internalBinding('util')"
+      }
+    }
+  ],
+  "node:internal/perf/usertiming": [
+    {
+      "Line": 34,
+      "Text": "const { structuredClone } = internalBinding('messaging');",
+      "Matches": {
+        "1": "'messaging'",
+        "0": "internalBinding('messaging')"
+      }
+    }
+  ],
+  "node:internal/main/eval_string": [
+    {
+      "Line": 37,
+      "Text": "  const shouldDefineCrypto = isUsingCryptoIdentifier && internalBinding('config').hasOpenSSL;",
+      "Matches": {
+        "1": "'config'",
+        "0": "internalBinding('config')"
+      }
+    }
+  ],
+  "node:repl": [
+    {
+      "Line": 181,
+      "Text": "} = internalBinding('util');",
+      "Matches": {
+        "1": "'util'",
+        "0": "internalBinding('util')"
+      }
+    },
+    {
+      "Line": 185,
+      "Text": "} = internalBinding('contextify');",
+      "Matches": {
+        "1": "'contextify'",
+        "0": "internalBinding('contextify')"
+      }
+    }
+  ],
+  "node:internal/crypto/certificate": [
+    {
+      "Line": 7,
+      "Text": "} = internalBinding('crypto');",
+      "Matches": {
+        "1": "'crypto'",
+        "0": "internalBinding('crypto')"
+      }
+    }
+  ],
+  "node:child_process": [
+    {
+      "Line": 63,
+      "Text": "const { Pipe, constants: PipeConstants } = internalBinding('pipe_wrap');",
+      "Matches": {
+        "1": "'pipe_wrap'",
+        "0": "internalBinding('pipe_wrap')"
+      }
+    }
+  ],
+  "node:util": [
+    {
+      "Line": 75,
+      "Text": "const binding = internalBinding('util');",
+      "Matches": {
+        "1": "'util'",
+        "0": "internalBinding('util')"
+      }
+    }
+  ],
+  "": null,
+  "node:internal/util/comparisons": [
+    {
+      "Line": 28,
+      "Text": "const { compare } = internalBinding('buffer');",
+      "Matches": {
+        "1": "'buffer'",
+        "0": "internalBinding('buffer')"
+      }
+    },
+    {
+      "Line": 56,
+      "Text": "} = internalBinding('util');",
+      "Matches": {
+        "1": "'util'",
+        "0": "internalBinding('util')"
+      }
+    }
+  ],
+  "node:internal/perf/event_loop_delay": [
+    {
+      "Line": 17,
+      "Text": "} = internalBinding('performance');",
+      "Matches": {
+        "1": "'performance'",
+        "0": "internalBinding('performance')"
+      }
+    }
+  ],
+  "node:net": [
+    {
+      "Line": 64,
+      "Text": "} = internalBinding('uv');",
+      "Matches": {
+        "1": "'uv'",
+        "0": "internalBinding('uv')"
+      }
+    },
+    {
+      "Line": 67,
+      "Text": "const { ShutdownWrap } = internalBinding('stream_wrap');",
+      "Matches": {
+        "1": "'stream_wrap'",
+        "0": "internalBinding('stream_wrap')"
+      }
+    },
+    {
+      "Line": 72,
+      "Text": "} = internalBinding('tcp_wrap');",
+      "Matches": {
+        "1": "'tcp_wrap'",
+        "0": "internalBinding('tcp_wrap')"
+      }
+    },
+    {
+      "Line": 77,
+      "Text": "} = internalBinding('pipe_wrap');",
+      "Matches": {
+        "1": "'pipe_wrap'",
+        "0": "internalBinding('pipe_wrap')"
+      }
+    }
+  ],
+  "node:internal/bootstrap/switches/does_own_process_state": [
+    {
+      "Line": 3,
+      "Text": "const credentials = internalBinding('credentials');",
+      "Matches": {
+        "1": "'credentials'",
+        "0": "internalBinding('credentials')"
+      }
+    },
+    {
+      "Line": 4,
+      "Text": "const rawMethods = internalBinding('process_methods');",
+      "Matches": {
+        "1": "'process_methods'",
+        "0": "internalBinding('process_methods')"
+      }
+    }
+  ],
+  "node:internal/validators": [
+    {
+      "Line": 37,
+      "Text": "const { signals } = internalBinding('constants').os;",
+      "Matches": {
+        "1": "'constants'",
+        "0": "internalBinding('constants')"
+      }
+    }
+  ],
+  "node:internal/encoding": [
+    {
+      "Line": 52,
+      "Text": "const binding = internalBinding('encoding_binding');",
+      "Matches": {
+        "1": "'encoding_binding'",
+        "0": "internalBinding('encoding_binding')"
+      }
+    },
+    {
+      "Line": 390,
+      "Text": "  internalBinding('config').hasIntl ?",
+      "Matches": {
+        "1": "'config'",
+        "0": "internalBinding('config')"
+      }
+    },
+    {
+      "Line": 398,
+      "Text": "  } = internalBinding('icu');",
+      "Matches": {
+        "1": "'icu'",
+        "0": "internalBinding('icu')"
+      }
+    }
+  ],
+  "node:internal/dns/utils": [
+    {
+      "Line": 31,
+      "Text": "  binding ??= internalBinding('cares_wrap');",
+      "Matches": {
+        "1": "'cares_wrap'",
+        "0": "internalBinding('cares_wrap')"
+      }
+    }
+  ],
+  "node:internal/debugger/inspect": [
+    {
+      "Line": 50,
+      "Text": "} = internalBinding('errors');",
+      "Matches": {
+        "1": "'errors'",
+        "0": "internalBinding('errors')"
+      }
+    }
+  ],
+  "node:trace_events": [
+    {
+      "Line": 8,
+      "Text": "const { hasTracing } = internalBinding('config');",
+      "Matches": {
+        "1": "'config'",
+        "0": "internalBinding('config')"
+      }
+    },
+    {
+      "Line": 21,
+      "Text": "const { CategorySet, getEnabledCategories } = internalBinding('trace_events');",
+      "Matches": {
+        "1": "'trace_events'",
+        "0": "internalBinding('trace_events')"
+      }
+    }
+  ],
+  "node:internal/test/binding": [
+    {
+      "Line": 13,
+      "Text": "function filteredInternalBinding(id) {",
+      "Matches": {
+        "1": "id",
+        "0": "InternalBinding(id)"
+      }
+    },
+    {
+      "Line": 25,
+      "Text": "  return internalBinding(id);",
+      "Matches": {
+        "1": "id",
+        "0": "internalBinding(id)"
+      }
+    }
+  ],
+  "node:internal/modules/esm/utils": [
+    {
+      "Line": 14,
+      "Text": "} = internalBinding('util');",
+      "Matches": {
+        "1": "'util'",
+        "0": "internalBinding('util')"
+      }
+    },
+    {
+      "Line": 21,
+      "Text": "} = internalBinding('symbols');",
+      "Matches": {
+        "1": "'symbols'",
+        "0": "internalBinding('symbols')"
+      }
+    },
+    {
+      "Line": 23,
+      "Text": "const { ModuleWrap } = internalBinding('module_wrap');",
+      "Matches": {
+        "1": "'module_wrap'",
+        "0": "internalBinding('module_wrap')"
+      }
+    },
+    {
+      "Line": 45,
+      "Text": "} = internalBinding('module_wrap');",
+      "Matches": {
+        "1": "'module_wrap'",
+        "0": "internalBinding('module_wrap')"
+      }
+    }
+  ],
+  "node:internal/process/task_queues": [
+    {
+      "Line": 16,
+      "Text": "} = internalBinding('task_queue');",
+      "Matches": {
+        "1": "'task_queue'",
+        "0": "internalBinding('task_queue')"
+      }
+    }
+  ],
+  "node:internal/fs/utils": [
+    {
+      "Line": 109,
+      "Text": "} = internalBinding('constants');",
+      "Matches": {
+        "1": "'constants'",
+        "0": "internalBinding('constants')"
+      }
+    }
+  ],
+  "node:internal/heap_utils": [
+    {
+      "Line": 26,
+      "Text": "} = internalBinding('internal_only_v8');",
+      "Matches": {
+        "1": "'internal_only_v8'",
+        "0": "internalBinding('internal_only_v8')"
+      }
+    }
+  ],
+  "node:internal/crypto/cfrg": [
+    {
+      "Line": 18,
+      "Text": "} = internalBinding('crypto');",
+      "Matches": {
+        "1": "'crypto'",
+        "0": "internalBinding('crypto')"
+      }
+    }
+  ],
+  "node:internal/modules/esm/loader": [
+    {
+      "Line": 22,
+      "Text": "const { imported_cjs_symbol } = internalBinding('symbols');",
+      "Matches": {
+        "1": "'symbols'",
+        "0": "internalBinding('symbols')"
+      }
+    },
+    {
+      "Line": 39,
+      "Text": "const { canParse } = internalBinding('url');",
+      "Matches": {
+        "1": "'url'",
+        "0": "internalBinding('url')"
+      }
+    },
+    {
+      "Line": 40,
+      "Text": "const { ModuleWrap, kEvaluating, kEvaluated } = internalBinding('module_wrap');",
+      "Matches": {
+        "1": "'module_wrap'",
+        "0": "internalBinding('module_wrap')"
+      }
+    }
+  ],
+  "node:internal/modules/esm/get_format": [
+    {
+      "Line": 22,
+      "Text": "const { containsModuleSyntax } = internalBinding('contextify');",
+      "Matches": {
+        "1": "'contextify'",
+        "0": "internalBinding('contextify')"
+      }
+    }
+  ],
+  "node:_tls_common": [
+    {
+      "Line": 47,
+      "Text": "} = internalBinding('constants');",
+      "Matches": {
+        "1": "'constants'",
+        "0": "internalBinding('constants')"
+      }
+    },
+    {
+      "Line": 72,
+      "Text": "} = internalBinding('crypto');",
+      "Matches": {
+        "1": "'crypto'",
+        "0": "internalBinding('crypto')"
+      }
+    }
+  ],
+  "node:internal/cluster/child": [
+    {
+      "Line": 18,
+      "Text": "const { exitCodes: { kNoFailure } } = internalBinding('errors');",
+      "Matches": {
+        "1": "'errors'",
+        "0": "internalBinding('errors')"
+      }
+    }
+  ],
+  "node:internal/dns/callback_resolver": [
+    {
+      "Line": 29,
+      "Text": "} = internalBinding('cares_wrap');",
+      "Matches": {
+        "1": "'cares_wrap'",
+        "0": "internalBinding('cares_wrap')"
+      }
+    }
+  ],
+  "node:internal/inspector_async_hook": [
+    {
+      "Line": 11,
+      "Text": "  const inspector = internalBinding('inspector');",
+      "Matches": {
+        "1": "'inspector'",
+        "0": "internalBinding('inspector')"
+      }
+    },
+    {
+      "Line": 13,
+      "Text": "  config = internalBinding('config');",
+      "Matches": {
+        "1": "'config'",
+        "0": "internalBinding('config')"
+      }
+    }
+  ],
+  "node:internal/js_stream_socket": [
+    {
+      "Line": 10,
+      "Text": "const { JSStream } = internalBinding('js_stream');",
+      "Matches": {
+        "1": "'js_stream'",
+        "0": "internalBinding('js_stream')"
+      }
+    },
+    {
+      "Line": 11,
+      "Text": "const uv = internalBinding('uv');",
+      "Matches": {
+        "1": "'uv'",
+        "0": "internalBinding('uv')"
+      }
+    }
+  ],
+  "node:internal/test_runner/runner": [
+    {
+      "Line": 80,
+      "Text": "} = internalBinding('errors');",
+      "Matches": {
+        "1": "'errors'",
+        "0": "internalBinding('errors')"
+      }
+    }
+  ],
+  "node:string_decoder": [
+    {
+      "Line": 41,
+      "Text": "} = internalBinding('string_decoder');",
+      "Matches": {
+        "1": "'string_decoder'",
+        "0": "internalBinding('string_decoder')"
+      }
+    }
+  ],
+  "node:tty": [
+    {
+      "Line": 31,
+      "Text": "const { TTY, isTTY } = internalBinding('tty_wrap');",
+      "Matches": {
+        "1": "'tty_wrap'",
+        "0": "internalBinding('tty_wrap')"
+      }
+    }
+  ],
+  "node:internal/fs/watchers": [
+    {
+      "Line": 25,
+      "Text": "} = internalBinding('fs');",
+      "Matches": {
+        "1": "'fs'",
+        "0": "internalBinding('fs')"
+      }
+    },
+    {
+      "Line": 27,
+      "Text": "const { FSEvent } = internalBinding('fs_event_wrap');",
+      "Matches": {
+        "1": "'fs_event_wrap'",
+        "0": "internalBinding('fs_event_wrap')"
+      }
+    },
+    {
+      "Line": 28,
+      "Text": "const { UV_ENOSPC } = internalBinding('uv');",
+      "Matches": {
+        "1": "'uv'",
+        "0": "internalBinding('uv')"
+      }
+    }
+  ],
+  "node:internal/webstreams/transformstream": [
+    {
+      "Line": 23,
+      "Text": "} = internalBinding('messaging');",
+      "Matches": {
+        "1": "'messaging'",
+        "0": "internalBinding('messaging')"
+      }
+    }
+  ],
+  "node:internal/url": [
+    {
+      "Line": 91,
+      "Text": "const bindingUrl = internalBinding('url');",
+      "Matches": {
+        "1": "'url'",
+        "0": "internalBinding('url')"
+      }
+    },
+    {
+      "Line": 1173,
+      "Text": "  const bindingBlob = internalBinding('blob');",
+      "Matches": {
+        "1": "'blob'",
+        "0": "internalBinding('blob')"
+      }
+    }
+  ],
+  "node:internal/main/worker_thread": [
+    {
+      "Line": 29,
+      "Text": "} = internalBinding('worker');",
+      "Matches": {
+        "1": "'worker'",
+        "0": "internalBinding('worker')"
+      }
+    },
+    {
+      "Line": 56,
+      "Text": "const { exitCodes: { kGenericUserError } } = internalBinding('errors');",
+      "Matches": {
+        "1": "'errors'",
+        "0": "internalBinding('errors')"
+      }
+    },
+    {
+      "Line": 146,
+      "Text": "        internalBinding('module_wrap').callbackMap = new SafeWeakMap();",
+      "Matches": {
+        "1": "'module_wrap'",
+        "0": "internalBinding('module_wrap')"
+      }
+    }
+  ],
+  "node:internal/trace_events_async_hooks": [
+    {
+      "Line": 10,
+      "Text": "const { trace } = internalBinding('trace_events');",
+      "Matches": {
+        "1": "'trace_events'",
+        "0": "internalBinding('trace_events')"
+      }
+    },
+    {
+      "Line": 11,
+      "Text": "const async_wrap = internalBinding('async_wrap');",
+      "Matches": {
+        "1": "'async_wrap'",
+        "0": "internalBinding('async_wrap')"
+      }
+    }
+  ],
+  "node:internal/crypto/hash": [
+    {
+      "Line": 16,
+      "Text": "} = internalBinding('crypto');",
+      "Matches": {
+        "1": "'crypto'",
+        "0": "internalBinding('crypto')"
+      }
+    }
+  ],
+  "node:internal/fs/read/context": [
+    {
+      "Line": 18,
+      "Text": "const { FSReqCallback, close, read } = internalBinding('fs');",
+      "Matches": {
+        "1": "'fs'",
+        "0": "internalBinding('fs')"
+      }
+    }
+  ],
+  "node:internal/stream_base_commons": [
+    {
+      "Line": 17,
+      "Text": "} = internalBinding('stream_wrap');",
+      "Matches": {
+        "1": "'stream_wrap'",
+        "0": "internalBinding('stream_wrap')"
+      }
+    },
+    {
+      "Line": 18,
+      "Text": "const { UV_EOF } = internalBinding('uv');",
+      "Matches": {
+        "1": "'uv'",
+        "0": "internalBinding('uv')"
+      }
+    }
+  ],
+  "node:internal/modules/run_main": [
+    {
+      "Line": 8,
+      "Text": "const { getNearestParentPackageJSONType } = internalBinding('modules');",
+      "Matches": {
+        "1": "'modules'",
+        "0": "internalBinding('modules')"
+      }
+    },
+    {
+      "Line": 18,
+      "Text": "} = internalBinding('errors');",
+      "Matches": {
+        "1": "'errors'",
+        "0": "internalBinding('errors')"
+      }
+    },
+    {
+      "Line": 23,
+      "Text": "} = internalBinding('util');",
+      "Matches": {
+        "1": "'util'",
+        "0": "internalBinding('util')"
+      }
+    }
+  ],
+  "node:internal/fs/cp/cp": [
+    {
+      "Line": 36,
+      "Text": "} = internalBinding('constants');",
+      "Matches": {
+        "1": "'constants'",
+        "0": "internalBinding('constants')"
+      }
+    }
+  ],
+  "node:internal/http2/compat": [
+    {
+      "Line": 39,
+      "Text": "} = internalBinding('http2');",
+      "Matches": {
+        "1": "'http2'",
+        "0": "internalBinding('http2')"
+      }
+    }
+  ],
+  "node:internal/process/promises": [
+    {
+      "Line": 21,
+      "Text": "} = internalBinding('task_queue');",
+      "Matches": {
+        "1": "'task_queue'",
+        "0": "internalBinding('task_queue')"
+      }
+    },
+    {
+      "Line": 29,
+      "Text": "} = internalBinding('errors');",
+      "Matches": {
+        "1": "'errors'",
+        "0": "internalBinding('errors')"
+      }
+    }
+  ],
+  "node:internal/v8_prof_processor": [
+    {
+      "Line": 15,
+      "Text": "const { natives } = internalBinding('builtins');",
+      "Matches": {
+        "1": "'builtins'",
+        "0": "internalBinding('builtins')"
+      }
+    }
+  ],
+  "node:inspector": [
+    {
+      "Line": 21,
+      "Text": "const { hasInspector } = internalBinding('config');",
+      "Matches": {
+        "1": "'config'",
+        "0": "internalBinding('config')"
+      }
+    },
+    {
+      "Line": 35,
+      "Text": "const { _debugEnd } = internalBinding('process_methods');",
+      "Matches": {
+        "1": "'process_methods'",
+        "0": "internalBinding('process_methods')"
+      }
+    },
+    {
+      "Line": 45,
+      "Text": "} = internalBinding('inspector');",
+      "Matches": {
+        "1": "'inspector'",
+        "0": "internalBinding('inspector')"
+      }
+    }
+  ],
+  "node:internal/modules/esm/module_job": [
+    {
+      "Line": 26,
+      "Text": "const { ModuleWrap, kEvaluated } = internalBinding('module_wrap');",
+      "Matches": {
+        "1": "'module_wrap'",
+        "0": "internalBinding('module_wrap')"
+      }
+    },
+    {
+      "Line": 31,
+      "Text": "} = internalBinding('util');",
+      "Matches": {
+        "1": "'util'",
+        "0": "internalBinding('util')"
+      }
+    },
+    {
+      "Line": 168,
+      "Text": "        const initWrapper = internalBinding('inspector').callAndPauseOnStart;",
+      "Matches": {
+        "1": "'inspector'",
+        "0": "internalBinding('inspector')"
+      }
+    }
+  ],
+  "node:internal/main/mksnapshot": [
+    {
+      "Line": 16,
+      "Text": "} = internalBinding('mksnapshot');",
+      "Matches": {
+        "1": "'mksnapshot'",
+        "0": "internalBinding('mksnapshot')"
+      }
+    },
+    {
+      "Line": 18,
+      "Text": "const { isExperimentalSeaWarningNeeded } = internalBinding('sea');",
+      "Matches": {
+        "1": "'sea'",
+        "0": "internalBinding('sea')"
+      }
+    }
+  ],
+  "node:internal/modules/helpers": [
+    {
+      "Line": 30,
+      "Text": "const { canParse: URLCanParse } = internalBinding('url');",
+      "Matches": {
+        "1": "'url'",
+        "0": "internalBinding('url')"
+      }
+    }
+  ],
+  "node:internal/abort_controller": [
+    {
+      "Line": 53,
+      "Text": "} = internalBinding('messaging');",
+      "Matches": {
+        "1": "'messaging'",
+        "0": "internalBinding('messaging')"
+      }
+    }
+  ],
+  "node:internal/cluster/round_robin_handle": [
+    {
+      "Line": 13,
+      "Text": "const { constants } = internalBinding('tcp_wrap');",
+      "Matches": {
+        "1": "'tcp_wrap'",
+        "0": "internalBinding('tcp_wrap')"
+      }
+    }
+  ],
+  "node:internal/webstreams/util": [
+    {
+      "Line": 30,
+      "Text": "} = internalBinding('buffer');",
+      "Matches": {
+        "1": "'buffer'",
+        "0": "internalBinding('buffer')"
+      }
+    },
+    {
+      "Line": 41,
+      "Text": "} = internalBinding('util');",
+      "Matches": {
+        "1": "'util'",
+        "0": "internalBinding('util')"
+      }
+    }
+  ],
+  "node:internal/crypto/aes": [
+    {
+      "Line": 33,
+      "Text": "} = internalBinding('crypto');",
+      "Matches": {
+        "1": "'crypto'",
+        "0": "internalBinding('crypto')"
+      }
+    }
+  ],
+  "node:internal/child_process": [
+    {
+      "Line": 45,
+      "Text": "const { Process } = internalBinding('process_wrap');",
+      "Matches": {
+        "1": "'process_wrap'",
+        "0": "internalBinding('process_wrap')"
+      }
+    },
+    {
+      "Line": 52,
+      "Text": "} = internalBinding('stream_wrap');",
+      "Matches": {
+        "1": "'stream_wrap'",
+        "0": "internalBinding('stream_wrap')"
+      }
+    },
+    {
+      "Line": 53,
+      "Text": "const { Pipe, constants: PipeConstants } = internalBinding('pipe_wrap');",
+      "Matches": {
+        "1": "'pipe_wrap'",
+        "0": "internalBinding('pipe_wrap')"
+      }
+    },
+    {
+      "Line": 54,
+      "Text": "const { TCP } = internalBinding('tcp_wrap');",
+      "Matches": {
+        "1": "'tcp_wrap'",
+        "0": "internalBinding('tcp_wrap')"
+      }
+    },
+    {
+      "Line": 55,
+      "Text": "const { TTY } = internalBinding('tty_wrap');",
+      "Matches": {
+        "1": "'tty_wrap'",
+        "0": "internalBinding('tty_wrap')"
+      }
+    },
+    {
+      "Line": 56,
+      "Text": "const { UDP } = internalBinding('udp_wrap');",
+      "Matches": {
+        "1": "'udp_wrap'",
+        "0": "internalBinding('udp_wrap')"
+      }
+    },
+    {
+      "Line": 61,
+      "Text": "const spawn_sync = internalBinding('spawn_sync');",
+      "Matches": {
+        "1": "'spawn_sync'",
+        "0": "internalBinding('spawn_sync')"
+      }
+    },
+    {
+      "Line": 75,
+      "Text": "} = internalBinding('uv');",
+      "Matches": {
+        "1": "'uv'",
+        "0": "internalBinding('uv')"
+      }
+    }
+  ],
+  "node:internal/crypto/mac": [
+    {
+      "Line": 14,
+      "Text": "} = internalBinding('crypto');",
+      "Matches": {
+        "1": "'crypto'",
+        "0": "internalBinding('crypto')"
+      }
+    }
+  ],
+  "node:internal/crypto/scrypt": [
+    {
+      "Line": 13,
+      "Text": "} = internalBinding('crypto');",
+      "Matches": {
+        "1": "'crypto'",
+        "0": "internalBinding('crypto')"
+      }
+    }
+  ],
+  "node:internal/legacy/processbinding": [
+    {
+      "Line": 37,
+      "Text": "    const { natives: result, configs } = internalBinding('builtins');",
+      "Matches": {
+        "1": "'builtins'",
+        "0": "internalBinding('builtins')"
+      }
+    }
+  ],
+  "node:internal/timers": [
+    {
+      "Line": 84,
+      "Text": "const binding = internalBinding('timers');",
+      "Matches": {
+        "1": "'timers'",
+        "0": "internalBinding('timers')"
+      }
+    }
+  ],
+  "node:timers": [
+    {
+      "Line": 32,
+      "Text": "const binding = internalBinding('timers');",
+      "Matches": {
+        "1": "'timers'",
+        "0": "internalBinding('timers')"
+      }
+    }
+  ],
+  "node:fs": [
+    {
+      "Line": 46,
+      "Text": "const { fs: constants } = internalBinding('constants');",
+      "Matches": {
+        "1": "'constants'",
+        "0": "internalBinding('constants')"
+      }
+    },
+    {
+      "Line": 65,
+      "Text": "const binding = internalBinding('fs');",
+      "Matches": {
+        "1": "'fs'",
+        "0": "internalBinding('fs')"
+      }
+    }
+  ],
+  "node:buffer": [
+    {
+      "Line": 73,
+      "Text": "} = internalBinding('buffer');",
+      "Matches": {
+        "1": "'buffer'",
+        "0": "internalBinding('buffer')"
+      }
+    },
+    {
+      "Line": 80,
+      "Text": "} = internalBinding('util');",
+      "Matches": {
+        "1": "'util'",
+        "0": "internalBinding('util')"
+      }
+    },
+    {
+      "Line": 1216,
+      "Text": "if (internalBinding('config').hasIntl) {",
+      "Matches": {
+        "1": "'config'",
+        "0": "internalBinding('config')"
+      }
+    },
+    {
+      "Line": 1220,
+      "Text": "  } = internalBinding('icu');",
+      "Matches": {
+        "1": "'icu'",
+        "0": "internalBinding('icu')"
+      }
+    }
+  ],
+  "node:internal/buffer": [
+    {
+      "Line": 34,
+      "Text": "} = internalBinding('buffer');",
+      "Matches": {
+        "1": "'buffer'",
+        "0": "internalBinding('buffer')"
+      }
+    },
+    {
+      "Line": 40,
+      "Text": "} = internalBinding('util');",
+      "Matches": {
+        "1": "'util'",
+        "0": "internalBinding('util')"
+      }
+    }
+  ],
+  "node:internal/crypto/rsa": [
+    {
+      "Line": 23,
+      "Text": "} = internalBinding('crypto');",
+      "Matches": {
+        "1": "'crypto'",
+        "0": "internalBinding('crypto')"
+      }
+    }
+  ],
+  "node:internal/fs/dir": [
+    {
+      "Line": 13,
+      "Text": "const binding = internalBinding('fs');",
+      "Matches": {
+        "1": "'fs'",
+        "0": "internalBinding('fs')"
+      }
+    },
+    {
+      "Line": 14,
+      "Text": "const dirBinding = internalBinding('fs_dir');",
+      "Matches": {
+        "1": "'fs_dir'",
+        "0": "internalBinding('fs_dir')"
+      }
+    }
+  ],
+  "node:internal/modules/esm/worker": [
+    {
+      "Line": 253,
+      "Text": "    internalBinding('errors').triggerUncaughtException(",
+      "Matches": {
+        "1": "'errors'",
+        "0": "internalBinding('errors')"
+      }
+    }
+  ],
+  "node:internal/crypto/sig": [
+    {
+      "Line": 33,
+      "Text": "} = internalBinding('crypto');",
+      "Matches": {
+        "1": "'crypto'",
+        "0": "internalBinding('crypto')"
+      }
+    }
+  ],
+  "node:perf_hooks": [
+    {
+      "Line": 9,
+      "Text": "} = internalBinding('performance');",
+      "Matches": {
+        "1": "'performance'",
+        "0": "internalBinding('performance')"
+      }
+    }
+  ],
+  "node:internal/process/per_thread": [
+    {
+      "Line": 51,
+      "Text": "const constants = internalBinding('constants').os.signals;",
+      "Matches": {
+        "1": "'constants'",
+        "0": "internalBinding('constants')"
+      }
+    },
+    {
+      "Line": 58,
+      "Text": "const { exitCodes: { kNoFailure } } = internalBinding('errors');",
+      "Matches": {
+        "1": "'errors'",
+        "0": "internalBinding('errors')"
+      }
+    },
+    {
+      "Line": 60,
+      "Text": "const binding = internalBinding('process_methods');",
+      "Matches": {
+        "1": "'process_methods'",
+        "0": "internalBinding('process_methods')"
+      }
+    },
+    {
+      "Line": 286,
+      "Text": "  } = internalBinding('options');",
+      "Matches": {
+        "1": "'options'",
+        "0": "internalBinding('options')"
+      }
+    }
+  ],
+  "node:internal/bootstrap/switches/is_main_thread": [
+    {
+      "Line": 7,
+      "Text": "const rawMethods = internalBinding('process_methods');",
+      "Matches": {
+        "1": "'process_methods'",
+        "0": "internalBinding('process_methods')"
+      }
+    },
+    {
+      "Line": 297,
+      "Text": "internalBinding('module_wrap');",
+      "Matches": {
+        "1": "'module_wrap'",
+        "0": "internalBinding('module_wrap')"
+      }
+    },
+    {
+      "Line": 304,
+      "Text": "if (internalBinding('config').hasInspector) {",
+      "Matches": {
+        "1": "'config'",
+        "0": "internalBinding('config')"
+      }
+    },
+    {
+      "Line": 308,
+      "Text": "internalBinding('wasm_web_api');",
+      "Matches": {
+        "1": "'wasm_web_api'",
+        "0": "internalBinding('wasm_web_api')"
+      }
+    },
+    {
+      "Line": 310,
+      "Text": "internalBinding('worker');",
+      "Matches": {
+        "1": "'worker'",
+        "0": "internalBinding('worker')"
+      }
+    }
+  ],
+  "node:internal/main/repl": [
+    {
+      "Line": 19,
+      "Text": "const { exitCodes: { kInvalidCommandLineArgument } } = internalBinding('errors');",
+      "Matches": {
+        "1": "'errors'",
+        "0": "internalBinding('errors')"
+      }
+    }
+  ],
+  "node:internal/child_process/serialization": [
+    {
+      "Line": 16,
+      "Text": "const { streamBaseState, kLastWriteWasAsync } = internalBinding('stream_wrap');",
+      "Matches": {
+        "1": "'stream_wrap'",
+        "0": "internalBinding('stream_wrap')"
+      }
+    }
+  ],
+  "node:internal/crypto/pbkdf2": [
+    {
+      "Line": 13,
+      "Text": "} = internalBinding('crypto');",
+      "Matches": {
+        "1": "'crypto'",
+        "0": "internalBinding('crypto')"
+      }
+    }
+  ],
+  "node:internal/util": [
+    {
+      "Line": 57,
+      "Text": "const { signals } = internalBinding('constants').os;",
+      "Matches": {
+        "1": "'constants'",
+        "0": "internalBinding('constants')"
+      }
+    },
+    {
+      "Line": 66,
+      "Text": "} = internalBinding('util');",
+      "Matches": {
+        "1": "'util'",
+        "0": "internalBinding('util')"
+      }
+    },
+    {
+      "Line": 67,
+      "Text": "const { isNativeError, isPromise } = internalBinding('types');",
+      "Matches": {
+        "1": "'types'",
+        "0": "internalBinding('types')"
+      }
+    },
+    {
+      "Line": 69,
+      "Text": "const { encodings } = internalBinding('string_decoder');",
+      "Matches": {
+        "1": "'string_decoder'",
+        "0": "internalBinding('string_decoder')"
+      }
+    },
+    {
+      "Line": 80,
+      "Text": "  uvBinding ??= internalBinding('uv');",
+      "Matches": {
+        "1": "'uv'",
+        "0": "internalBinding('uv')"
+      }
+    },
+    {
+      "Line": 698,
+      "Text": "  _DOMException ??= internalBinding('messaging').DOMException;",
+      "Matches": {
+        "1": "'messaging'",
+        "0": "internalBinding('messaging')"
+      }
+    },
+    {
+      "Line": 703,
+      "Text": "  _DOMException ??= internalBinding('messaging').DOMException;",
+      "Matches": {
+        "1": "'messaging'",
+        "0": "internalBinding('messaging')"
+      }
+    },
+    {
+      "Line": 831,
+      "Text": "    internalBinding('profiler').setCoverageDirectory(coverageDirectory);",
+      "Matches": {
+        "1": "'profiler'",
+        "0": "internalBinding('profiler')"
+      }
+    },
+    {
+      "Line": 832,
+      "Text": "    internalBinding('profiler').setSourceMapCacheGetter(sourceMapCacheToObject);",
+      "Matches": {
+        "1": "'profiler'",
+        "0": "internalBinding('profiler')"
+      }
+    }
+  ],
+  "node:internal/perf/event_loop_utilization": [
+    {
+      "Line": 9,
+      "Text": "} = internalBinding('performance');",
+      "Matches": {
+        "1": "'performance'",
+        "0": "internalBinding('performance')"
+      }
+    }
+  ],
+  "node:internal/debugger/inspect_repl": [
+    {
+      "Line": 121,
+      "Text": "const { builtinIds } = internalBinding('builtins');",
+      "Matches": {
+        "1": "'builtins'",
+        "0": "internalBinding('builtins')"
+      }
+    }
+  ],
+  "node:internal/perf/nodetiming": [
+    {
+      "Line": 31,
+      "Text": "} = internalBinding('performance');",
+      "Matches": {
+        "1": "'performance'",
+        "0": "internalBinding('performance')"
+      }
+    }
+  ],
+  "node:internal/tls/secure-context": [
+    {
+      "Line": 44,
+      "Text": "} = internalBinding('constants');",
+      "Matches": {
+        "1": "'constants'",
+        "0": "internalBinding('constants')"
+      }
+    }
+  ],
+  "node:_tls_wrap": [
+    {
+      "Line": 63,
+      "Text": "const { TCP, constants: TCPConstants } = internalBinding('tcp_wrap');",
+      "Matches": {
+        "1": "'tcp_wrap'",
+        "0": "internalBinding('tcp_wrap')"
+      }
+    },
+    {
+      "Line": 64,
+      "Text": "const tls_wrap = internalBinding('tls_wrap');",
+      "Matches": {
+        "1": "'tls_wrap'",
+        "0": "internalBinding('tls_wrap')"
+      }
+    },
+    {
+      "Line": 65,
+      "Text": "const { Pipe, constants: PipeConstants } = internalBinding('pipe_wrap');",
+      "Matches": {
+        "1": "'pipe_wrap'",
+        "0": "internalBinding('pipe_wrap')"
+      }
+    },
+    {
+      "Line": 68,
+      "Text": "const { SecureContext: NativeSecureContext } = internalBinding('crypto');",
+      "Matches": {
+        "1": "'crypto'",
+        "0": "internalBinding('crypto')"
+      }
+    },
+    {
+      "Line": 88,
+      "Text": "const { onpskexchange: kOnPskExchange } = internalBinding('symbols');",
+      "Matches": {
+        "1": "'symbols'",
+        "0": "internalBinding('symbols')"
+      }
+    }
+  ],
+  "node:internal/crypto/keygen": [
+    {
+      "Line": 26,
+      "Text": "} = internalBinding('crypto');",
+      "Matches": {
+        "1": "'crypto'",
+        "0": "internalBinding('crypto')"
+      }
+    }
+  ],
+  "node:internal/util/embedding": [
+    {
+      "Line": 7,
+      "Text": "const { getCodePath, isSea } = internalBinding('sea');",
+      "Matches": {
+        "1": "'sea'",
+        "0": "internalBinding('sea')"
+      }
+    }
+  ],
+  "node:internal/http2/core": [
+    {
+      "Line": 187,
+      "Text": "const { FileHandle } = internalBinding('fs');",
+      "Matches": {
+        "1": "'fs'",
+        "0": "internalBinding('fs')"
+      }
+    },
+    {
+      "Line": 188,
+      "Text": "const binding = internalBinding('http2');",
+      "Matches": {
+        "1": "'http2'",
+        "0": "internalBinding('http2')"
+      }
+    },
+    {
+      "Line": 193,
+      "Text": "} = internalBinding('stream_wrap');",
+      "Matches": {
+        "1": "'stream_wrap'",
+        "0": "internalBinding('stream_wrap')"
+      }
+    },
+    {
+      "Line": 194,
+      "Text": "const { UV_EOF } = internalBinding('uv');",
+      "Matches": {
+        "1": "'uv'",
+        "0": "internalBinding('uv')"
+      }
+    },
+    {
+      "Line": 196,
+      "Text": "const { StreamPipe } = internalBinding('stream_pipe');",
+      "Matches": {
+        "1": "'stream_pipe'",
+        "0": "internalBinding('stream_pipe')"
+      }
+    }
+  ],
+  "node:internal/webstreams/adapters": [
+    {
+      "Line": 84,
+      "Text": "} = internalBinding('stream_wrap');",
+      "Matches": {
+        "1": "'stream_wrap'",
+        "0": "internalBinding('stream_wrap')"
+      }
+    },
+    {
+      "Line": 88,
+      "Text": "const { UV_EOF } = internalBinding('uv');",
+      "Matches": {
+        "1": "'uv'",
+        "0": "internalBinding('uv')"
+      }
+    },
+    {
+      "Line": 96,
+      "Text": "      ObjectEntries(internalBinding('constants').zlib),",
+      "Matches": {
+        "1": "'constants'",
+        "0": "internalBinding('constants')"
+      }
+    }
+  ],
+  "node:internal/crypto/hkdf": [
+    {
+      "Line": 11,
+      "Text": "} = internalBinding('crypto');",
+      "Matches": {
+        "1": "'crypto'",
+        "0": "internalBinding('crypto')"
+      }
+    }
+  ],
+  "node:_http_common": [
+    {
+      "Line": 31,
+      "Text": "const { methods, allMethods, HTTPParser } = internalBinding('http_parser');",
+      "Matches": {
+        "1": "'http_parser'",
+        "0": "internalBinding('http_parser')"
+      }
+    }
+  ],
+  "node:internal/vm/module": [
+    {
+      "Line": 55,
+      "Text": "const binding = internalBinding('module_wrap');",
+      "Matches": {
+        "1": "'module_wrap'",
+        "0": "internalBinding('module_wrap')"
+      }
+    }
+  ],
+  "node:internal/util/inspector": [
+    {
+      "Line": 49,
+      "Text": "  const { hasInspector } = internalBinding('config');",
+      "Matches": {
+        "1": "'config'",
+        "0": "internalBinding('config')"
+      }
+    },
+    {
+      "Line": 85,
+      "Text": "  const { consoleCall, console: consoleFromVM } = internalBinding('inspector');",
+      "Matches": {
+        "1": "'inspector'",
+        "0": "internalBinding('inspector')"
+      }
+    }
+  ],
+  "node:diagnostics_channel": [
+    {
+      "Line": 30,
+      "Text": "const { triggerUncaughtException } = internalBinding('errors');",
+      "Matches": {
+        "1": "'errors'",
+        "0": "internalBinding('errors')"
+      }
+    }
+  ],
+  "node:internal/modules/esm/formats": [
+    {
+      "Line": 10,
+      "Text": "const fsBindings = internalBinding('fs');",
+      "Matches": {
+        "1": "'fs'",
+        "0": "internalBinding('fs')"
+      }
+    },
+    {
+      "Line": 11,
+      "Text": "const { fs: fsConstants } = internalBinding('constants');",
+      "Matches": {
+        "1": "'constants'",
+        "0": "internalBinding('constants')"
+      }
+    }
+  ],
+  "node:internal/histogram": [
+    {
+      "Line": 15,
+      "Text": "} = internalBinding('performance');",
+      "Matches": {
+        "1": "'performance'",
+        "0": "internalBinding('performance')"
+      }
+    }
+  ],
+  "node:internal/main/test_runner": [
+    {
+      "Line": 17,
+      "Text": "const { exitCodes: { kGenericUserError } } = internalBinding('errors');",
+      "Matches": {
+        "1": "'errors'",
+        "0": "internalBinding('errors')"
+      }
+    }
+  ],
+  "node:crypto": [
+    {
+      "Line": 42,
+      "Text": "const constants = internalBinding('constants').crypto;",
+      "Matches": {
+        "1": "'constants'",
+        "0": "internalBinding('constants')"
+      }
+    },
+    {
+      "Line": 48,
+      "Text": "} = internalBinding('crypto');",
+      "Matches": {
+        "1": "'crypto'",
+        "0": "internalBinding('crypto')"
+      }
+    }
+  ],
+  "node:internal/dgram": [
+    {
+      "Line": 11,
+      "Text": "const { UDP } = internalBinding('udp_wrap');",
+      "Matches": {
+        "1": "'udp_wrap'",
+        "0": "internalBinding('udp_wrap')"
+      }
+    },
+    {
+      "Line": 17,
+      "Text": "const { UV_EINVAL } = internalBinding('uv');",
+      "Matches": {
+        "1": "'uv'",
+        "0": "internalBinding('uv')"
+      }
+    }
+  ],
+  "node:internal/webstreams/transfer": [
+    {
+      "Line": 16,
+      "Text": "} = internalBinding('messaging');",
+      "Matches": {
+        "1": "'messaging'",
+        "0": "internalBinding('messaging')"
+      }
+    }
+  ],
+  "node:internal/bootstrap/switches/does_not_own_process_state": [
+    {
+      "Line": 3,
+      "Text": "const credentials = internalBinding('credentials');",
+      "Matches": {
+        "1": "'credentials'",
+        "0": "internalBinding('credentials')"
+      }
+    },
+    {
+      "Line": 4,
+      "Text": "const rawMethods = internalBinding('process_methods');",
+      "Matches": {
+        "1": "'process_methods'",
+        "0": "internalBinding('process_methods')"
+      }
+    }
+  ],
+  "node:internal/async_hooks": [
+    {
+      "Line": 11,
+      "Text": "const { exitCodes: { kGenericUserError } } = internalBinding('errors');",
+      "Matches": {
+        "1": "'errors'",
+        "0": "internalBinding('errors')"
+      }
+    },
+    {
+      "Line": 13,
+      "Text": "const async_wrap = internalBinding('async_wrap');",
+      "Matches": {
+        "1": "'async_wrap'",
+        "0": "internalBinding('async_wrap')"
+      }
+    },
+    {
+      "Line": 83,
+      "Text": "const { enqueueMicrotask } = internalBinding('task_queue');",
+      "Matches": {
+        "1": "'task_queue'",
+        "0": "internalBinding('task_queue')"
+      }
+    },
+    {
+      "Line": 84,
+      "Text": "const { resource_symbol, owner_symbol } = internalBinding('symbols');",
+      "Matches": {
+        "1": "'symbols'",
+        "0": "internalBinding('symbols')"
+      }
+    },
+    {
+      "Line": 96,
+      "Text": "        trigger_async_id_symbol } = internalBinding('symbols');",
+      "Matches": {
+        "1": "'symbols'",
+        "0": "internalBinding('symbols')"
+      }
+    }
+  ],
+  "node:internal/webstreams/writablestream": [
+    {
+      "Line": 30,
+      "Text": "} = internalBinding('messaging');",
+      "Matches": {
+        "1": "'messaging'",
+        "0": "internalBinding('messaging')"
+      }
+    }
+  ],
+  "node:internal/process/report": [
+    {
+      "Line": 17,
+      "Text": "const nr = internalBinding('report');",
+      "Matches": {
+        "1": "'report'",
+        "0": "internalBinding('report')"
+      }
+    }
+  ],
+  "node:dns": [
+    {
+      "Line": 30,
+      "Text": "const cares = internalBinding('cares_wrap');",
+      "Matches": {
+        "1": "'cares_wrap'",
+        "0": "internalBinding('cares_wrap')"
+      }
+    }
+  ],
+  "node:internal/process/execution": [
+    {
+      "Line": 19,
+      "Text": "const { exitCodes: { kGenericUserError } } = internalBinding('errors');",
+      "Matches": {
+        "1": "'errors'",
+        "0": "internalBinding('errors')"
+      }
+    },
+    {
+      "Line": 30,
+      "Text": "const { containsModuleSyntax } = internalBinding('contextify');",
+      "Matches": {
+        "1": "'contextify'",
+        "0": "internalBinding('contextify')"
+      }
+    },
+    {
+      "Line": 37,
+      "Text": "const { shouldAbortOnUncaughtToggle } = internalBinding('util');",
+      "Matches": {
+        "1": "'util'",
+        "0": "internalBinding('util')"
+      }
+    }
+  ],
+  "node:constants": [
+    {
+      "Line": 33,
+      "Text": "const constants = internalBinding('constants');",
+      "Matches": {
+        "1": "'constants'",
+        "0": "internalBinding('constants')"
+      }
+    }
+  ],
+  "node:internal/test_runner/test": [
+    {
+      "Line": 30,
+      "Text": "const { getCallerLocation } = internalBinding('util');",
+      "Matches": {
+        "1": "'util'",
+        "0": "internalBinding('util')"
+      }
+    }
+  ],
+  "node:internal/main/print_help": [
+    {
+      "Line": 19,
+      "Text": "const { types } = internalBinding('options');",
+      "Matches": {
+        "1": "'options'",
+        "0": "internalBinding('options')"
+      }
+    },
+    {
+      "Line": 35,
+      "Text": "const { hasIntl, hasSmallICU, hasNodeOptions } = internalBinding('config');",
+      "Matches": {
+        "1": "'config'",
+        "0": "internalBinding('config')"
+      }
+    }
+  ],
+  "node:internal/main/embedding": [
+    {
+      "Line": 5,
+      "Text": "const { isExperimentalSeaWarningNeeded } = internalBinding('sea');",
+      "Matches": {
+        "1": "'sea'",
+        "0": "internalBinding('sea')"
+      }
+    }
+  ],
+  "node:internal/worker": [
+    {
+      "Line": 77,
+      "Text": "} = internalBinding('worker');",
+      "Matches": {
+        "1": "'worker'",
+        "0": "internalBinding('worker')"
+      }
+    }
+  ],
+  "node:internal/modules/esm/resolve": [
+    {
+      "Line": 38,
+      "Text": "const { canParse: URLCanParse } = internalBinding('url');",
+      "Matches": {
+        "1": "'url'",
+        "0": "internalBinding('url')"
+      }
+    },
+    {
+      "Line": 39,
+      "Text": "const { legacyMainResolve: FSLegacyMainResolve } = internalBinding('fs');",
+      "Matches": {
+        "1": "'fs'",
+        "0": "internalBinding('fs')"
+      }
+    },
+    {
+      "Line": 57,
+      "Text": "const { internalModuleStat } = internalBinding('fs');",
+      "Matches": {
+        "1": "'fs'",
+        "0": "internalBinding('fs')"
+      }
+    }
+  ],
+  "node:internal/source_map/source_map_cache": [
+    {
+      "Line": 21,
+      "Text": "} = internalBinding('errors');",
+      "Matches": {
+        "1": "'errors'",
+        "0": "internalBinding('errors')"
+      }
+    }
+  ],
+  "node:internal/navigator": [
+    {
+      "Line": 27,
+      "Text": "} = internalBinding('os');",
+      "Matches": {
+        "1": "'os'",
+        "0": "internalBinding('os')"
+      }
+    }
+  ],
+  "node:internal/process/signal": [
+    {
+      "Line": 12,
+      "Text": "const { signals } = internalBinding('constants').os;",
+      "Matches": {
+        "1": "'constants'",
+        "0": "internalBinding('constants')"
+      }
+    },
+    {
+      "Line": 25,
+      "Text": "      Signal = internalBinding('signal_wrap').Signal;",
+      "Matches": {
+        "1": "'signal_wrap'",
+        "0": "internalBinding('signal_wrap')"
+      }
+    }
+  ],
+  "node:internal/util/inspect": [
+    {
+      "Line": 112,
+      "Text": "} = internalBinding('util');",
+      "Matches": {
+        "1": "'util'",
+        "0": "internalBinding('util')"
+      }
+    },
+    {
+      "Line": 2323,
+      "Text": "if (internalBinding('config').hasIntl) {",
+      "Matches": {
+        "1": "'config'",
+        "0": "internalBinding('config')"
+      }
+    },
+    {
+      "Line": 2324,
+      "Text": "  const icu = internalBinding('icu');",
+      "Matches": {
+        "1": "'icu'",
+        "0": "internalBinding('icu')"
+      }
+    }
+  ],
+  "node:internal/crypto/cipher": [
+    {
+      "Line": 16,
+      "Text": "} = internalBinding('crypto');",
+      "Matches": {
+        "1": "'crypto'",
+        "0": "internalBinding('crypto')"
+      }
+    },
+    {
+      "Line": 23,
+      "Text": "} = internalBinding('constants');",
+      "Matches": {
+        "1": "'constants'",
+        "0": "internalBinding('constants')"
+      }
+    }
+  ],
+  "node:internal/test_runner/reporter/tap": [
+    {
+      "Line": 167,
+      "Text": "    if (internalBinding('types').isDate(value)) {",
+      "Matches": {
+        "1": "'types'",
+        "0": "internalBinding('types')"
+      }
+    }
+  ],
+  "node:internal/test_runner/coverage": [
+    {
+      "Line": 125,
+      "Text": "    internalBinding('profiler').takeCoverage();",
+      "Matches": {
+        "1": "'profiler'",
+        "0": "internalBinding('profiler')"
+      }
+    }
+  ],
+  "node:internal/crypto/x509": [
+    {
+      "Line": 17,
+      "Text": "} = internalBinding('crypto');",
+      "Matches": {
+        "1": "'crypto'",
+        "0": "internalBinding('crypto')"
+      }
+    }
+  ],
+  "node:zlib": [
+    {
+      "Line": 65,
+      "Text": "const binding = internalBinding('zlib');",
+      "Matches": {
+        "1": "'zlib'",
+        "0": "internalBinding('zlib')"
+      }
+    },
+    {
+      "Line": 82,
+      "Text": "const constants = internalBinding('constants').zlib;",
+      "Matches": {
+        "1": "'constants'",
+        "0": "internalBinding('constants')"
+      }
+    }
+  ],
+  "node:internal/source_map/prepare_stack_trace": [
+    {
+      "Line": 25,
+      "Text": "const { setGetSourceMapErrorSource } = internalBinding('errors');",
+      "Matches": {
+        "1": "'errors'",
+        "0": "internalBinding('errors')"
+      }
+    }
+  ],
+  "node:internal/main/watch_mode": [
+    {
+      "Line": 19,
+      "Text": "} = internalBinding('errors');",
+      "Matches": {
+        "1": "'errors'",
+        "0": "internalBinding('errors')"
+      }
+    }
+  ],
+  "node:internal/bootstrap/web/exposed-window-or-worker": [
+    {
+      "Line": 35,
+      "Text": "const { structuredClone } = internalBinding('messaging');",
+      "Matches": {
+        "1": "'messaging'",
+        "0": "internalBinding('messaging')"
+      }
+    },
+    {
+      "Line": 90,
+      "Text": "internalBinding('wasm_web_api').setImplementation((streamState, source) => {",
+      "Matches": {
+        "1": "'wasm_web_api'",
+        "0": "internalBinding('wasm_web_api')"
+      }
+    }
+  ],
+  "node:internal/modules/esm/translators": [
+    {
+      "Line": 32,
+      "Text": "} = internalBinding('contextify');",
+      "Matches": {
+        "1": "'contextify'",
+        "0": "internalBinding('contextify')"
+      }
+    },
+    {
+      "Line": 61,
+      "Text": "const moduleWrap = internalBinding('module_wrap');",
+      "Matches": {
+        "1": "'module_wrap'",
+        "0": "internalBinding('module_wrap')"
+      }
+    }
+  ],
+  "node:internal/http2/util": [
+    {
+      "Line": 21,
+      "Text": "const binding = internalBinding('http2');",
+      "Matches": {
+        "1": "'http2'",
+        "0": "internalBinding('http2')"
+      }
+    }
+  ],
+  "node:internal/console/constructor": [
+    {
+      "Line": 37,
+      "Text": "const { trace } = internalBinding('trace_events');",
+      "Matches": {
+        "1": "'trace_events'",
+        "0": "internalBinding('trace_events')"
+      }
+    },
+    {
+      "Line": 51,
+      "Text": "const { previewEntries } = internalBinding('util');",
+      "Matches": {
+        "1": "'util'",
+        "0": "internalBinding('util')"
+      }
+    },
+    {
+      "Line": 651,
+      "Text": "  if (!internalBinding('config').hasInspector || !isBuildingSnapshot()) {",
+      "Matches": {
+        "1": "'config'",
+        "0": "internalBinding('config')"
+      }
+    },
+    {
+      "Line": 654,
+      "Text": "  const { console: consoleFromVM } = internalBinding('inspector');",
+      "Matches": {
+        "1": "'inspector'",
+        "0": "internalBinding('inspector')"
+      }
+    }
+  ],
+  "node:internal/util/types": [
+    {
+      "Line": 58,
+      "Text": "  ...internalBinding('types'),",
+      "Matches": {
+        "1": "'types'",
+        "0": "internalBinding('types')"
+      }
+    }
+  ],
+  "node:internal/dns/promises": [
+    {
+      "Line": 65,
+      "Text": "} = internalBinding('cares_wrap');",
+      "Matches": {
+        "1": "'cares_wrap'",
+        "0": "internalBinding('cares_wrap')"
+      }
+    }
+  ],
+  "node:internal/worker/io": [
+    {
+      "Line": 31,
+      "Text": "} = internalBinding('symbols');",
+      "Matches": {
+        "1": "'symbols'",
+        "0": "internalBinding('symbols')"
+      }
+    },
+    {
+      "Line": 41,
+      "Text": "} = internalBinding('messaging');",
+      "Matches": {
+        "1": "'messaging'",
+        "0": "internalBinding('messaging')"
+      }
+    },
+    {
+      "Line": 44,
+      "Text": "} = internalBinding('worker');",
+      "Matches": {
+        "1": "'worker'",
+        "0": "internalBinding('worker')"
+      }
+    }
+  ],
+  "node:internal/watchdog": [
+    {
+      "Line": 5,
+      "Text": "} = internalBinding('watchdog');",
+      "Matches": {
+        "1": "'watchdog'",
+        "0": "internalBinding('watchdog')"
+      }
+    }
+  ],
+  "node:internal/vm": [
+    {
+      "Line": 11,
+      "Text": "} = internalBinding('contextify');",
+      "Matches": {
+        "1": "'contextify'",
+        "0": "internalBinding('contextify')"
+      }
+    },
+    {
+      "Line": 20,
+      "Text": "} = internalBinding('symbols');",
+      "Matches": {
+        "1": "'symbols'",
+        "0": "internalBinding('symbols')"
+      }
+    },
+    {
+      "Line": 32,
+      "Text": "} = internalBinding('util');",
+      "Matches": {
+        "1": "'util'",
+        "0": "internalBinding('util')"
+      }
+    }
+  ],
+  "node:internal/perf/observe": [
+    {
+      "Line": 36,
+      "Text": "} = internalBinding('performance');",
+      "Matches": {
+        "1": "'performance'",
+        "0": "internalBinding('performance')"
+      }
+    }
+  ],
+  "node:vm": [
+    {
+      "Line": 37,
+      "Text": "} = internalBinding('contextify');",
+      "Matches": {
+        "1": "'contextify'",
+        "0": "internalBinding('contextify')"
+      }
+    },
+    {
+      "Line": 68,
+      "Text": "} = internalBinding('symbols');",
+      "Matches": {
+        "1": "'symbols'",
+        "0": "internalBinding('symbols')"
+      }
+    }
+  ],
+  "node:internal/webstreams/readablestream": [
+    {
+      "Line": 43,
+      "Text": "} = internalBinding('messaging');",
+      "Matches": {
+        "1": "'messaging'",
+        "0": "internalBinding('messaging')"
+      }
+    },
+    {
+      "Line": 90,
+      "Text": "const { structuredClone } = internalBinding('messaging');",
+      "Matches": {
+        "1": "'messaging'",
+        "0": "internalBinding('messaging')"
+      }
+    }
+  ],
+  "node:internal/crypto/diffiehellman": [
+    {
+      "Line": 20,
+      "Text": "} = internalBinding('crypto');",
+      "Matches": {
+        "1": "'crypto'",
+        "0": "internalBinding('crypto')"
+      }
+    },
+    {
+      "Line": 66,
+      "Text": "} = internalBinding('constants');",
+      "Matches": {
+        "1": "'constants'",
+        "0": "internalBinding('constants')"
+      }
+    }
+  ],
+  "node:url": [
+    {
+      "Line": 63,
+      "Text": "const bindingUrl = internalBinding('url');",
+      "Matches": {
+        "1": "'url'",
+        "0": "internalBinding('url')"
+      }
+    }
+  ]
+}

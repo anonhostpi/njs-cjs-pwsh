@@ -1,0 +1,31 @@
+{
+  "scriptId": "257",
+  "url": "node:internal/file",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 101,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "d6015465d6208e13a731b80f67b7a2a8e54258bfbad3ede5846108dc0e62ff02",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 1939,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/file"
+}

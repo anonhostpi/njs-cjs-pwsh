@@ -1,0 +1,31 @@
+{
+  "scriptId": "254",
+  "url": "node:internal/deps/cjs-module-lexer/lexer",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 1438,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "e99167e330db176c6b0aafafa06cc87542cd4c466cbd267936f9f401972aa300",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 55000,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/deps/cjs-module-lexer/lexer"
+}

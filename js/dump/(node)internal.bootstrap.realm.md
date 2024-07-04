@@ -1,3 +1,6 @@
+- backlinks:
+    - [internalBinding.annotated.md](..\..\pwsh\analysis\internalBinding.annotated.md)
+
 compileFunction is a fancy require-like function that searches the global_source_map, compiles the found source, then wraps the source in:
 
 ```js

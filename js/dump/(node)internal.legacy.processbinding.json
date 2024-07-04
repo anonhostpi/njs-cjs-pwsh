@@ -1,0 +1,31 @@
+{
+  "scriptId": "278",
+  "url": "node:internal/legacy/processbinding",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 44,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "97f78d1e497a33b1833e4a9c95e18e66428d3abb990fd7ec9d16c2298d80b177",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 1168,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/legacy/processbinding"
+}

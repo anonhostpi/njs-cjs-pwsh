@@ -1,0 +1,31 @@
+{
+  "scriptId": "343",
+  "url": "node:internal/watchdog",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 59,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "678ecec2327689d4d2ca77363513d13b4a830c3684e701ca1485b03afb049ba3",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 1422,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/watchdog"
+}

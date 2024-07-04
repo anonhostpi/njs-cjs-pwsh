@@ -1,0 +1,31 @@
+{
+  "scriptId": "247",
+  "url": "node:internal/crypto/mac",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 183,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "72d5587d4d0d0479629369dff5f6c8a786a7e97f48b71124da9f159170c32611",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 4793,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/crypto/mac"
+}

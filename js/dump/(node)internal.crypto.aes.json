@@ -1,0 +1,31 @@
+{
+  "scriptId": "244",
+  "url": "node:internal/crypto/aes",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 336,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "85110c628f40abfda57f061960f71cdf973356cdaac051a33e3593eba7a1c7bf",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 8958,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/crypto/aes"
+}

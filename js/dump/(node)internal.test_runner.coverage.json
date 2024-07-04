@@ -1,0 +1,31 @@
+{
+  "scriptId": "322",
+  "url": "node:internal/test_runner/coverage",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 627,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "9399c37102b3d8680d5e88920b800a7ed2badbebb13abce47020a9a78a52c383",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 20853,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/test_runner/coverage"
+}

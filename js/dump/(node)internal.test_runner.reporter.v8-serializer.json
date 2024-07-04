@@ -1,0 +1,31 @@
+{
+  "scriptId": "329",
+  "url": "node:internal/test_runner/reporter/v8-serializer",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 45,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "03fdb935251e07aaf98198d9f69ce5c0aa0c6a9e85971911b07bc733d50ae478",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 1503,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/test_runner/reporter/v8-serializer"
+}

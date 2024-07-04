@@ -1,0 +1,31 @@
+{
+  "scriptId": "336",
+  "url": "node:internal/v8_prof_polyfill",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 171,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "cbcc9bcc24fdda5df01ca88bbf8136f2326a3849bd2e22722ba3105084d66bad",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 6055,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/v8_prof_polyfill"
+}

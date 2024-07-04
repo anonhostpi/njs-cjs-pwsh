@@ -1,0 +1,31 @@
+{
+  "scriptId": "241",
+  "url": "node:internal/child_process/serialization",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 164,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "60b791cf8e1ebb5eb253cb94cde5de79606b88d700d732257684281b8698fc67",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 5524,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/child_process/serialization"
+}

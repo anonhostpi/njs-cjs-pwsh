@@ -1,0 +1,31 @@
+{
+  "scriptId": "320",
+  "url": "node:internal/streams/duplexify",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 379,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "46255c27a52830b035e0fb9b308c0cb614fccfbe674190ec66511c3075b75b01",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 8504,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/streams/duplexify"
+}

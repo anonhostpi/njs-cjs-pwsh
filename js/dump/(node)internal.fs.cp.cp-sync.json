@@ -1,0 +1,31 @@
+{
+  "scriptId": "272",
+  "url": "node:internal/fs/cp/cp-sync",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 334,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "69988f4f78e39e23ae559d6854783d760fcbe7edb6bf730aa6e353593b5e63ba",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 9766,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/fs/cp/cp-sync"
+}

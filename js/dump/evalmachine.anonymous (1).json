@@ -18,11 +18,11 @@
   "stackTrace": {
     "callFrames": [
       {
-        "functionName": "realpathSync",
-        "scriptId": "42",
-        "url": "node:fs",
-        "lineNumber": 2669,
-        "columnNumber": 14
+        "functionName": "runInContext",
+        "scriptId": "73",
+        "url": "node:vm",
+        "lineNumber": 147,
+        "columnNumber": 11
       }
     ]
   },

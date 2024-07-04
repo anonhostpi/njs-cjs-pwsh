@@ -1,0 +1,31 @@
+{
+  "scriptId": "291",
+  "url": "node:internal/test_runner/tests_stream",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 157,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "127e631a2f7c6ddef35c06339cc5309bee5d21c61bbf6f44f0a2919c5ca1c130",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 3104,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/test_runner/tests_stream"
+}

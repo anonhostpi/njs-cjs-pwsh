@@ -1,0 +1,31 @@
+{
+  "scriptId": "248",
+  "url": "node:internal/crypto/rsa",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 350,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "2e876eb6a03fcdb57730a66c3a8497f896b9375e0846d19b0b4318c4f8719a68",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 8997,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/crypto/rsa"
+}

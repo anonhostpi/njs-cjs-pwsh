@@ -1,7 +1,7 @@
 {
-  "functionName": "realpathSync",
-  "scriptId": "42",
-  "url": "node:fs",
-  "lineNumber": 2669,
-  "columnNumber": 14
+  "functionName": "getOptionValue",
+  "scriptId": "14",
+  "url": "node:internal/options",
+  "lineNumber": 43,
+  "columnNumber": 23
 }

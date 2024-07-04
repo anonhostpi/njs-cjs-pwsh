@@ -1,0 +1,31 @@
+{
+  "scriptId": "321",
+  "url": "node:internal/test/transfer",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 41,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "498d785ab896a3bacb9f17fb8f2ef99ed91d199e7a38469c0ca2c801c7857b90",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 773,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/test/transfer"
+}

@@ -1,0 +1,31 @@
+{
+  "scriptId": "284",
+  "url": "node:internal/main/mksnapshot",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 185,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "1247b2ac038560d2874f0f6dd3e9debd31f24523bb6b96637890c3e69358f3bc",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 4778,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/main/mksnapshot"
+}

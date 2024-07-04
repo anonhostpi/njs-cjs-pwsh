@@ -72,7 +72,7 @@
 77 node:internal/modules/esm/loader
 78 node:internal/modules/esm/assert
 79 node:internal/source_map/source_map
-80 node:_http_agent
+80 node:internal/util/colors
 81 node:net
 82 node:stream
 83 node:internal/streams/operators
@@ -97,44 +97,44 @@
 102 node:diagnostics_channel
 103 node:internal/perf/observe
 104 node:internal/perf/performance_entry
-105 node:_http_client
-106 node:_http_common
-107 node:internal/freelist
-108 node:_http_incoming
-109 node:_http_outgoing
-110 node:internal/http
-111 node:_http_server
-112 node:_stream_duplex
-113 node:_stream_passthrough
-114 node:_stream_readable
-115 node:_stream_transform
-116 node:_stream_wrap
-117 node:internal/js_stream_socket
-118 node:_stream_writable
-119 node:_tls_common
-120 node:tls
-121 node:_tls_wrap
-122 node:crypto
-123 node:internal/crypto/random
-124 node:internal/crypto/pbkdf2
-125 node:internal/crypto/util
-126 node:internal/crypto/hashnames
-127 node:internal/crypto/scrypt
-128 node:internal/crypto/hkdf
-129 node:internal/crypto/keys
-130 node:internal/crypto/keygen
-131 node:internal/crypto/diffiehellman
-132 node:internal/crypto/cipher
-133 node:internal/streams/lazy_transform
-134 node:internal/crypto/sig
-135 node:internal/crypto/hash
-136 node:internal/crypto/x509
-137 node:internal/crypto/certificate
-138 node:internal/tls/secure-pair
-139 node:internal/tls/secure-context
-140 node:assert
-141 node:internal/assert/assertion_error
-142 node:internal/util/colors
+105 node:_http_agent
+106 node:_http_client
+107 node:_http_common
+108 node:internal/freelist
+109 node:_http_incoming
+110 node:_http_outgoing
+111 node:internal/http
+112 node:_http_server
+113 node:_stream_duplex
+114 node:_stream_passthrough
+115 node:_stream_readable
+116 node:_stream_transform
+117 node:_stream_wrap
+118 node:internal/js_stream_socket
+119 node:_stream_writable
+120 node:_tls_common
+121 node:tls
+122 node:_tls_wrap
+123 node:crypto
+124 node:internal/crypto/random
+125 node:internal/crypto/pbkdf2
+126 node:internal/crypto/util
+127 node:internal/crypto/hashnames
+128 node:internal/crypto/scrypt
+129 node:internal/crypto/hkdf
+130 node:internal/crypto/keys
+131 node:internal/crypto/keygen
+132 node:internal/crypto/diffiehellman
+133 node:internal/crypto/cipher
+134 node:internal/streams/lazy_transform
+135 node:internal/crypto/sig
+136 node:internal/crypto/hash
+137 node:internal/crypto/x509
+138 node:internal/crypto/certificate
+139 node:internal/tls/secure-pair
+140 node:internal/tls/secure-context
+141 node:assert
+142 node:internal/assert/assertion_error
 143 node:internal/assert/calltracker
 144 node:assert/strict
 145 node:child_process
@@ -226,3 +226,673 @@
 231 node:internal/blocklist
 232 node:internal/socketaddress
 233 node:internal/bootstrap/node
+234 node:internal/bootstrap/shadow_realm
+235 node:internal/bootstrap/switches/does_not_own_process_state
+236 node:internal/bootstrap/switches/does_own_process_state
+237 node:internal/bootstrap/switches/is_main_thread
+238 node:internal/bootstrap/switches/is_not_main_thread
+239 node:internal/bootstrap/web/exposed-wildcard
+240 node:internal/bootstrap/web/exposed-window-or-worker
+241 node:internal/child_process/serialization
+242 node:internal/cli_table
+243 node:internal/cluster/child
+244 node:internal/crypto/aes
+245 node:internal/crypto/cfrg
+246 node:internal/crypto/ec
+247 node:internal/crypto/mac
+248 node:internal/crypto/rsa
+249 node:internal/crypto/webidl
+250 node:internal/debugger/inspect
+251 node:internal/debugger/inspect_client
+252 node:internal/debugger/inspect_repl
+253 node:internal/deps/cjs-module-lexer/dist/lexer
+254 node:internal/deps/cjs-module-lexer/lexer
+255 node:internal/deps/minimatch/index
+256 node:internal/deps/undici/undici
+257 node:internal/file
+269 node:internal/events/symbols
+270 node:internal/freeze_intrinsics
+271 node:internal/fs/cp/cp
+272 node:internal/fs/cp/cp-sync
+273 node:internal/fs/glob
+274 node:internal/fs/read/context
+275 node:internal/fs/rimraf
+276 node:internal/fs/streams
+277 node:internal/fs/sync_write_stream
+278 node:internal/legacy/processbinding
+279 node:internal/main/check_syntax
+280 node:internal/main/embedding
+281 node:internal/main/eval_stdin
+282 node:internal/main/eval_string
+283 node:internal/main/inspect
+284 node:internal/main/mksnapshot
+285 node:internal/main/print_help
+286 node:internal/main/repl
+287 node:internal/main/run_main_module
+288 node:internal/main/test_runner
+289 node:internal/test_runner/runner
+290 node:internal/watch_mode/files_watcher
+291 node:internal/test_runner/tests_stream
+292 node:internal/test_runner/harness
+293 node:internal/test_runner/test
+294 node:internal/test_runner/utils
+295 node:internal/main/watch_mode
+296 node:internal/main/worker_thread
+297 node:internal/mime
+298 node:internal/modules/esm/create_dynamic_module
+299 node:internal/modules/esm/fetch_module
+300 node:internal/modules/esm/get_format
+301 node:internal/modules/esm/hooks
+302 node:internal/modules/esm/resolve
+303 node:internal/modules/esm/shared_constants
+304 node:internal/modules/esm/initialize_import_meta
+305 node:internal/modules/esm/load
+306 node:internal/modules/esm/module_job
+307 node:internal/modules/esm/module_map
+308 node:internal/modules/esm/translators
+309 node:internal/modules/esm/worker
+310 node:internal/navigator
+311 node:internal/per_context/domexception
+312 node:internal/per_context/messageport
+313 node:internal/per_context/primordials
+314 node:internal/process/report
+315 node:internal/process/worker_thread_only
+316 node:internal/repl
+317 node:internal/repl/await
+318 node:internal/source_map/prepare_stack_trace
+319 node:internal/source_map/source_map_cache_map
+320 node:internal/streams/duplexify
+321 node:internal/test/transfer
+322 node:internal/test_runner/coverage
+323 node:internal/test_runner/reporter/dot
+324 node:internal/test_runner/reporter/utils
+325 node:internal/test_runner/reporter/junit
+326 node:internal/test_runner/reporter/lcov
+327 node:internal/test_runner/reporter/spec
+328 node:internal/test_runner/reporter/tap
+329 node:internal/test_runner/reporter/v8-serializer
+330 node:internal/test_runner/snapshot
+331 node:internal/trace_events_async_hooks
+332 node:internal/util/comparisons
+333 node:internal/util/embedding
+334 node:internal/util/parse_args/parse_args
+335 node:internal/util/parse_args/utils
+336 node:internal/v8_prof_polyfill
+337 node:internal/v8_prof_processor
+338 node:internal/vm/module
+339 evalmachine.<anonymous>
+stdout: Unable to read v8-version from log file.
+
+342 node:internal/wasm_web_api
+343 node:internal/watchdog
+344 node:internal/webstreams/transfer
+stdout: Object
+Function
+Array
+Number
+parseFloat
+parseInt
+Infinity
+NaN
+undefined
+Boolean
+String
+
+stdout: Symbol
+Date
+Promise
+RegExp
+Error
+AggregateError
+EvalError
+
+stdout: RangeError
+ReferenceError
+SyntaxError
+TypeError
+
+stdout: URIError
+globalThis
+JSON
+
+stdout: Math
+Intl
+ArrayBuffer
+Atomics
+Uint8Array
+
+stdout: Int8Array
+Uint16Array
+Int16Array
+
+stdout: Uint32Array
+Int32Array
+Float32Array
+
+stdout: Float64Array
+Uint8ClampedArray
+BigUint64Array
+
+stdout: BigInt64Array
+DataView
+Map
+BigInt
+Set
+WeakMap
+
+stdout: WeakSet
+Proxy
+Reflect
+
+stdout: FinalizationRegistry
+WeakRef
+
+stdout: decodeURI
+decodeURIComponent
+encodeURI
+
+stdout: encodeURIComponent
+escape
+
+stdout: unescape
+eval
+isFinite
+
+stdout: isNaN
+console
+process
+global
+Buffer
+
+stdout: clearImmediate
+setImmediate
+URL
+URLSearchParams
+DOMException
+
+stdout: AbortController
+AbortSignal
+Event
+EventTarget
+TextEncoder
+
+stdout: TextDecoder
+TransformStream
+TransformStreamDefaultController
+WritableStream
+WritableStreamDefaultController
+WritableStreamDefaultWriter
+ReadableStream
+ReadableStreamDefaultReader
+ReadableStreamBYOBReader
+ReadableStreamBYOBRequest
+ReadableByteStreamController
+ReadableStreamDefaultController
+ByteLengthQueuingStrategy
+CountQueuingStrategy
+TextEncoderStream
+TextDecoderStream
+CompressionStream
+DecompressionStream
+
+stdout: clearInterval
+clearTimeout
+setInterval
+setTimeout
+queueMicrotask
+structuredClone
+atob
+btoa
+BroadcastChannel
+MessageChannel
+MessagePort
+Blob
+File
+Performance
+PerformanceEntry
+
+stdout: PerformanceMark
+PerformanceMeasure
+PerformanceObserver
+PerformanceObserverEntryList
+
+stdout: PerformanceResourceTiming
+performance
+fetch
+
+stdout: FormData
+Headers
+Request
+
+stdout: Response
+MessageEvent
+
+stdout: WebSocket
+Iterator
+SharedArrayBuffer
+
+stdout: WebAssembly
+Navigator
+navigator
+
+stdout: crypto
+Crypto
+CryptoKey
+SubtleCrypto
+
+stdout: CustomEvent
+internalBinding
+
+stdout: primordials
+_http_agent
+_http_client
+
+stdout: _http_common
+_http_incoming
+_http_outgoing
+
+stdout: _http_server
+_stream_duplex
+
+stdout: _stream_passthrough
+_stream_readable
+_stream_transform
+
+stdout: _stream_wrap
+_stream_writable
+
+stdout: _tls_common
+_tls_wrap
+assert
+
+stdout: assert/strict
+async_hooks
+buffer
+
+stdout: child_process
+
+stdout: cluster
+console_1
+constants
+crypto_1
+dgram
+
+stdout: diagnostics_channel
+dns
+dns/promises
+domain
+
+stdout: events
+fs
+fs/promises
+
+stdout: http
+
+stdout: http2
+https
+inspector
+inspector/promises
+
+stdout: module
+net
+os
+
+stdout: path
+path/posix
+path/win32
+
+stdout: perf_hooks
+process_1
+punycode
+
+stdout: querystring
+readline
+readline/promises
+repl
+
+stdout: stream
+stream/consumers
+
+stdout: stream/promises
+stream/web
+string_decoder
+sys
+
+stdout: test/mock_loader
+timers
+timers/promises
+
+stdout: tls
+trace_events
+tty
+
+stdout: url
+util
+util/types
+
+stdout: v8
+vm
+
+stdout: wasi
+worker_threads
+zlib
+
+stdout: internal/abort_controller
+internal/assert
+
+stdout: internal/assert/assertion_error
+internal/assert/calltracker
+
+stdout: internal/async_hooks
+internal/blob
+internal/blocklist
+internal/buffer
+internal/child_process
+internal/child_process/serialization
+internal/cli_table
+
+stdout: internal/cluster/child
+internal/cluster/primary
+internal/cluster/round_robin_handle
+
+stdout: internal/cluster/shared_handle
+internal/cluster/utils
+internal/cluster/worker
+
+stdout: internal/console/constructor
+internal/console/global
+internal/constants
+
+stdout: internal/crypto/aes
+internal/crypto/certificate
+internal/crypto/cfrg
+
+stdout: internal/crypto/cipher
+internal/crypto/diffiehellman
+
+stdout: internal/crypto/ec
+internal/crypto/hash
+internal/crypto/hashnames
+
+stdout: internal/crypto/hkdf
+internal/crypto/keygen
+internal/crypto/keys
+
+stdout: internal/crypto/mac
+
+stdout: internal/crypto/pbkdf2
+internal/crypto/random
+internal/crypto/rsa
+
+stdout: internal/crypto/scrypt
+internal/crypto/sig
+internal/crypto/util
+internal/crypto/webcrypto
+
+stdout: internal/crypto/webidl
+
+stdout: internal/crypto/x509
+internal/debugger/inspect
+internal/debugger/inspect_client
+
+stdout: internal/debugger/inspect_repl
+internal/deps/acorn/acorn-walk/dist/walk
+
+stdout: internal/deps/acorn/acorn/dist/acorn
+internal/deps/cjs-module-lexer/dist/lexer
+internal/deps/cjs-module-lexer/lexer
+
+stdout: internal/deps/minimatch/index
+internal/deps/undici/undici
+internal/dgram
+
+stdout: internal/dns/callback_resolver
+internal/dns/promises
+
+stdout: internal/dns/utils
+internal/encoding
+internal/error_serdes
+internal/errors
+
+stdout: internal/event_target
+internal/events/abort_listener
+
+stdout: internal/events/symbols
+internal/file
+internal/fixed_queue
+
+stdout: internal/freelist
+internal/freeze_intrinsics
+internal/fs/cp/cp
+
+stdout: internal/fs/cp/cp-sync
+internal/fs/dir
+
+stdout: internal/fs/glob
+internal/fs/promises
+
+stdout: internal/fs/read/context
+
+stdout: internal/fs/recursive_watch
+internal/fs/rimraf
+
+stdout: internal/fs/streams
+internal/fs/sync_write_stream
+internal/fs/utils
+
+stdout: internal/fs/watchers
+internal/heap_utils
+
+stdout: internal/histogram
+internal/http
+internal/http2/compat
+
+stdout: internal/http2/core
+internal/http2/util
+internal/idna
+
+stdout: internal/inspector_async_hook
+internal/js_stream_socket
+internal/legacy/processbinding
+
+stdout: internal/linkedlist
+internal/mime
+
+stdout: internal/modules/cjs/loader
+internal/modules/esm/assert
+internal/modules/esm/create_dynamic_module
+
+stdout: internal/modules/esm/fetch_module
+internal/modules/esm/formats
+internal/modules/esm/get_format
+
+stdout: internal/modules/esm/hooks
+internal/modules/esm/initialize_import_meta
+internal/modules/esm/load
+internal/modules/esm/loader
+internal/modules/esm/module_job
+internal/modules/esm/module_map
+internal/modules/esm/resolve
+
+stdout: internal/modules/esm/shared_constants
+internal/modules/esm/translators
+internal/modules/esm/utils
+
+stdout: internal/modules/esm/worker
+internal/modules/helpers
+internal/modules/package_json_reader
+
+stdout: internal/modules/run_main
+internal/navigator
+internal/net
+internal/options
+
+stdout: internal/per_context/primordials
+internal/perf/event_loop_delay
+
+stdout: internal/perf/event_loop_utilization
+
+stdout: internal/perf/nodetiming
+internal/perf/observe
+internal/perf/performance
+internal/perf/performance_entry
+internal/perf/resource_timing
+internal/perf/timerify
+internal/perf/usertiming
+internal/perf/utils
+
+stdout: internal/priority_queue
+internal/process/execution
+internal/process/per_thread
+internal/process/permission
+
+stdout: internal/process/pre_execution
+internal/process/promises
+internal/process/report
+
+stdout: internal/process/signal
+internal/process/task_queues
+internal/process/warning
+
+stdout: internal/process/worker_thread_only
+internal/promise_hooks
+internal/querystring
+internal/readline/callbacks
+
+stdout: internal/readline/emitKeypressEvents
+internal/readline/interface
+internal/readline/promises
+
+stdout: internal/readline/utils
+internal/repl
+internal/repl/await
+
+stdout: internal/repl/history
+internal/repl/utils
+internal/socket_list
+
+stdout: internal/socketaddress
+internal/source_map/prepare_stack_trace
+internal/source_map/source_map
+
+stdout: internal/source_map/source_map_cache
+
+stdout: internal/source_map/source_map_cache_map
+internal/stream_base_commons
+
+stdout: internal/streams/add-abort-signal
+internal/streams/compose
+internal/streams/destroy
+
+stdout: internal/streams/duplex
+
+stdout: internal/streams/duplexify
+internal/streams/end-of-stream
+internal/streams/from
+
+stdout: internal/streams/lazy_transform
+internal/streams/legacy
+internal/streams/operators
+
+stdout: internal/streams/passthrough
+internal/streams/pipeline
+internal/streams/readable
+
+stdout: internal/streams/state
+internal/streams/transform
+
+stdout: internal/streams/utils
+internal/streams/writable
+internal/test/binding
+
+stdout: internal/test/transfer
+internal/test_runner/coverage
+internal/test_runner/harness
+
+stdout: internal/test_runner/mock/mock
+internal/test_runner/mock/mock_timers
+internal/test_runner/reporter/dot
+
+stdout: internal/test_runner/reporter/junit
+internal/test_runner/reporter/lcov
+internal/test_runner/reporter/spec
+
+stdout: internal/test_runner/reporter/tap
+internal/test_runner/reporter/utils
+internal/test_runner/reporter/v8-serializer
+
+stdout: internal/test_runner/runner
+internal/test_runner/snapshot
+internal/test_runner/test
+
+stdout: internal/test_runner/tests_stream
+internal/test_runner/utils
+
+stdout: internal/timers
+internal/tls/secure-context
+internal/tls/secure-pair
+
+stdout: internal/trace_events_async_hooks
+internal/tty
+internal/url
+
+stdout: internal/util
+internal/util/colors
+internal/util/comparisons
+
+stdout: internal/util/debuglog
+internal/util/embedding
+internal/util/inspect
+
+stdout: internal/util/inspector
+internal/util/parse_args/parse_args
+
+stdout: internal/util/parse_args/utils
+internal/util/types
+internal/v8/startup_snapshot
+
+stdout: internal/v8_prof_polyfill
+internal/v8_prof_processor
+internal/validators
+
+stdout: internal/vm
+internal/vm/module
+internal/wasm_web_api
+
+stdout: internal/watch_mode/files_watcher
+internal/watchdog
+internal/webidl
+
+stdout: internal/webstreams/adapters
+internal/webstreams/compression
+internal/webstreams/encoding
+
+stdout: internal/webstreams/queuingstrategies
+internal/webstreams/readablestream
+
+stdout: internal/webstreams/transfer
+internal/webstreams/transformstream
+internal/webstreams/util
+
+stdout: internal/webstreams/writablestream
+internal/worker
+internal/worker/io
+
+stdout: internal/worker/js_transferable
+
+340 vm:module(0)
+341 vm:module(1)
+345 vm:module(2)
+350 vm:module(7)
+346 vm:module(3)
+347 vm:module(4)
+351 vm:module(8)
+355 vm:module(12)
+352 vm:module(9)
+353 vm:module(10)
+348 vm:module(5)
+354 vm:module(11)
+349 vm:module(6)
+stdout: Statistical profiling result from S:\ClearScript Testing\js\dump.js, (0 ticks, 0 unaccounted, 0 excluded).
+
+356 wasm://wasm/0002f80e

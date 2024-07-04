@@ -1,0 +1,31 @@
+{
+  "scriptId": "270",
+  "url": "node:internal/freeze_intrinsics",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 549,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "6218fe381f3ecbc2a54c7d8756ad3d7722091897e80b45a20a40fd133f6f71c4",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 15842,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/freeze_intrinsics"
+}

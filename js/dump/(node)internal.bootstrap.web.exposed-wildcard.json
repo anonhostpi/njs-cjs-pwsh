@@ -1,12 +1,15 @@
 {
-  "scriptId": "49",
+  "scriptId": "239",
   "url": "node:internal/bootstrap/web/exposed-wildcard",
   "startLine": 0,
   "startColumn": 0,
   "endLine": 114,
   "endColumn": 0,
-  "executionContextId": 0,
+  "executionContextId": 1,
   "hash": "f636496d97c0cd12ce4da846a18df235b855cc42f6ee3d4205bd86b59f7aeb6a",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
   "isLiveEdit": false,
   "sourceMapURL": "",
   "hasSourceURL": false,
@@ -15,11 +18,11 @@
   "stackTrace": {
     "callFrames": [
       {
-        "functionName": "realpathSync",
-        "scriptId": "42",
-        "url": "node:fs",
-        "lineNumber": 2669,
-        "columnNumber": 14
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
       }
     ]
   },

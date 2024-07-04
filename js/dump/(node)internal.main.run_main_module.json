@@ -1,5 +1,5 @@
 {
-  "scriptId": "71",
+  "scriptId": "287",
   "url": "node:internal/main/run_main_module",
   "startLine": 0,
   "startColumn": 0,
@@ -18,11 +18,11 @@
   "stackTrace": {
     "callFrames": [
       {
-        "functionName": "realpathSync",
-        "scriptId": "42",
-        "url": "node:fs",
-        "lineNumber": 2669,
-        "columnNumber": 14
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
       }
     ]
   },

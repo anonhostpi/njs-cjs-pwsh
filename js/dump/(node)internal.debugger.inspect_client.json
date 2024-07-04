@@ -1,0 +1,31 @@
+{
+  "scriptId": "251",
+  "url": "node:internal/debugger/inspect_client",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 356,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "64a8a50624d86eaf1917cf9856fa753004e21dc53ff3f0b48a8700ecb28dc014",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 10203,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/debugger/inspect_client"
+}

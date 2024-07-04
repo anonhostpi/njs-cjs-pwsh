@@ -1,0 +1,31 @@
+{
+  "scriptId": "337",
+  "url": "node:internal/v8_prof_processor",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 54,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "5c6ec57ea3014604dc7f977ca0c5ae5caa03e6672c8fd7a0aad85668d9bc67e6",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 1672,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/v8_prof_processor"
+}

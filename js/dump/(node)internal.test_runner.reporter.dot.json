@@ -1,0 +1,31 @@
+{
+  "scriptId": "323",
+  "url": "node:internal/test_runner/reporter/dot",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 40,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "3f4adc410575c8c96ca2d252c4f4eee60de95852f7b088d26560a90c7bfe710b",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 1069,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/test_runner/reporter/dot"
+}

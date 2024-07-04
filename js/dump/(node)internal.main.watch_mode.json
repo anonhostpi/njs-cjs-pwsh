@@ -1,0 +1,31 @@
+{
+  "scriptId": "295",
+  "url": "node:internal/main/watch_mode",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 166,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "e2a895ce13ace618a0d3548336dc0d292a8cef5cb5f6fc543471e4a80be8a2b9",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 4977,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/main/watch_mode"
+}

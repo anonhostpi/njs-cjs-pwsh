@@ -1,0 +1,31 @@
+{
+  "scriptId": "277",
+  "url": "node:internal/fs/sync_write_stream",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 49,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "364152578574b627e8463231970d9c1ff84956821605b17cc2d8aa3c3a6322e1",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 1143,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/fs/sync_write_stream"
+}

@@ -1,0 +1,31 @@
+{
+  "scriptId": "255",
+  "url": "node:internal/deps/minimatch/index",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 1614,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "f59a8c2ab77bac4741730c84683471219764fbdadc52e876d90f93874256ea7b",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 57365,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/deps/minimatch/index"
+}

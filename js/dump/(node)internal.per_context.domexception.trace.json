@@ -1,7 +1,7 @@
 {
-  "functionName": "realpathSync",
-  "scriptId": "42",
-  "url": "node:fs",
-  "lineNumber": 2669,
-  "columnNumber": 14
+  "functionName": "compileForInternalLoader",
+  "scriptId": "6",
+  "url": "node:internal/bootstrap/realm",
+  "lineNumber": 394,
+  "columnNumber": 17
 }

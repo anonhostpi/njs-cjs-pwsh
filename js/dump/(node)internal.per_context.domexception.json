@@ -1,12 +1,15 @@
 {
-  "scriptId": "4",
+  "scriptId": "311",
   "url": "node:internal/per_context/domexception",
   "startLine": 0,
   "startColumn": 0,
   "endLine": 153,
   "endColumn": 0,
-  "executionContextId": 0,
+  "executionContextId": 1,
   "hash": "43ce514c107fd4251093b31c959426ec177810f76cf1964d403dbed864dcd2e8",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
   "isLiveEdit": false,
   "sourceMapURL": "",
   "hasSourceURL": false,
@@ -15,11 +18,11 @@
   "stackTrace": {
     "callFrames": [
       {
-        "functionName": "realpathSync",
-        "scriptId": "42",
-        "url": "node:fs",
-        "lineNumber": 2669,
-        "columnNumber": 14
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
       }
     ]
   },

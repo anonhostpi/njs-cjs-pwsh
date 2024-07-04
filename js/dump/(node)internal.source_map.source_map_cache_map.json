@@ -1,0 +1,31 @@
+{
+  "scriptId": "319",
+  "url": "node:internal/source_map/source_map_cache_map",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 115,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "cd4f088c7a6290ba4a5a1479cf984686b24be1e82ffcbf68c70acbff616ad59d",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 3768,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/source_map/source_map_cache_map"
+}

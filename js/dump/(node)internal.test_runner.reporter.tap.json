@@ -1,0 +1,31 @@
+{
+  "scriptId": "328",
+  "url": "node:internal/test_runner/reporter/tap",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 281,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "6597b748f993e6e53f694ce4de36c8384216269ef7c762ddb8ac31d7575301fd",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 8501,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/test_runner/reporter/tap"
+}

@@ -1,0 +1,31 @@
+{
+  "scriptId": "310",
+  "url": "node:internal/navigator",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 142,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "cabf4e56c21fd267065c96b8d8cfa004dcfe245cc2baaad77d02a11a6799489e",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 3565,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/navigator"
+}

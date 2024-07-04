@@ -1,0 +1,31 @@
+{
+  "scriptId": "234",
+  "url": "node:internal/bootstrap/shadow_realm",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 21,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "95dd24d5837aa26580cbfec787053901ccf458a02f44e30260406dfed1f31bd9",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 600,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/bootstrap/shadow_realm"
+}

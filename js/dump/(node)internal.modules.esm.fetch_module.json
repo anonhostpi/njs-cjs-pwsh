@@ -1,0 +1,31 @@
+{
+  "scriptId": "299",
+  "url": "node:internal/modules/esm/fetch_module",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 302,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "4070753f0c0cd2d4091a3091115e51fedf5630b19a0d555ca8fa5e6d48b6d5f8",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 9700,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/modules/esm/fetch_module"
+}

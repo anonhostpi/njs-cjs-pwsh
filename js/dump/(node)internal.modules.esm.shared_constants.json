@@ -1,0 +1,31 @@
+{
+  "scriptId": "303",
+  "url": "node:internal/modules/esm/shared_constants",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 25,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "45b7c3da5eddb5cd7ef0d62f976f9b63e3c4d94d77cd0a2c97bc3e3632b6cdc5",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 658,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/modules/esm/shared_constants"
+}

@@ -1,0 +1,31 @@
+{
+  "scriptId": "256",
+  "url": "node:internal/deps/undici/undici",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 13219,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "548379b341d80e69798199093abe5b2d0b4c998eb4de5a4f2adf1d6ce2e4cd9a",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 604401,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/deps/undici/undici"
+}

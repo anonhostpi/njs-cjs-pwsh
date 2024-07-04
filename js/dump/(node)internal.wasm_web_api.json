@@ -1,0 +1,31 @@
+{
+  "scriptId": "342",
+  "url": "node:internal/wasm_web_api",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 66,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "f94bb3a3ebd625a98832643c1cc0590cfc7a755d93390a6817eb328e663fa922",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 2014,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/wasm_web_api"
+}

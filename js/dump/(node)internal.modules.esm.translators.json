@@ -1,0 +1,31 @@
+{
+  "scriptId": "308",
+  "url": "node:internal/modules/esm/translators",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 513,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "01fdc1a973fceec7a75a176d3048081ffa1cb2411c2d7dd988c81b01d85ae9cd",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 18575,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/modules/esm/translators"
+}

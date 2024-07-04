@@ -1,0 +1,31 @@
+{
+  "scriptId": "249",
+  "url": "node:internal/crypto/webidl",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 679,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "25c3fe7e3052b602d2eb7b789bc23172a683acafde08eef61148bdd0286adee8",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 17265,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/crypto/webidl"
+}

@@ -35,7 +35,13 @@ $dump | Add-Member `
                     $lineObj = [PSCustomObject]@{
                         Line = $line
                         Text = $_
-                        Matches = $matches
+                        Matches = (& {
+                            $_matches = @{}
+                            $matches.GetEnumerator() | ForEach-Object {
+                                $_matches["$($_.Key)"] = $_.Value
+                            }
+                            $_matches
+                        })
                     }
 
                     $lineObj | Add-Member -MemberType ScriptMethod -Name ToString -Value {
@@ -56,7 +62,7 @@ $dump | Add-Member `
                 Lines = $lines
                 Metadata = $metadata
             }
-        }
+        } | Where-Object { $_ }
 
         return $out
     }

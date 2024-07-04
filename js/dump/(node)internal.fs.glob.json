@@ -1,0 +1,31 @@
+{
+  "scriptId": "273",
+  "url": "node:internal/fs/glob",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 644,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "e486c8bd7eced63f3a6ed1b04d8df7eefcf43790b5d83b2adf1c8a6a55929846",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 23498,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/fs/glob"
+}

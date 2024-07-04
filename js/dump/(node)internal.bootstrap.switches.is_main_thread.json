@@ -1,12 +1,15 @@
 {
-  "scriptId": "57",
+  "scriptId": "237",
   "url": "node:internal/bootstrap/switches/is_main_thread",
   "startLine": 0,
   "startColumn": 0,
   "endLine": 318,
   "endColumn": 0,
-  "executionContextId": 0,
+  "executionContextId": 1,
   "hash": "e1f7e76944b2b842cc0a880145e207d6e7b47e70b752d0e335abf16cf3ef6177",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
   "isLiveEdit": false,
   "sourceMapURL": "",
   "hasSourceURL": false,
@@ -15,11 +18,11 @@
   "stackTrace": {
     "callFrames": [
       {
-        "functionName": "realpathSync",
-        "scriptId": "42",
-        "url": "node:fs",
-        "lineNumber": 2669,
-        "columnNumber": 14
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
       }
     ]
   },

@@ -1,0 +1,31 @@
+{
+  "scriptId": "242",
+  "url": "node:internal/cli_table",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 94,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "b6f5b066cb59843c96ade4a1936b4744d6991947c515f190fbcf4c80726e0382",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 2955,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/cli_table"
+}

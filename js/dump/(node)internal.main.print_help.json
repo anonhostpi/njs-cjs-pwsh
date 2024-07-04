@@ -1,0 +1,31 @@
+{
+  "scriptId": "285",
+  "url": "node:internal/main/print_help",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 238,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "adada88a7c4cfaee3fcaa15b125d9c8a8f87ea0fe7df2ba56abda5ee8e4c204d",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 8383,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/main/print_help"
+}

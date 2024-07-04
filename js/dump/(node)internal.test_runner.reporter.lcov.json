@@ -1,0 +1,31 @@
+{
+  "scriptId": "326",
+  "url": "node:internal/test_runner/reporter/lcov",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 107,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "a36a6604eb3883e69396d1784652f408cf33aadcf8da218aa985f8f155b2c797",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 4423,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/test_runner/reporter/lcov"
+}

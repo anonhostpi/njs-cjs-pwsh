@@ -1,0 +1,31 @@
+{
+  "scriptId": "309",
+  "url": "node:internal/modules/esm/worker",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 264,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "e6a326fe22e7cb204de327e4eff98e88450418405668ac45cd86656e45f36743",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 9387,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/modules/esm/worker"
+}

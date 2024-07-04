@@ -1,0 +1,31 @@
+{
+  "scriptId": "292",
+  "url": "node:internal/test_runner/harness",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 308,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "79ff1603b8696ad34a880df3fbf85520312fbe0a5a686e1fe5aa4e59400bc0b6",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 8877,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/test_runner/harness"
+}

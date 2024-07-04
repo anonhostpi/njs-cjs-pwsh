@@ -303,11 +303,78 @@ $paths = @{
 
 $tests = @{}
 
-Write-Host "- Diff: " -NoNewline
+Write-Host "- Diff: "
 $tests.diff = & (Join-Path $paths.root "tests\apis.ps1" )
-Write-Host "Done" -BackgroundColor Green
-Write-Host "- Import: " -NoNewline
+Write-Host "- Import: "
 $tests.import = & (Join-Path $paths.root "tests\import.ps1" )
-Write-Host "Done" -BackgroundColor Green
 Write-Host "- Dumper: "
 $tests.dumper = & (Join-Path $paths.root "tests\dump.ps1" )
+Write-Host "- Dump Analysis: "
+$tests.analysis = @{}
+$tests.analysis.initial = $tests.dumper.calls
+Write-Host "  - Detailed: " -NoNewline;
+$tests.analysis.detailed = @{}
+$tests.analysis.detailed.internalBinding = $tests.dumper.dump.Search( "internalBinding\(\s*([^)\s]*)\s*\)", $false ) # internalBinding only has 2 signatures
+
+$temp = @{}
+$temp_md = @"
+# All InternalBinding Calls:
+"@
+$tests.analysis.detailed.internalBinding | ForEach-Object {
+    $temp["$($_.Name)"] = $_.Lines
+
+    $temp_md += @"
+
+
+## $($_.Name) (x$($_.Lines.Count)):
+"@
+    $_.Lines | ForEach-Object {
+        $temp_md += @"
+
+- Line $( $_.Line ): ``$( $_.Text )``
+"@
+    }
+}
+$temp | ConvertTo-Json -Depth 4 | Out-File (Join-Path $paths.root "analysis\internalBinding.json")
+$temp_md | Out-File (Join-Path $paths.root "analysis\internalBinding.auto.md")
+
+$byBinding = @{}
+$tests.analysis.detailed.internalBinding | ForEach-Object {
+    $script_name = $_.Name
+    $_.Lines | ForEach-Object {
+        $line = $_
+        $_.Matches.GetEnumerator() | Where-Object { $_.Key -ne "0" } | ForEach-Object {
+            $binding = $_.Value
+            If( -not $byBinding.ContainsKey( $binding ) ){
+                $byBinding["$binding"] = @()
+            }
+            $byBinding["$binding"] += @{
+                "Script" = $script_name
+                "Line" = $line.Line
+                "Text" = $line.Text
+            }
+        }
+    }
+}
+$byBinding | ConvertTo-Json -Depth 4 | Out-File (Join-Path $paths.root "analysis\internalBindingByBinding.json")
+
+$byBinding_md = @"
+# All InternalBinding Calls by Binding:
+"@
+$byBinding.GetEnumerator() | ForEach-Object {
+    $byBinding_md += @"
+
+
+## $($_.Key) (x$($_.Value.Count)):
+"@
+    $_.Value | ForEach-Object {
+        $byBinding_md += @"
+
+- $($_.Script):$($_.Line): ``$($_.Text)``
+"@
+    }
+}
+$byBinding_md | Out-File (Join-Path $paths.root "analysis\internalBindingByBinding.auto.md")
+
+# $tests.analysis.detailed.require # may require more in-depth analysis due to the various internal require signatures
+Write-Host "Done" -ForegroundColor Green -NoNewline; Write-Host

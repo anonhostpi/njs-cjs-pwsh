@@ -1,0 +1,31 @@
+{
+  "scriptId": "282",
+  "url": "node:internal/main/eval_string",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 58,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "c86898dcd7b5d6efdd0faf18a2439fc5c548409d19a000a146f5d39a6a86c206",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 2239,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/main/eval_string"
+}

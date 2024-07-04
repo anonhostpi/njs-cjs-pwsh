@@ -1,0 +1,31 @@
+{
+  "scriptId": "276",
+  "url": "node:internal/fs/streams",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 566,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "c1f8a0347968191d63047e55869604e9c40c28de92cd1326d807fd95c3834bee",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 15837,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/fs/streams"
+}

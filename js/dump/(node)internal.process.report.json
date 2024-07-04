@@ -1,0 +1,31 @@
+{
+  "scriptId": "314",
+  "url": "node:internal/process/report",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 133,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "db88fffa1de0a3a3f15f41292272a3e4308eccf844c7dfc2f069dfa8a2b1d14c",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 2947,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/process/report"
+}

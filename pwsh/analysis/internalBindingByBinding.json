@@ -1,0 +1,1875 @@
+{
+  "'messaging'": [
+    {
+      "Text": "  _DOMException ??= internalBinding('messaging').DOMException;",
+      "Script": "node:internal/util",
+      "Line": 698
+    },
+    {
+      "Text": "  _DOMException ??= internalBinding('messaging').DOMException;",
+      "Script": "node:internal/util",
+      "Line": 703
+    },
+    {
+      "Text": "} = internalBinding('messaging');",
+      "Script": "node:internal/worker/js_transferable",
+      "Line": 14
+    },
+    {
+      "Text": "const { structuredClone } = internalBinding('messaging');",
+      "Script": "node:internal/bootstrap/web/exposed-window-or-worker",
+      "Line": 35
+    },
+    {
+      "Text": "} = internalBinding('messaging');",
+      "Script": "node:internal/abort_controller",
+      "Line": 53
+    },
+    {
+      "Text": "} = internalBinding('messaging');",
+      "Script": "node:internal/worker/io",
+      "Line": 41
+    },
+    {
+      "Text": "const { structuredClone } = internalBinding('messaging');",
+      "Script": "node:internal/perf/usertiming",
+      "Line": 34
+    },
+    {
+      "Text": "} = internalBinding('messaging');",
+      "Script": "node:internal/webstreams/transformstream",
+      "Line": 23
+    },
+    {
+      "Text": "} = internalBinding('messaging');",
+      "Script": "node:internal/webstreams/readablestream",
+      "Line": 43
+    },
+    {
+      "Text": "const { structuredClone } = internalBinding('messaging');",
+      "Script": "node:internal/webstreams/readablestream",
+      "Line": 90
+    },
+    {
+      "Text": "} = internalBinding('messaging');",
+      "Script": "node:internal/webstreams/writablestream",
+      "Line": 30
+    },
+    {
+      "Text": "const { structuredClone } = internalBinding('messaging');",
+      "Script": "node:internal/bootstrap/web/exposed-window-or-worker",
+      "Line": 35
+    },
+    {
+      "Text": "} = internalBinding('messaging');",
+      "Script": "node:internal/webstreams/transfer",
+      "Line": 16
+    }
+  ],
+  "'wasi'": [
+    {
+      "Text": "        ({ WASI: _WASI } = internalBinding('wasi'));",
+      "Script": "node:wasi",
+      "Line": 54
+    },
+    {
+      "Text": "        ({ WASI: _WASI } = internalBinding('wasi'));",
+      "Script": "node:wasi",
+      "Line": 58
+    }
+  ],
+  "'worker'": [
+    {
+      "Text": "internalBinding('worker');",
+      "Script": "node:internal/bootstrap/switches/is_main_thread",
+      "Line": 310
+    },
+    {
+      "Text": "    assert(internalBinding('worker').isMainThread);",
+      "Script": "node:internal/process/pre_execution",
+      "Line": 127
+    },
+    {
+      "Text": "    assert(!internalBinding('worker').isMainThread);",
+      "Script": "node:internal/process/pre_execution",
+      "Line": 148
+    },
+    {
+      "Text": "  const threadId = internalBinding('worker').threadId;",
+      "Script": "node:internal/process/pre_execution",
+      "Line": 724
+    },
+    {
+      "Text": "} = internalBinding('worker');",
+      "Script": "node:internal/worker",
+      "Line": 77
+    },
+    {
+      "Text": "} = internalBinding('worker');",
+      "Script": "node:internal/worker/io",
+      "Line": 44
+    },
+    {
+      "Text": "internalBinding('worker');",
+      "Script": "node:internal/bootstrap/switches/is_main_thread",
+      "Line": 310
+    },
+    {
+      "Text": "} = internalBinding('worker');",
+      "Script": "node:internal/main/worker_thread",
+      "Line": 29
+    }
+  ],
+  "'trace_events'": [
+    {
+      "Text": "const { setTraceCategoryStateUpdateHandler } = internalBinding('trace_events');",
+      "Script": "node:internal/bootstrap/node",
+      "Line": 222
+    },
+    {
+      "Text": "const { isTraceCategoryEnabled, trace } = internalBinding('trace_events');",
+      "Script": "node:internal/util/debuglog",
+      "Line": 23
+    },
+    {
+      "Text": "const { trace } = internalBinding('trace_events');",
+      "Script": "node:internal/console/constructor",
+      "Line": 37
+    },
+    {
+      "Text": "  const { isTraceCategoryEnabled } = internalBinding('trace_events');",
+      "Script": "node:internal/process/pre_execution",
+      "Line": 467
+    },
+    {
+      "Text": "const { trace, isTraceCategoryEnabled } = internalBinding('trace_events');",
+      "Script": "node:internal/http",
+      "Line": 11
+    },
+    {
+      "Text": "const { CategorySet, getEnabledCategories } = internalBinding('trace_events');",
+      "Script": "node:trace_events",
+      "Line": 21
+    },
+    {
+      "Text": "const { setTraceCategoryStateUpdateHandler } = internalBinding('trace_events');",
+      "Script": "node:internal/bootstrap/node",
+      "Line": 222
+    },
+    {
+      "Text": "const { trace } = internalBinding('trace_events');",
+      "Script": "node:internal/trace_events_async_hooks",
+      "Line": 10
+    }
+  ],
+  "'report'": [
+    {
+      "Text": "const nr = internalBinding('report');",
+      "Script": "node:internal/process/report",
+      "Line": 17
+    }
+  ],
+  "'constants'": [
+    {
+      "Text": "const { signals } = internalBinding('constants').os;",
+      "Script": "node:internal/validators",
+      "Line": 37
+    },
+    {
+      "Text": "const { signals } = internalBinding('constants').os;",
+      "Script": "node:internal/util",
+      "Line": 57
+    },
+    {
+      "Text": "const constants = internalBinding('constants').os.signals;",
+      "Script": "node:internal/process/per_thread",
+      "Line": 51
+    },
+    {
+      "Text": "} = internalBinding('constants');",
+      "Script": "node:internal/fs/utils",
+      "Line": 109
+    },
+    {
+      "Text": "const { fs: constants } = internalBinding('constants');",
+      "Script": "node:fs",
+      "Line": 46
+    },
+    {
+      "Text": "const { signals } = internalBinding('constants').os;",
+      "Script": "node:internal/process/signal",
+      "Line": 12
+    },
+    {
+      "Text": "} = internalBinding('constants');",
+      "Script": "node:_tls_common",
+      "Line": 47
+    },
+    {
+      "Text": "const constants = internalBinding('constants').crypto;",
+      "Script": "node:crypto",
+      "Line": 42
+    },
+    {
+      "Text": "} = internalBinding('constants');",
+      "Script": "node:internal/crypto/util",
+      "Line": 41
+    },
+    {
+      "Text": "} = internalBinding('constants');",
+      "Script": "node:internal/crypto/diffiehellman",
+      "Line": 66
+    },
+    {
+      "Text": "} = internalBinding('constants');",
+      "Script": "node:internal/crypto/cipher",
+      "Line": 23
+    },
+    {
+      "Text": "} = internalBinding('constants');",
+      "Script": "node:internal/tls/secure-context",
+      "Line": 44
+    },
+    {
+      "Text": "const { UV_UDP_REUSEADDR } = internalBinding('constants').os;",
+      "Script": "node:dgram",
+      "Line": 74
+    },
+    {
+      "Text": "const constants = internalBinding('constants');",
+      "Script": "node:constants",
+      "Line": 33
+    },
+    {
+      "Text": "const { fs: constants } = internalBinding('constants');",
+      "Script": "node:internal/fs/promises",
+      "Line": 23
+    },
+    {
+      "Text": "const constants = internalBinding('constants').os;",
+      "Script": "node:os",
+      "Line": 35
+    },
+    {
+      "Text": "const { fs: fsConstants } = internalBinding('constants');",
+      "Script": "node:internal/modules/esm/formats",
+      "Line": 11
+    },
+    {
+      "Text": "      ObjectEntries(internalBinding('constants').zlib),",
+      "Script": "node:internal/webstreams/adapters",
+      "Line": 96
+    },
+    {
+      "Text": "const constants = internalBinding('constants').zlib;",
+      "Script": "node:zlib",
+      "Line": 82
+    },
+    {
+      "Text": "} = internalBinding('constants');",
+      "Script": "node:internal/fs/cp/cp",
+      "Line": 36
+    },
+    {
+      "Text": "} = internalBinding('constants');",
+      "Script": "node:internal/fs/cp/cp-sync",
+      "Line": 27
+    }
+  ],
+  "'cares_wrap'": [
+    {
+      "Text": "  binding ??= internalBinding('cares_wrap');",
+      "Script": "node:internal/dns/utils",
+      "Line": 31
+    },
+    {
+      "Text": "const { canonicalizeIP } = internalBinding('cares_wrap');",
+      "Script": "node:tls",
+      "Line": 65
+    },
+    {
+      "Text": "const cares = internalBinding('cares_wrap');",
+      "Script": "node:dns",
+      "Line": 30
+    },
+    {
+      "Text": "} = internalBinding('cares_wrap');",
+      "Script": "node:internal/dns/callback_resolver",
+      "Line": 29
+    },
+    {
+      "Text": "} = internalBinding('cares_wrap');",
+      "Script": "node:internal/dns/promises",
+      "Line": 65
+    }
+  ],
+  "'builtins'": [
+    {
+      "Text": "} = internalBinding('builtins');",
+      "Script": "node:internal/bootstrap/realm",
+      "Line": 199
+    },
+    {
+      "Text": "const binding = internalBinding('builtins');",
+      "Script": "node:internal/bootstrap/node",
+      "Line": 138
+    },
+    {
+      "Text": "const binding = internalBinding('builtins');",
+      "Script": "node:internal/bootstrap/node",
+      "Line": 138
+    },
+    {
+      "Text": "const { builtinIds } = internalBinding('builtins');",
+      "Script": "node:internal/debugger/inspect_repl",
+      "Line": 121
+    },
+    {
+      "Text": "    const { natives: result, configs } = internalBinding('builtins');",
+      "Script": "node:internal/legacy/processbinding",
+      "Line": 37
+    },
+    {
+      "Text": "const { natives } = internalBinding('builtins');",
+      "Script": "node:internal/v8_prof_processor",
+      "Line": 15
+    }
+  ],
+  "'signal_wrap'": [
+    {
+      "Text": "      Signal = internalBinding('signal_wrap').Signal;",
+      "Script": "node:internal/process/signal",
+      "Line": 25
+    }
+  ],
+  "'tty_wrap'": [
+    {
+      "Text": "const { TTY } = internalBinding('tty_wrap');",
+      "Script": "node:internal/child_process",
+      "Line": 55
+    },
+    {
+      "Text": "const { TTY, isTTY } = internalBinding('tty_wrap');",
+      "Script": "node:tty",
+      "Line": 31
+    }
+  ],
+  "'module_wrap'": [
+    {
+      "Text": "const { ModuleWrap } = internalBinding('module_wrap');",
+      "Script": "node:internal/bootstrap/realm",
+      "Line": 201
+    },
+    {
+      "Text": "internalBinding('module_wrap');",
+      "Script": "node:internal/bootstrap/switches/is_main_thread",
+      "Line": 297
+    },
+    {
+      "Text": "const { kEvaluated } = internalBinding('module_wrap');",
+      "Script": "node:internal/modules/cjs/loader",
+      "Line": 74
+    },
+    {
+      "Text": "const { ModuleWrap } = internalBinding('module_wrap');",
+      "Script": "node:internal/modules/esm/utils",
+      "Line": 23
+    },
+    {
+      "Text": "} = internalBinding('module_wrap');",
+      "Script": "node:internal/modules/esm/utils",
+      "Line": 45
+    },
+    {
+      "Text": "const { ModuleWrap, kEvaluating, kEvaluated } = internalBinding('module_wrap');",
+      "Script": "node:internal/modules/esm/loader",
+      "Line": 40
+    },
+    {
+      "Text": "internalBinding('module_wrap');",
+      "Script": "node:internal/bootstrap/switches/is_main_thread",
+      "Line": 297
+    },
+    {
+      "Text": "    const { ModuleWrap } = internalBinding('module_wrap');",
+      "Script": "node:internal/main/check_syntax",
+      "Line": 73
+    },
+    {
+      "Text": "        internalBinding('module_wrap').callbackMap = new SafeWeakMap();",
+      "Script": "node:internal/main/worker_thread",
+      "Line": 146
+    },
+    {
+      "Text": "const { ModuleWrap, kEvaluated } = internalBinding('module_wrap');",
+      "Script": "node:internal/modules/esm/module_job",
+      "Line": 26
+    },
+    {
+      "Text": "const moduleWrap = internalBinding('module_wrap');",
+      "Script": "node:internal/modules/esm/translators",
+      "Line": 61
+    },
+    {
+      "Text": "const binding = internalBinding('module_wrap');",
+      "Script": "node:internal/vm/module",
+      "Line": 55
+    }
+  ],
+  "'tcp_wrap'": [
+    {
+      "Text": "} = internalBinding('tcp_wrap');",
+      "Script": "node:net",
+      "Line": 72
+    },
+    {
+      "Text": "const { TCP, constants: TCPConstants } = internalBinding('tcp_wrap');",
+      "Script": "node:_tls_wrap",
+      "Line": 63
+    },
+    {
+      "Text": "const { TCP } = internalBinding('tcp_wrap');",
+      "Script": "node:internal/child_process",
+      "Line": 54
+    },
+    {
+      "Text": "const { constants } = internalBinding('tcp_wrap');",
+      "Script": "node:internal/cluster/round_robin_handle",
+      "Line": 13
+    }
+  ],
+  "'block_list'": [
+    {
+      "Text": "} = internalBinding('block_list');",
+      "Script": "node:internal/blocklist",
+      "Line": 11
+    },
+    {
+      "Text": "} = internalBinding('block_list');",
+      "Script": "node:internal/socketaddress",
+      "Line": 12
+    }
+  ],
+  "'fs_event_wrap'": [
+    {
+      "Text": "const { FSEvent } = internalBinding('fs_event_wrap');",
+      "Script": "node:internal/fs/watchers",
+      "Line": 27
+    }
+  ],
+  "'encoding_binding'": [
+    {
+      "Text": "const binding = internalBinding('encoding_binding');",
+      "Script": "node:internal/encoding",
+      "Line": 52
+    }
+  ],
+  "'performance'": [
+    {
+      "Text": "} = internalBinding('performance');",
+      "Script": "node:internal/perf/utils",
+      "Line": 10
+    },
+    {
+      "Text": "  internalBinding('performance').markBootstrapComplete();",
+      "Script": "node:internal/process/pre_execution",
+      "Line": 702
+    },
+    {
+      "Text": "} = internalBinding('performance');",
+      "Script": "node:internal/perf/observe",
+      "Line": 36
+    },
+    {
+      "Text": "} = internalBinding('performance');",
+      "Script": "node:internal/perf/event_loop_utilization",
+      "Line": 9
+    },
+    {
+      "Text": "} = internalBinding('performance');",
+      "Script": "node:perf_hooks",
+      "Line": 9
+    },
+    {
+      "Text": "} = internalBinding('performance');",
+      "Script": "node:internal/perf/nodetiming",
+      "Line": 31
+    },
+    {
+      "Text": "} = internalBinding('performance');",
+      "Script": "node:internal/histogram",
+      "Line": 15
+    },
+    {
+      "Text": "} = internalBinding('performance');",
+      "Script": "node:internal/perf/event_loop_delay",
+      "Line": 17
+    }
+  ],
+  "'inspector'": [
+    {
+      "Text": "    const { setConsoleExtensionInstaller } = internalBinding('inspector');",
+      "Script": "node:internal/bootstrap/web/exposed-wildcard",
+      "Line": 68
+    },
+    {
+      "Text": "  const { console: consoleFromVM } = internalBinding('inspector');",
+      "Script": "node:internal/console/constructor",
+      "Line": 654
+    },
+    {
+      "Text": "  const { consoleCall, console: consoleFromVM } = internalBinding('inspector');",
+      "Script": "node:internal/util/inspector",
+      "Line": 85
+    },
+    {
+      "Text": "      inspectorWrapper = internalBinding('inspector').callAndPauseOnStart;",
+      "Script": "node:internal/modules/cjs/loader",
+      "Line": 1444
+    },
+    {
+      "Text": "    internalBinding('inspector').registerAsyncHook(enable, disable);",
+      "Script": "node:internal/process/pre_execution",
+      "Line": 483
+    },
+    {
+      "Text": "  const inspector = internalBinding('inspector');",
+      "Script": "node:internal/inspector_async_hook",
+      "Line": 11
+    },
+    {
+      "Text": "} = internalBinding('inspector');",
+      "Script": "node:inspector",
+      "Line": 45
+    },
+    {
+      "Text": "    const { setConsoleExtensionInstaller } = internalBinding('inspector');",
+      "Script": "node:internal/bootstrap/web/exposed-wildcard",
+      "Line": 68
+    },
+    {
+      "Text": "        const initWrapper = internalBinding('inspector').callAndPauseOnStart;",
+      "Script": "node:internal/modules/esm/module_job",
+      "Line": 168
+    }
+  ],
+  "'uv'": [
+    {
+      "Text": "  uvBinding ??= internalBinding('uv');",
+      "Script": "node:internal/errors",
+      "Line": 617
+    },
+    {
+      "Text": "  uvBinding ??= internalBinding('uv');",
+      "Script": "node:internal/util",
+      "Line": 80
+    },
+    {
+      "Text": "} = internalBinding('uv');",
+      "Script": "node:net",
+      "Line": 64
+    },
+    {
+      "Text": "const { UV_EOF } = internalBinding('uv');",
+      "Script": "node:internal/stream_base_commons",
+      "Line": 18
+    },
+    {
+      "Text": "const uv = internalBinding('uv');",
+      "Script": "node:internal/js_stream_socket",
+      "Line": 11
+    },
+    {
+      "Text": "} = internalBinding('uv');",
+      "Script": "node:internal/child_process",
+      "Line": 75
+    },
+    {
+      "Text": "const { UV_EINVAL } = internalBinding('uv');",
+      "Script": "node:internal/dgram",
+      "Line": 17
+    },
+    {
+      "Text": "const { UV_ENOSPC } = internalBinding('uv');",
+      "Script": "node:internal/fs/watchers",
+      "Line": 28
+    },
+    {
+      "Text": "const { UV_EOF } = internalBinding('uv');",
+      "Script": "node:internal/http2/core",
+      "Line": 194
+    },
+    {
+      "Text": "const { UV_EOF } = internalBinding('uv');",
+      "Script": "node:internal/webstreams/adapters",
+      "Line": 88
+    }
+  ],
+  "'credentials'": [
+    {
+      "Text": "const credentials = internalBinding('credentials');",
+      "Script": "node:internal/bootstrap/node",
+      "Line": 194
+    },
+    {
+      "Text": "const { safeGetenv } = internalBinding('credentials');",
+      "Script": "node:internal/modules/cjs/loader",
+      "Line": 143
+    },
+    {
+      "Text": "const credentials = internalBinding('credentials');",
+      "Script": "node:internal/bootstrap/switches/does_own_process_state",
+      "Line": 3
+    },
+    {
+      "Text": "const { safeGetenv } = internalBinding('credentials');",
+      "Script": "node:os",
+      "Line": 34
+    },
+    {
+      "Text": "const credentials = internalBinding('credentials');",
+      "Script": "node:internal/bootstrap/node",
+      "Line": 194
+    },
+    {
+      "Text": "const credentials = internalBinding('credentials');",
+      "Script": "node:internal/bootstrap/switches/does_not_own_process_state",
+      "Line": 3
+    },
+    {
+      "Text": "const credentials = internalBinding('credentials');",
+      "Script": "node:internal/bootstrap/switches/does_own_process_state",
+      "Line": 3
+    }
+  ],
+  "'http_parser'": [
+    {
+      "Text": "const { methods, allMethods, HTTPParser } = internalBinding('http_parser');",
+      "Script": "node:_http_common",
+      "Line": 31
+    },
+    {
+      "Text": "const { ConnectionsList } = internalBinding('http_parser');",
+      "Script": "node:_http_server",
+      "Line": 52
+    }
+  ],
+  "'fs'": [
+    {
+      "Text": "const binding = internalBinding('fs');",
+      "Script": "node:fs",
+      "Line": 65
+    },
+    {
+      "Text": "const { internalModuleStat } = internalBinding('fs');",
+      "Script": "node:internal/modules/cjs/loader",
+      "Line": 142
+    },
+    {
+      "Text": "const { writeBuffer } = internalBinding('fs');",
+      "Script": "node:internal/net",
+      "Line": 10
+    },
+    {
+      "Text": "const binding = internalBinding('fs');",
+      "Script": "node:internal/fs/promises",
+      "Line": 32
+    },
+    {
+      "Text": "const binding = internalBinding('fs');",
+      "Script": "node:internal/fs/dir",
+      "Line": 13
+    },
+    {
+      "Text": "} = internalBinding('fs');",
+      "Script": "node:internal/fs/watchers",
+      "Line": 25
+    },
+    {
+      "Text": "const { FileHandle } = internalBinding('fs');",
+      "Script": "node:internal/http2/core",
+      "Line": 187
+    },
+    {
+      "Text": "const fsBindings = internalBinding('fs');",
+      "Script": "node:internal/modules/esm/formats",
+      "Line": 10
+    },
+    {
+      "Text": "const { FSReqCallback, close, read } = internalBinding('fs');",
+      "Script": "node:internal/fs/read/context",
+      "Line": 18
+    },
+    {
+      "Text": "const { legacyMainResolve: FSLegacyMainResolve } = internalBinding('fs');",
+      "Script": "node:internal/modules/esm/resolve",
+      "Line": 39
+    },
+    {
+      "Text": "const { internalModuleStat } = internalBinding('fs');",
+      "Script": "node:internal/modules/esm/resolve",
+      "Line": 57
+    }
+  ],
+  "'sea'": [
+    {
+      "Text": "      internalBinding('sea').isSea()) {",
+      "Script": "node:internal/modules/cjs/loader",
+      "Line": 1381
+    },
+    {
+      "Text": "const { isExperimentalSeaWarningNeeded } = internalBinding('sea');",
+      "Script": "node:internal/main/embedding",
+      "Line": 5
+    },
+    {
+      "Text": "const { isExperimentalSeaWarningNeeded } = internalBinding('sea');",
+      "Script": "node:internal/main/mksnapshot",
+      "Line": 18
+    },
+    {
+      "Text": "const { getCodePath, isSea } = internalBinding('sea');",
+      "Script": "node:internal/util/embedding",
+      "Line": 7
+    }
+  ],
+  "'js_stream'": [
+    {
+      "Text": "const { JSStream } = internalBinding('js_stream');",
+      "Script": "node:internal/js_stream_socket",
+      "Line": 10
+    }
+  ],
+  "'wasm_web_api'": [
+    {
+      "Text": "internalBinding('wasm_web_api').setImplementation((streamState, source) => {",
+      "Script": "node:internal/bootstrap/web/exposed-window-or-worker",
+      "Line": 90
+    },
+    {
+      "Text": "internalBinding('wasm_web_api');",
+      "Script": "node:internal/bootstrap/switches/is_main_thread",
+      "Line": 308
+    },
+    {
+      "Text": "internalBinding('wasm_web_api');",
+      "Script": "node:internal/bootstrap/switches/is_main_thread",
+      "Line": 308
+    },
+    {
+      "Text": "internalBinding('wasm_web_api').setImplementation((streamState, source) => {",
+      "Script": "node:internal/bootstrap/web/exposed-window-or-worker",
+      "Line": 90
+    }
+  ],
+  "'types'": [
+    {
+      "Text": "const { isNativeError, isPromise } = internalBinding('types');",
+      "Script": "node:internal/util",
+      "Line": 67
+    },
+    {
+      "Text": "  ...internalBinding('types'),",
+      "Script": "node:internal/util/types",
+      "Line": 58
+    },
+    {
+      "Text": "    if (internalBinding('types').isDate(value)) {",
+      "Script": "node:internal/test_runner/reporter/tap",
+      "Line": 167
+    }
+  ],
+  "'stream_wrap'": [
+    {
+      "Text": "const { ShutdownWrap } = internalBinding('stream_wrap');",
+      "Script": "node:net",
+      "Line": 67
+    },
+    {
+      "Text": "} = internalBinding('stream_wrap');",
+      "Script": "node:internal/stream_base_commons",
+      "Line": 17
+    },
+    {
+      "Text": "} = internalBinding('stream_wrap');",
+      "Script": "node:internal/child_process",
+      "Line": 52
+    },
+    {
+      "Text": "} = internalBinding('stream_wrap');",
+      "Script": "node:internal/http2/core",
+      "Line": 193
+    },
+    {
+      "Text": "} = internalBinding('stream_wrap');",
+      "Script": "node:internal/webstreams/adapters",
+      "Line": 84
+    },
+    {
+      "Text": "const { streamBaseState, kLastWriteWasAsync } = internalBinding('stream_wrap');",
+      "Script": "node:internal/child_process/serialization",
+      "Line": 16
+    }
+  ],
+  "'options'": [
+    {
+      "Text": "} = internalBinding('options');",
+      "Script": "node:internal/options",
+      "Line": 7
+    },
+    {
+      "Text": "  } = internalBinding('options');",
+      "Script": "node:internal/process/per_thread",
+      "Line": 286
+    },
+    {
+      "Text": "const { types } = internalBinding('options');",
+      "Script": "node:internal/main/print_help",
+      "Line": 19
+    }
+  ],
+  "'contextify'": [
+    {
+      "Text": "const { containsModuleSyntax } = internalBinding('contextify');",
+      "Script": "node:internal/process/execution",
+      "Line": 30
+    },
+    {
+      "Text": "} = internalBinding('contextify');",
+      "Script": "node:internal/vm",
+      "Line": 11
+    },
+    {
+      "Text": "} = internalBinding('contextify');",
+      "Script": "node:internal/modules/cjs/loader",
+      "Line": 137
+    },
+    {
+      "Text": "} = internalBinding('contextify');",
+      "Script": "node:vm",
+      "Line": 37
+    },
+    {
+      "Text": "} = internalBinding('contextify');",
+      "Script": "node:repl",
+      "Line": 185
+    },
+    {
+      "Text": "const { containsModuleSyntax } = internalBinding('contextify');",
+      "Script": "node:internal/modules/esm/get_format",
+      "Line": 22
+    },
+    {
+      "Text": "} = internalBinding('contextify');",
+      "Script": "node:internal/modules/esm/translators",
+      "Line": 32
+    }
+  ],
+  "'watchdog'": [
+    {
+      "Text": "} = internalBinding('watchdog');",
+      "Script": "node:internal/watchdog",
+      "Line": 5
+    }
+  ],
+  "'symbols'": [
+    {
+      "Text": "const { resource_symbol, owner_symbol } = internalBinding('symbols');",
+      "Script": "node:internal/async_hooks",
+      "Line": 84
+    },
+    {
+      "Text": "        trigger_async_id_symbol } = internalBinding('symbols');",
+      "Script": "node:internal/async_hooks",
+      "Line": 96
+    },
+    {
+      "Text": "} = internalBinding('symbols');",
+      "Script": "node:internal/worker/js_transferable",
+      "Line": 11
+    },
+    {
+      "Text": "} = internalBinding('symbols');",
+      "Script": "node:internal/vm",
+      "Line": 20
+    },
+    {
+      "Text": "} = internalBinding('symbols');",
+      "Script": "node:internal/modules/cjs/loader",
+      "Line": 160
+    },
+    {
+      "Text": "} = internalBinding('symbols');",
+      "Script": "node:internal/modules/esm/utils",
+      "Line": 21
+    },
+    {
+      "Text": "  } = internalBinding('symbols');",
+      "Script": "node:internal/process/pre_execution",
+      "Line": 82
+    },
+    {
+      "Text": "} = internalBinding('symbols');",
+      "Script": "node:vm",
+      "Line": 68
+    },
+    {
+      "Text": "const { imported_cjs_symbol } = internalBinding('symbols');",
+      "Script": "node:internal/modules/esm/loader",
+      "Line": 22
+    },
+    {
+      "Text": "const { onpskexchange: kOnPskExchange } = internalBinding('symbols');",
+      "Script": "node:_tls_wrap",
+      "Line": 88
+    },
+    {
+      "Text": "} = internalBinding('symbols');",
+      "Script": "node:internal/worker/io",
+      "Line": 31
+    },
+    {
+      "Text": "const { owner_symbol } = internalBinding('symbols');",
+      "Script": "node:internal/blocklist",
+      "Line": 31
+    }
+  ],
+  "'errors'": [
+    {
+      "Text": "  } = internalBinding('errors');",
+      "Script": "node:internal/bootstrap/realm",
+      "Line": 447
+    },
+    {
+      "Text": "  } = internalBinding('errors');",
+      "Script": "node:internal/bootstrap/node",
+      "Line": 338
+    },
+    {
+      "Text": "const { exitCodes: { kGenericUserError } } = internalBinding('errors');",
+      "Script": "node:internal/async_hooks",
+      "Line": 11
+    },
+    {
+      "Text": "const { exitCodes: { kNoFailure } } = internalBinding('errors');",
+      "Script": "node:internal/process/per_thread",
+      "Line": 58
+    },
+    {
+      "Text": "} = internalBinding('errors');",
+      "Script": "node:internal/process/promises",
+      "Line": 29
+    },
+    {
+      "Text": "const { exitCodes: { kGenericUserError } } = internalBinding('errors');",
+      "Script": "node:internal/process/execution",
+      "Line": 19
+    },
+    {
+      "Text": "} = internalBinding('errors');",
+      "Script": "node:internal/source_map/source_map_cache",
+      "Line": 21
+    },
+    {
+      "Text": "} = internalBinding('errors');",
+      "Script": "node:internal/modules/run_main",
+      "Line": 18
+    },
+    {
+      "Text": "const { triggerUncaughtException } = internalBinding('errors');",
+      "Script": "node:diagnostics_channel",
+      "Line": 30
+    },
+    {
+      "Text": "const { triggerUncaughtException } = internalBinding('errors');",
+      "Script": "node:internal/promise_hooks",
+      "Line": 12
+    },
+    {
+      "Text": "  } = internalBinding('errors');",
+      "Script": "node:internal/bootstrap/node",
+      "Line": 338
+    },
+    {
+      "Text": "const { exitCodes: { kNoFailure } } = internalBinding('errors');",
+      "Script": "node:internal/cluster/child",
+      "Line": 18
+    },
+    {
+      "Text": "} = internalBinding('errors');",
+      "Script": "node:internal/debugger/inspect",
+      "Line": 50
+    },
+    {
+      "Text": "const { exitCodes: { kInvalidCommandLineArgument } } = internalBinding('errors');",
+      "Script": "node:internal/main/repl",
+      "Line": 19
+    },
+    {
+      "Text": "const { exitCodes: { kGenericUserError } } = internalBinding('errors');",
+      "Script": "node:internal/main/test_runner",
+      "Line": 17
+    },
+    {
+      "Text": "} = internalBinding('errors');",
+      "Script": "node:internal/test_runner/runner",
+      "Line": 80
+    },
+    {
+      "Text": "const { exitCodes: { kGenericUserError } } = internalBinding('errors');",
+      "Script": "node:internal/test_runner/harness",
+      "Line": 19
+    },
+    {
+      "Text": "} = internalBinding('errors');",
+      "Script": "node:internal/main/watch_mode",
+      "Line": 19
+    },
+    {
+      "Text": "const { exitCodes: { kGenericUserError } } = internalBinding('errors');",
+      "Script": "node:internal/main/worker_thread",
+      "Line": 56
+    },
+    {
+      "Text": "const { exitCodes: { kUnsettledTopLevelAwait } } = internalBinding('errors');",
+      "Script": "node:internal/modules/esm/hooks",
+      "Line": 35
+    },
+    {
+      "Text": "    internalBinding('errors').triggerUncaughtException(",
+      "Script": "node:internal/modules/esm/worker",
+      "Line": 253
+    },
+    {
+      "Text": "const { setGetSourceMapErrorSource } = internalBinding('errors');",
+      "Script": "node:internal/source_map/prepare_stack_trace",
+      "Line": 25
+    }
+  ],
+  "'url'": [
+    {
+      "Text": "const bindingUrl = internalBinding('url');",
+      "Script": "node:internal/url",
+      "Line": 91
+    },
+    {
+      "Text": "const { canParse: URLCanParse } = internalBinding('url');",
+      "Script": "node:internal/modules/helpers",
+      "Line": 30
+    },
+    {
+      "Text": "const bindingUrl = internalBinding('url');",
+      "Script": "node:url",
+      "Line": 63
+    },
+    {
+      "Text": "const { canParse } = internalBinding('url');",
+      "Script": "node:internal/modules/esm/loader",
+      "Line": 39
+    },
+    {
+      "Text": "const { canParse: URLCanParse } = internalBinding('url');",
+      "Script": "node:internal/modules/esm/hooks",
+      "Line": 37
+    },
+    {
+      "Text": "const { canParse: URLCanParse } = internalBinding('url');",
+      "Script": "node:internal/modules/esm/resolve",
+      "Line": 38
+    }
+  ],
+  "'v8'": [
+    {
+      "Text": "const binding = internalBinding('v8');",
+      "Script": "node:v8",
+      "Line": 105
+    }
+  ],
+  "module": [
+    {
+      "Text": "      return internalBinding(module);",
+      "Script": "node:internal/bootstrap/realm",
+      "Line": 155
+    },
+    {
+      "Text": "      return internalBinding(module);",
+      "Script": "node:internal/bootstrap/realm",
+      "Line": 161
+    },
+    {
+      "Text": "  internalBinding = function internalBinding(module) {",
+      "Script": "node:internal/bootstrap/realm",
+      "Line": 184
+    },
+    {
+      "Text": "      mod = bindingObj[module] = getInternalBinding(module);",
+      "Script": "node:internal/bootstrap/realm",
+      "Line": 187
+    }
+  ],
+  "'blob'": [
+    {
+      "Text": "  const bindingBlob = internalBinding('blob');",
+      "Script": "node:internal/url",
+      "Line": 1173
+    },
+    {
+      "Text": "} = internalBinding('blob');",
+      "Script": "node:internal/blob",
+      "Line": 27
+    }
+  ],
+  "'serdes'": [
+    {
+      "Text": "} = internalBinding('serdes');",
+      "Script": "node:v8",
+      "Line": 41
+    }
+  ],
+  "'string_decoder'": [
+    {
+      "Text": "const { encodings } = internalBinding('string_decoder');",
+      "Script": "node:internal/util",
+      "Line": 69
+    },
+    {
+      "Text": "} = internalBinding('string_decoder');",
+      "Script": "node:string_decoder",
+      "Line": 41
+    }
+  ],
+  "'profiler'": [
+    {
+      "Text": "    internalBinding('profiler').setCoverageDirectory(coverageDirectory);",
+      "Script": "node:internal/util",
+      "Line": 831
+    },
+    {
+      "Text": "    internalBinding('profiler').setSourceMapCacheGetter(sourceMapCacheToObject);",
+      "Script": "node:internal/util",
+      "Line": 832
+    },
+    {
+      "Text": "  profiler = internalBinding('profiler');",
+      "Script": "node:v8",
+      "Line": 48
+    },
+    {
+      "Text": "    internalBinding('profiler').takeCoverage();",
+      "Script": "node:internal/test_runner/coverage",
+      "Line": 125
+    }
+  ],
+  "'udp_wrap'": [
+    {
+      "Text": "const { UDP } = internalBinding('udp_wrap');",
+      "Script": "node:internal/child_process",
+      "Line": 56
+    },
+    {
+      "Text": "} = internalBinding('udp_wrap');",
+      "Script": "node:dgram",
+      "Line": 80
+    },
+    {
+      "Text": "const { UDP } = internalBinding('udp_wrap');",
+      "Script": "node:internal/dgram",
+      "Line": 11
+    }
+  ],
+  "'tls_wrap'": [
+    {
+      "Text": "const tls_wrap = internalBinding('tls_wrap');",
+      "Script": "node:_tls_wrap",
+      "Line": 64
+    }
+  ],
+  "'internal_only_v8'": [
+    {
+      "Text": "} = internalBinding('internal_only_v8');",
+      "Script": "node:internal/heap_utils",
+      "Line": 26
+    }
+  ],
+  "": [
+    {
+      "Text": " * Set up internalBinding() in the closure.",
+      "Script": "node:internal/bootstrap/realm",
+      "Line": 177
+    }
+  ],
+  "'buffer'": [
+    {
+      "Text": "  const bufferBinding = internalBinding('buffer');",
+      "Script": "node:internal/bootstrap/node",
+      "Line": 405
+    },
+    {
+      "Text": "} = internalBinding('buffer');",
+      "Script": "node:buffer",
+      "Line": 73
+    },
+    {
+      "Text": "} = internalBinding('buffer');",
+      "Script": "node:internal/buffer",
+      "Line": 34
+    },
+    {
+      "Text": "} = internalBinding('buffer');",
+      "Script": "node:internal/blob",
+      "Line": 30
+    },
+    {
+      "Text": "} = internalBinding('buffer');",
+      "Script": "node:internal/webstreams/util",
+      "Line": 30
+    },
+    {
+      "Text": "const { copy } = internalBinding('buffer');",
+      "Script": "node:v8",
+      "Line": 52
+    },
+    {
+      "Text": "  const bufferBinding = internalBinding('buffer');",
+      "Script": "node:internal/bootstrap/node",
+      "Line": 405
+    },
+    {
+      "Text": "const { compare } = internalBinding('buffer');",
+      "Script": "node:internal/util/comparisons",
+      "Line": 28
+    }
+  ],
+  "'stream_pipe'": [
+    {
+      "Text": "const { StreamPipe } = internalBinding('stream_pipe');",
+      "Script": "node:internal/http2/core",
+      "Line": 196
+    }
+  ],
+  "'mksnapshot'": [
+    {
+      "Text": "} = internalBinding('mksnapshot');",
+      "Script": "node:internal/v8/startup_snapshot",
+      "Line": 19
+    },
+    {
+      "Text": "  internalBinding('mksnapshot').runEmbedderPreload(process, require);",
+      "Script": "node:internal/process/pre_execution",
+      "Line": 685
+    },
+    {
+      "Text": "} = internalBinding('mksnapshot');",
+      "Script": "node:internal/main/mksnapshot",
+      "Line": 16
+    }
+  ],
+  "'process_wrap'": [
+    {
+      "Text": "const { Process } = internalBinding('process_wrap');",
+      "Script": "node:internal/child_process",
+      "Line": 45
+    }
+  ],
+  "'crypto'": [
+    {
+      "Text": "} = internalBinding('crypto');",
+      "Script": "node:_tls_common",
+      "Line": 72
+    },
+    {
+      "Text": "const { getRootCertificates, getSSLCiphers } = internalBinding('crypto');",
+      "Script": "node:tls",
+      "Line": 63
+    },
+    {
+      "Text": "const { SecureContext: NativeSecureContext } = internalBinding('crypto');",
+      "Script": "node:_tls_wrap",
+      "Line": 68
+    },
+    {
+      "Text": "} = internalBinding('crypto');",
+      "Script": "node:crypto",
+      "Line": 48
+    },
+    {
+      "Text": "} = internalBinding('crypto');",
+      "Script": "node:internal/crypto/random",
+      "Line": 31
+    },
+    {
+      "Text": "} = internalBinding('crypto');",
+      "Script": "node:internal/crypto/pbkdf2",
+      "Line": 13
+    },
+    {
+      "Text": "} = internalBinding('crypto');",
+      "Script": "node:internal/crypto/util",
+      "Line": 33
+    },
+    {
+      "Text": "} = internalBinding('crypto');",
+      "Script": "node:internal/crypto/scrypt",
+      "Line": 13
+    },
+    {
+      "Text": "} = internalBinding('crypto');",
+      "Script": "node:internal/crypto/hkdf",
+      "Line": 11
+    },
+    {
+      "Text": "} = internalBinding('crypto');",
+      "Script": "node:internal/crypto/keys",
+      "Line": 27
+    },
+    {
+      "Text": "} = internalBinding('crypto');",
+      "Script": "node:internal/crypto/keygen",
+      "Line": 26
+    },
+    {
+      "Text": "} = internalBinding('crypto');",
+      "Script": "node:internal/crypto/diffiehellman",
+      "Line": 20
+    },
+    {
+      "Text": "} = internalBinding('crypto');",
+      "Script": "node:internal/crypto/cipher",
+      "Line": 16
+    },
+    {
+      "Text": "} = internalBinding('crypto');",
+      "Script": "node:internal/crypto/sig",
+      "Line": 33
+    },
+    {
+      "Text": "} = internalBinding('crypto');",
+      "Script": "node:internal/crypto/hash",
+      "Line": 16
+    },
+    {
+      "Text": "} = internalBinding('crypto');",
+      "Script": "node:internal/crypto/x509",
+      "Line": 17
+    },
+    {
+      "Text": "} = internalBinding('crypto');",
+      "Script": "node:internal/crypto/certificate",
+      "Line": 7
+    },
+    {
+      "Text": "} = internalBinding('crypto');",
+      "Script": "node:internal/crypto/webcrypto",
+      "Line": 22
+    },
+    {
+      "Text": "} = internalBinding('crypto');",
+      "Script": "node:internal/crypto/aes",
+      "Line": 33
+    },
+    {
+      "Text": "} = internalBinding('crypto');",
+      "Script": "node:internal/crypto/cfrg",
+      "Line": 18
+    },
+    {
+      "Text": "} = internalBinding('crypto');",
+      "Script": "node:internal/crypto/ec",
+      "Line": 18
+    },
+    {
+      "Text": "} = internalBinding('crypto');",
+      "Script": "node:internal/crypto/mac",
+      "Line": 14
+    },
+    {
+      "Text": "} = internalBinding('crypto');",
+      "Script": "node:internal/crypto/rsa",
+      "Line": 23
+    }
+  ],
+  "'permission'": [
+    {
+      "Text": "const permission = internalBinding('permission');",
+      "Script": "node:internal/process/permission",
+      "Line": 8
+    }
+  ],
+  "'util'": [
+    {
+      "Text": "} = internalBinding('util');",
+      "Script": "node:internal/errors",
+      "Line": 939
+    },
+    {
+      "Text": "} = internalBinding('util');",
+      "Script": "node:internal/bootstrap/node",
+      "Line": 86
+    },
+    {
+      "Text": "} = internalBinding('util');",
+      "Script": "node:internal/util",
+      "Line": 66
+    },
+    {
+      "Text": "} = internalBinding('util');",
+      "Script": "node:internal/util/inspect",
+      "Line": 112
+    },
+    {
+      "Text": "} = internalBinding('util');",
+      "Script": "node:buffer",
+      "Line": 80
+    },
+    {
+      "Text": "} = internalBinding('util');",
+      "Script": "node:internal/buffer",
+      "Line": 40
+    },
+    {
+      "Text": "} = internalBinding('util');",
+      "Script": "node:internal/worker/js_transferable",
+      "Line": 24
+    },
+    {
+      "Text": "const { shouldAbortOnUncaughtToggle } = internalBinding('util');",
+      "Script": "node:internal/process/execution",
+      "Line": 37
+    },
+    {
+      "Text": "} = internalBinding('util');",
+      "Script": "node:internal/vm",
+      "Line": 32
+    },
+    {
+      "Text": "} = internalBinding('util');",
+      "Script": "node:internal/webstreams/util",
+      "Line": 41
+    },
+    {
+      "Text": "const binding = internalBinding('util');",
+      "Script": "node:util",
+      "Line": 75
+    },
+    {
+      "Text": "const { previewEntries } = internalBinding('util');",
+      "Script": "node:internal/console/constructor",
+      "Line": 51
+    },
+    {
+      "Text": "} = internalBinding('util');",
+      "Script": "node:internal/modules/cjs/loader",
+      "Line": 72
+    },
+    {
+      "Text": "} = internalBinding('util');",
+      "Script": "node:internal/modules/esm/utils",
+      "Line": 14
+    },
+    {
+      "Text": "  } = internalBinding('util');",
+      "Script": "node:internal/process/pre_execution",
+      "Line": 79
+    },
+    {
+      "Text": "  const utilBinding = internalBinding('util');",
+      "Script": "node:internal/process/pre_execution",
+      "Line": 496
+    },
+    {
+      "Text": "} = internalBinding('util');",
+      "Script": "node:internal/modules/run_main",
+      "Line": 23
+    },
+    {
+      "Text": "} = internalBinding('util');",
+      "Script": "node:repl",
+      "Line": 181
+    },
+    {
+      "Text": "} = internalBinding('util');",
+      "Script": "node:internal/bootstrap/node",
+      "Line": 86
+    },
+    {
+      "Text": "const { getCallerLocation } = internalBinding('util');",
+      "Script": "node:internal/test_runner/harness",
+      "Line": 8
+    },
+    {
+      "Text": "const { getCallerLocation } = internalBinding('util');",
+      "Script": "node:internal/test_runner/test",
+      "Line": 30
+    },
+    {
+      "Text": "} = internalBinding('util');",
+      "Script": "node:internal/modules/esm/module_job",
+      "Line": 31
+    },
+    {
+      "Text": "} = internalBinding('util');",
+      "Script": "node:internal/source_map/source_map_cache_map",
+      "Line": 15
+    },
+    {
+      "Text": "} = internalBinding('util');",
+      "Script": "node:internal/util/comparisons",
+      "Line": 56
+    }
+  ],
+  "'timers'": [
+    {
+      "Text": "  const { setupTimers } = internalBinding('timers');",
+      "Script": "node:internal/bootstrap/node",
+      "Line": 317
+    },
+    {
+      "Text": "const binding = internalBinding('timers');",
+      "Script": "node:internal/timers",
+      "Line": 84
+    },
+    {
+      "Text": "const binding = internalBinding('timers');",
+      "Script": "node:timers",
+      "Line": 32
+    },
+    {
+      "Text": "  const { setupTimers } = internalBinding('timers');",
+      "Script": "node:internal/bootstrap/node",
+      "Line": 317
+    }
+  ],
+  "'modules'": [
+    {
+      "Text": "const modulesBinding = internalBinding('modules');",
+      "Script": "node:internal/modules/package_json_reader",
+      "Line": 10
+    },
+    {
+      "Text": "const { getNearestParentPackageJSONType } = internalBinding('modules');",
+      "Script": "node:internal/modules/run_main",
+      "Line": 8
+    }
+  ],
+  "'config'": [
+    {
+      "Text": "const config = internalBinding('config');",
+      "Script": "node:internal/bootstrap/node",
+      "Line": 68
+    },
+    {
+      "Text": "if (internalBinding('config').hasIntl) {",
+      "Script": "node:internal/util/inspect",
+      "Line": 2323
+    },
+    {
+      "Text": "if (internalBinding('config').hasIntl) {",
+      "Script": "node:buffer",
+      "Line": 1216
+    },
+    {
+      "Text": "  internalBinding('config').hasIntl ?",
+      "Script": "node:internal/encoding",
+      "Line": 390
+    },
+    {
+      "Text": "const config = internalBinding('config');",
+      "Script": "node:internal/bootstrap/web/exposed-wildcard",
+      "Line": 20
+    },
+    {
+      "Text": "  if (!internalBinding('config').hasInspector || !isBuildingSnapshot()) {",
+      "Script": "node:internal/console/constructor",
+      "Line": 651
+    },
+    {
+      "Text": "  const { hasInspector } = internalBinding('config');",
+      "Script": "node:internal/util/inspector",
+      "Line": 49
+    },
+    {
+      "Text": "if (internalBinding('config').hasInspector) {",
+      "Script": "node:internal/bootstrap/switches/is_main_thread",
+      "Line": 304
+    },
+    {
+      "Text": "  if (internalBinding('config').hasOpenSSL) {",
+      "Script": "node:internal/process/pre_execution",
+      "Line": 353
+    },
+    {
+      "Text": "  if (internalBinding('config').hasInspector) {",
+      "Script": "node:internal/process/pre_execution",
+      "Line": 478
+    },
+    {
+      "Text": "  const { noBrowserGlobals } = internalBinding('config');",
+      "Script": "node:internal/process/pre_execution",
+      "Line": 529
+    },
+    {
+      "Text": "  config = internalBinding('config');",
+      "Script": "node:internal/inspector_async_hook",
+      "Line": 13
+    },
+    {
+      "Text": "const { hasInspector } = internalBinding('config');",
+      "Script": "node:inspector",
+      "Line": 21
+    },
+    {
+      "Text": "const { hasTracing } = internalBinding('config');",
+      "Script": "node:trace_events",
+      "Line": 8
+    },
+    {
+      "Text": "if (internalBinding('config').hasInspector) {",
+      "Script": "node:v8",
+      "Line": 47
+    },
+    {
+      "Text": "const config = internalBinding('config');",
+      "Script": "node:internal/bootstrap/node",
+      "Line": 68
+    },
+    {
+      "Text": "if (internalBinding('config').hasInspector) {",
+      "Script": "node:internal/bootstrap/switches/is_main_thread",
+      "Line": 304
+    },
+    {
+      "Text": "const config = internalBinding('config');",
+      "Script": "node:internal/bootstrap/web/exposed-wildcard",
+      "Line": 20
+    },
+    {
+      "Text": "  const shouldDefineCrypto = isUsingCryptoIdentifier && internalBinding('config').hasOpenSSL;",
+      "Script": "node:internal/main/eval_string",
+      "Line": 37
+    },
+    {
+      "Text": "const { hasIntl, hasSmallICU, hasNodeOptions } = internalBinding('config');",
+      "Script": "node:internal/main/print_help",
+      "Line": 35
+    }
+  ],
+  "'http2'": [
+    {
+      "Text": "const binding = internalBinding('http2');",
+      "Script": "node:internal/http2/core",
+      "Line": 188
+    },
+    {
+      "Text": "} = internalBinding('http2');",
+      "Script": "node:internal/http2/compat",
+      "Line": 39
+    },
+    {
+      "Text": "const binding = internalBinding('http2');",
+      "Script": "node:internal/http2/util",
+      "Line": 21
+    }
+  ],
+  "'heap_utils'": [
+    {
+      "Text": "} = internalBinding('heap_utils');",
+      "Script": "node:v8",
+      "Line": 60
+    }
+  ],
+  "'task_queue'": [
+    {
+      "Text": "const { enqueueMicrotask } = internalBinding('task_queue');",
+      "Script": "node:internal/async_hooks",
+      "Line": 83
+    },
+    {
+      "Text": "} = internalBinding('task_queue');",
+      "Script": "node:internal/process/task_queues",
+      "Line": 16
+    },
+    {
+      "Text": "} = internalBinding('task_queue');",
+      "Script": "node:internal/process/promises",
+      "Line": 21
+    }
+  ],
+  "'async_wrap'": [
+    {
+      "Text": "internalBinding('async_wrap').setupHooks(nativeHooks);",
+      "Script": "node:internal/bootstrap/node",
+      "Line": 208
+    },
+    {
+      "Text": "const async_wrap = internalBinding('async_wrap');",
+      "Script": "node:internal/async_hooks",
+      "Line": 13
+    },
+    {
+      "Text": "const { setPromiseHooks } = internalBinding('async_wrap');",
+      "Script": "node:internal/promise_hooks",
+      "Line": 11
+    },
+    {
+      "Text": "internalBinding('async_wrap').setupHooks(nativeHooks);",
+      "Script": "node:internal/bootstrap/node",
+      "Line": 208
+    },
+    {
+      "Text": "const async_wrap = internalBinding('async_wrap');",
+      "Script": "node:internal/trace_events_async_hooks",
+      "Line": 11
+    }
+  ],
+  "'zlib'": [
+    {
+      "Text": "const binding = internalBinding('zlib');",
+      "Script": "node:zlib",
+      "Line": 65
+    }
+  ],
+  "'os'": [
+    {
+      "Text": "      const info = internalBinding('os').getOSInformation();",
+      "Script": "node:internal/errors",
+      "Line": 909
+    },
+    {
+      "Text": "} = internalBinding('os');",
+      "Script": "node:os",
+      "Line": 61
+    },
+    {
+      "Text": "} = internalBinding('os');",
+      "Script": "node:internal/navigator",
+      "Line": 27
+    }
+  ],
+  "'fs_dir'": [
+    {
+      "Text": "const dirBinding = internalBinding('fs_dir');",
+      "Script": "node:internal/fs/dir",
+      "Line": 14
+    }
+  ],
+  "'spawn_sync'": [
+    {
+      "Text": "const spawn_sync = internalBinding('spawn_sync');",
+      "Script": "node:internal/child_process",
+      "Line": 61
+    }
+  ],
+  "id": [
+    {
+      "Text": "function filteredInternalBinding(id) {",
+      "Script": "node:internal/test/binding",
+      "Line": 13
+    },
+    {
+      "Text": "  return internalBinding(id);",
+      "Script": "node:internal/test/binding",
+      "Line": 25
+    }
+  ],
+  "'process_methods'": [
+    {
+      "Text": "const rawMethods = internalBinding('process_methods');",
+      "Script": "node:internal/bootstrap/node",
+      "Line": 158
+    },
+    {
+      "Text": "internalBinding('process_methods').setEmitWarningSync(emitWarningSync);",
+      "Script": "node:internal/bootstrap/node",
+      "Line": 303
+    },
+    {
+      "Text": "const binding = internalBinding('process_methods');",
+      "Script": "node:internal/process/per_thread",
+      "Line": 60
+    },
+    {
+      "Text": "const rawMethods = internalBinding('process_methods');",
+      "Script": "node:internal/bootstrap/switches/is_main_thread",
+      "Line": 7
+    },
+    {
+      "Text": "  const binding = internalBinding('process_methods');",
+      "Script": "node:internal/process/pre_execution",
+      "Line": 219
+    },
+    {
+      "Text": "const rawMethods = internalBinding('process_methods');",
+      "Script": "node:internal/bootstrap/switches/does_own_process_state",
+      "Line": 4
+    },
+    {
+      "Text": "const { _debugEnd } = internalBinding('process_methods');",
+      "Script": "node:inspector",
+      "Line": 35
+    },
+    {
+      "Text": "const rawMethods = internalBinding('process_methods');",
+      "Script": "node:internal/bootstrap/node",
+      "Line": 158
+    },
+    {
+      "Text": "internalBinding('process_methods').setEmitWarningSync(emitWarningSync);",
+      "Script": "node:internal/bootstrap/node",
+      "Line": 303
+    },
+    {
+      "Text": "const rawMethods = internalBinding('process_methods');",
+      "Script": "node:internal/bootstrap/switches/does_not_own_process_state",
+      "Line": 4
+    },
+    {
+      "Text": "const rawMethods = internalBinding('process_methods');",
+      "Script": "node:internal/bootstrap/switches/does_own_process_state",
+      "Line": 4
+    },
+    {
+      "Text": "const rawMethods = internalBinding('process_methods');",
+      "Script": "node:internal/bootstrap/switches/is_main_thread",
+      "Line": 7
+    }
+  ],
+  "'pipe_wrap'": [
+    {
+      "Text": "} = internalBinding('pipe_wrap');",
+      "Script": "node:net",
+      "Line": 77
+    },
+    {
+      "Text": "const { Pipe, constants: PipeConstants } = internalBinding('pipe_wrap');",
+      "Script": "node:_tls_wrap",
+      "Line": 65
+    },
+    {
+      "Text": "const { Pipe, constants: PipeConstants } = internalBinding('pipe_wrap');",
+      "Script": "node:child_process",
+      "Line": 63
+    },
+    {
+      "Text": "const { Pipe, constants: PipeConstants } = internalBinding('pipe_wrap');",
+      "Script": "node:internal/child_process",
+      "Line": 53
+    }
+  ],
+  "'icu'": [
+    {
+      "Text": "  const icu = internalBinding('icu');",
+      "Script": "node:internal/util/inspect",
+      "Line": 2324
+    },
+    {
+      "Text": "  } = internalBinding('icu');",
+      "Script": "node:buffer",
+      "Line": 1220
+    },
+    {
+      "Text": "  } = internalBinding('icu');",
+      "Script": "node:internal/encoding",
+      "Line": 398
+    }
+  ]
+}

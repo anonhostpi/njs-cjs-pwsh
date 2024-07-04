@@ -1,0 +1,31 @@
+{
+  "scriptId": "325",
+  "url": "node:internal/test_runner/reporter/junit",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 158,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "559a8dae24cf312bf6fa6d24d3c99a76235f8f1654f0a621c8a624bf3d0720db",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 5671,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/test_runner/reporter/junit"
+}

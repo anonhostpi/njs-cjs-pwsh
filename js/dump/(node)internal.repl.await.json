@@ -1,0 +1,31 @@
+{
+  "scriptId": "317",
+  "url": "node:internal/repl/await",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 262,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "aa8e8f4f38745588f011a9b89513dfc47e912cfc73e7d2d4d04c4f371168da59",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 8816,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/repl/await"
+}

@@ -1,0 +1,31 @@
+{
+  "scriptId": "332",
+  "url": "node:internal/util/comparisons",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 646,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "2477d14327a341cd80086fc4619f5bc155e52abb01d963b5fd4a224edc4ce841",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 20043,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/util/comparisons"
+}

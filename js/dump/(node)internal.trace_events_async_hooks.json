@@ -1,0 +1,31 @@
+{
+  "scriptId": "331",
+  "url": "node:internal/trace_events_async_hooks",
+  "startLine": 0,
+  "startColumn": 0,
+  "endLine": 99,
+  "endColumn": 0,
+  "executionContextId": 1,
+  "hash": "4e28295595a0e49ddb2ef72ff808b922f4f563ee3a1df120948d9ec3689ebe4f",
+  "executionContextAuxData": {
+    "isDefault": true
+  },
+  "isLiveEdit": false,
+  "sourceMapURL": "",
+  "hasSourceURL": false,
+  "isModule": false,
+  "length": 2909,
+  "stackTrace": {
+    "callFrames": [
+      {
+        "functionName": "compileForInternalLoader",
+        "scriptId": "6",
+        "url": "node:internal/bootstrap/realm",
+        "lineNumber": 394,
+        "columnNumber": 17
+      }
+    ]
+  },
+  "scriptLanguage": "JavaScript",
+  "embedderName": "node:internal/trace_events_async_hooks"
+}
